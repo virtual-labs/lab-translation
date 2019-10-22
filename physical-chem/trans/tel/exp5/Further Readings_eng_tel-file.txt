@@ -1,0 +1,21 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ప్రయోగశాలకు స్వాగతం-భారత ప్రభుత్వ ఎమ్ హెచ్ ఆర్ డి యొక్క చొరవతో 
+Toggle navigation	పేజీకి సంబంధించిన లింకులను తెరవడంను లేదా మెనూల ద్వారా తెరవడంను(నావిగేషన్‌ను)టోగుల్ చేయండి 
+HOME	ముఖపుట(హోం) 
+ALL LABS	అన్ని ప్రయోగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయాన విజ్ఞానశాస్త్రం→భౌతిక రసాయన శాస్త్ర ప్రయోగశాల→ప్రయోగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ అభిప్రాయం(ఫీడ్బ్యాక్) 
+Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds	అణు అయస్కాంత ప్రతిధ్వని(రెసోస్నేస్) స్పెక్ట్రోస్కోపీ మరియు సాధారణ 1 హెచ్ ఎన్ ఎమ్ ఆర్ వర్ణపటంలోని(స్పెక్ట్రా) కొన్ని సేంద్రియ(ఆర్గానిక్) సమ్మేళనాలు మూల్యాంకనం 
+Book References:	పుస్తక సూచనలు: 
+1. J. Keeler (2005). Understanding NMR Spectroscopy. John Wiley & Sons interpreting Infrared, Raman, and Nuclear Magnetic Resonance Spectra, 2-Volume Set R.A. Nyquist, Academic Press, New York, NY, 2001. 2. http://www.physicscentral.com/explore/action/fmri1.cfm 3. http://cactus.dixie.edu/smblack/chem2310/ch5/LG_key_Ch5.pdf 4. http://www.knockhardy.org.uk/sci_htm_files/nmr2.pdf 5. http://www.chemguide.co.uk/analysismenu.html#top 6. http://science.csustan.edu/tutorial/nmr/index.htm 7. http://www.wisc-online.com/objects/ViewObject.aspx?ID=GCH6304 8. http://www.youtube.com/watch?v=SBuXwSFyZwU&feature;=player_embedded 9. http://www.youtube.com/watch?v=sDVTzayocWk&feature;=related 10. http://orgchem.colorado.edu/procedures/NMR/NMRacquisition.html 11. http://www.mhhe.com/physsci/chemistry/carey/student/olc/ch13nmr.html	1. జె. కీలర్ (2005).అండర్స్టాండింగ్ ఎన్‌ఎంఆర్ స్పెక్ట్రోస్కోపీ (ఎన్‌ఎంఆర్ స్పెక్ట్రోస్కోపీని అర్థం చేసుకోవడం). జాన్ విలే & సన్స్ ఇంటర్ ప్రెటింగ్ ఇన్ఫ్రారెడ్(పరారుణాన్ని అర్థం చేసుకోవడం), రామన్, మరియు న్యూక్లియర్ మాగ్నెటిక్ రెసొనెన్స్ స్పెక్ట్రా (అణు అయస్కాంత ప్రతిధ్వని(రెసోస్నేస్) స్పెక్ర్టా), 2-వాల్యూమ్ సెట్ R.A. న్యూక్విస్ట్, అకాడెమిక్ ప్రెస్, న్యూయార్క్, NY, 2001. 2. http://www.physicscentral.com/explore/action/fmri1.cfm 3. http://cactus.dixie.edu/smblack/chem2310/ch5/LG_key_Ch5 .pdf 4.http://www.knockhardy.org.uk/sci_htm_files/nmr2.pdf 5. http://www.chemguide.co.uk/analysismenu.html#top 6. http: //science.csustan. edu / tutorial / nmr / index.htm 7. http://www.wisc-online.com/objects/ViewObject.aspx?ID=GCH6304 8. http://www.youtube.com/watch?v=SBuXwSFyZwU&feature; = player_embedded9. http://www.youtube.com/watch?v=sDVTzayocWk&feature ;=related 10. http://orgchem.colorado.edu/procedures/NMR/NMRacquisition.html 11. http: //www.mhhe .com / physsci / కెమిస్ట్రీ / కారీ / విద్యార్థి / olc / ch13nmr.html 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయోగశాల అనుసంధాన(ఇంటిగ్రేషన్) సంభందిత సామాను(కిట్) 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐ ఐ టి గౌహతిలో వేసవి స్ప్రింట్ అనుసంధాన కార్యసాల(వర్కషాప్) 
+A new set of 35 Virtual Labs on Portable Media	చిన్న (పోర్టబుల్) ప్రసార మాధ్యమంలో(మీడియాలో)35 వర్చువల్ ప్రయోగశాలల కొత్త సమూహం(సెట్) 
+VLEAD Blog	వీలీడ్ బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ కేంద్రం(సెంటర్) 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

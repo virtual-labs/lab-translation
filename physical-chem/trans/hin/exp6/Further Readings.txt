@@ -1,0 +1,41 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative
+Toggle navigation
+HOME
+ALL LABS
+PARTNERS
+CONTACT
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.
+Book References:
+1. Paula, Peter Atkins, Julio de (2009). Elements of physical chemistry (5th ed. ed.). Oxford: Oxford U.P
+2. Brian C Smith (1995). Fundamentals of Fourier Transform Infrared Spectroscopy, Donald L. Pavia Gary M. Lampman, George S. Kriz James A. Vyvyan (2008) Introduction to Spectroscopy. Brooks/Cole
+3. Colin N. Banwell, Elaine M. McCash (1994). Fundamentals of Molecular Spectroscopy. Mcgraw hill.
+Other references:
+1. http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html
+2. http://chem-ilp.net/labTechniques/IRVideo.htm
+3 http://www.umass.edu/microbio/chime/ir-spect/#
+4. http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#
+5. http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm
+6. http://solidstate.physics.sunysb.edu/book/prob/node111.html
+7. http://www3.wooster.edu/chemistry/analytical/default.html
+8. http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument
+9. http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html
+10. http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry
+11. http://www.chem.purdue.edu/gchelp/vibs/#
+12. http://www3.wooster.edu/chemistry/analytical/ftir/default.html
+13. http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html
+Sample preparation:
+http://orgchem.colorado.edu/procedures/IR/IRprepother.html
+http://orgchem.colorado.edu/procedures/IR/IRsolids.html
+http://www.niu.edu/AnalyticalLab/ftir/sample%20preparation.shtml
+Updates
+Lab Integration Kit 1.0.0 Released
+Summer Sprint Integration Workshop at IIT Guwahati
+A new set of 35 Virtual Labs on Portable Media
+VLEAD Blog
+Sakshat Portal
+Nodal Center
+Contact : support@vlabs.ac.in
+Feedback
+Follow us

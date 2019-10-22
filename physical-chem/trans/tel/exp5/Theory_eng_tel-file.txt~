@@ -1,0 +1,44 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	భారత ప్రభుత్వం చొరవతో, MHRD-వర్చువల్ ప్రయెాగశాలకు స్వాగతం 
+Toggle navigation	 టోగుల్ నావిగేషన్‌ 
+HOME	హోం 
+ALL LABS	అన్ని ప్రయెాగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయన శాస్త్రాలు → భౌతిక రసాయన ప్రయెాగశాల → ప్రయెాగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం సిద్ధాంతం లక్ష్యం ప్రయోగం సంపుటి(మాన్యువల్) క్విజ్స్ ముందస్తు అవసరమైన సాఫ్ట్‌వేర్లు మరింత చదవల్సినవి అభిప్రాయాలు 
+Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds	న్యూక్లియర్ అయస్కాంత ప్రతిధ్వని స్పెక్ట్రోకోప్ మరియు ఎంచుకున్న సేంద్రీయ సమ్మేళనాల సాధారణ 1 హెచ్ ఎన్ఎమ్ఆర్ స్పెక్ట్రా యొక్క విశ్లేషణ 
+Nuclei with odd atomic (number of protons) or mass number (total number of protons and neutrons) or both have quantized spin angular momentum and a magnetic moment. Interaction of the magnetic moment of an atomic nucleus (µ) with an external magnetic field results in absorption of energy and change their spin orientation with respect to the external field. NMR gives the chemical properties of molecules by studying the magnetic properties of the atomic nuclei which is measured by resonant absorption by nuclei.	బేసి అణు (ప్రోటాన్ల సంఖ్య) లేదా ద్రవ్యరాశి సంఖ్య (మొత్తం ప్రోటాన్లు మరియు న్యూట్రాన్ల సంఖ్య) లేదా రెండూ పరిమాణ స్పిన్ కోణీయ ద్రవ్యవేగం మరియు అయస్కాంత భ్రామకం కలిగి ఉంటాయి. బాహ్య అయస్కాంత క్షేత్రంతో పరమాణు కేంద్రకం (µ) యొక్క అయస్కాంత భ్రామకం పరస్పర చర్య జరిగినప్పుడు శక్తిని గ్రహిస్తుంది మరియు వాటి భ్రమణంలో మార్పు వస్తుంది. అణు కేంద్రకాల యొక్క అయస్కాంత లక్షణాలను అధ్యయనం చేయడం ద్వారా అణువుల యొక్క రసాయన లక్షణాలను NMR ఇస్తుంది, ఇది కేంద్రకాల ద్వారా ప్రతిధ్వనించే శోషణ ద్వారా కొలుస్తారు. 
+The nuclear spin energy levels in an external magnetic field B0.	బాహ్య అయస్కాంత క్షేత్రం B0 లో అణు స్పిన్(ఆత్మ భ్రమణం) శక్తి స్థాయిలు. 
+Source: http://www.physicscentral.com/explore/action/fmri1.cfm	మూలం: http://www.physicscentral.com/explore/action/fmri1.cfm 
+Chemical Shift:	రసాయన మార్పు(కెమికల్ షిఫ్ట్): 
+Nuclei in a different chemical environment experience different magnetic field. The electron cloud around the nuclei induces electronic angular momentum which gives rise to an additional magnetic field ß, which is given as:	వేర్వేరు రసాయన వాతావరణంలో న్యూక్లియైలు వేర్వేరు అయస్కాంత క్షేత్రాన్ని కలిగి ఉంటాయి. న్యూక్లియీల చుట్టూ ఉన్న ఎలక్ట్రాన్ మేఘం ఎలక్ట్రానిక్ కోణీయ ద్రవ్యవేగంను ప్రేరేపిస్తుంది, ఇది అదనపు అయస్కాంత క్షేత్రానికి దారితీస్తుంది ß, ఇది ఇలా ఇవ్వబడింది: 
+δß = -σß0	δß = -σß0 
+where 'σ' is the shield constant. The electrons around the nucleus shield the nuclei from effective magnetic field and requires energy of lower frequency to cause resonance. Therefore different nuclei in the same compound come into resonance at different frequencies. In general hydrogens bound to carbons attached to electron withdrawing groups tend to resonate at higher frequencies . The position of where a particular hydrogen atom resonates relative to TMS is called its chemical shift.	ఇక్కడ 'σ' షీల్డ్ స్థిరాంకం. కేంద్రకం చుట్టూ ఉన్న ఎలక్ట్రాన్లు సమర్థవంతమైన అయస్కాంత క్షేత్రం నుండి కేంద్రకాలను కాపాడుతాయి మరియు ప్రతిధ్వనిని కలిగించడానికి తక్కువ పౌనఃపున్యం యొక్క శక్తి అవసరం. అందువల్ల ఒకే సమ్మేళనం లోని వేర్వేరు కేంద్రకాలు వేర్వేరు పౌనఃపున్యాల వద్ద ప్రతిధ్వనిలోకి వస్తాయి. సాధారణంగా ఎలక్ట్రాన్ ఉపసంహరణ సమూహాలకు అనుసంధానించబడిన కార్బన్‌లకు కట్టుబడి ఉన్న హైడ్రోజెన్‌లు అధిక పౌనఃపున్యాల వద్ద ప్రతిధ్వనిస్తాయి. ఒక నిర్దిష్ట హైడ్రోజన్ అణువు TMS కు సంబంధించి ప్రతిధ్వనించే స్థానాన్ని దాని రసాయన మార్పు అంటారు. 
+δ = Observed chemical shift (Hz) x 106/Spectrometer frequency (Hz) (parts per million)	δ = పరిశీలించిన రసాయన మార్పు (Hz) x 106 / స్పెక్ట్రోమీటర్ ఫ్రీక్వెన్సీ (Hz) (మిలియన్‌కు భాగాలు) 
+The peak value of TMS is assigned as d = 0.00.	TMS యొక్క గరిష్ట విలువ d = 0.00 గా కేటాయించబడుతుంది. 
+Solvent and internal standard:	ద్రావకం మరియు అంతర్గత ప్రమాణం: 
+Tetramethylsilane is used as an internal standard during the NMR measurements for the following reasons:	ఈ క్రింది కారణాల వల్ల NMR కొలతల సమయంలో టెట్రామీథైల్సిలేన్ అంతర్గత ప్రమాణంగా ఉపయోగించబడుతుంది: 
+1. Is inert, non toxic, low boiling point and can be recovered by distillation	జడత్వం, విషరహిత, తక్కువ మరిగే స్థానం మరియు స్వేదనం ద్వారా తిరిగి పొందవచ్చు 
+2. Very small amount is required for measurement	2. కొలవడం కోసం చాలా తక్కువ మొత్తం అవసరం 
+3. Has 12 equivalent protons and thus give a single strong peak	3.12 సమానమైన ప్రోటాన్లు ఉంటే చాలు తద్వారా ఒక బలమైన శిఖరాన్ని ఇస్తుంది 
+4. The signal appears outside (more upfield) away from most of the protons signals	4. చాలా ప్రోటాన్ల సిగ్నల్స్ నుండి దూరంగా ఈ సిగ్నల్ బయట కనిపిస్తుంది 
+When using the modern NMR instruments, no internal standard is added to the sample to be measure. The difference between the solvent signal and the TMS is known. The modern instruments detect the solvent signal and lock them, which now can serve as the internal standard.	ఆధునిక ఎన్‌ఎంఆర్ సాధనాలను ఉపయోగిస్తున్నప్పుడు, నమూనాకను కొలవడానికి అంతర్గత ప్రమాణాలు జోడించబడవు. ద్రావణి సిగ్నల్ మరియు టిఎంఎస్ మధ్య వ్యత్యాసం తెలుసు. ఆధునిక సాధనాలు ద్రావణి సిగ్నల్‌ను గుర్తించి వాటిని లాక్ చేస్తాయి, ఇవి ఇప్పుడు అంతర్గత ప్రమాణంగా ఉపయోగపడతాయి. 
+Source: jpkc.henu.edu.cn	మూలం: jpkc.henu.edu.cn 
+To record a NMR spectrum of a particular sample it is required to dissolve the sample in a solvent. To avoid the sample signals one needs to use deuterated solvent. For a non polar to moderately polar compounds deuterated chloroform is commonly used. For polar compounds deuterated Dimethyl sulfoxide (DMSO) is commonly used. Any traces of impurity in the solvents used are detected at CHCl3 : 7.25 ppm and DMSO : 2.5 ppm	ఒక నిర్దిష్ట నమూనా యొక్క NMR స్పెక్ట్రంను రికార్డ్ చేయడానికి, ఒక ద్రావకంలో నమూనాను కరిగించడం అవసరం. నమూనా సంకేతాలను నివారించడానికి డ్యూటెరేటెడ్ ద్రావకాన్ని ఉపయోగించాలి. ధ్రువ రహిత నుండి మధ్యస్తంగా ధ్రువ సమ్మేళనాల కోసం డ్యూటెరేటెడ్ క్లోరోఫామ్ సాధారణంగా ఉపయోగించబడుతుంది. ధ్రువ సమ్మేళనాల కోసం డ్యూటెరేటెడ్ డైమిథైల్ సల్ఫాక్సైడ్ (DMSO) ను సాధారణంగా ఉపయోగిస్తారు. ఉపయోగించిన ద్రావకాలలో అశుద్ధత యొక్క ఏదైనా జాడలు CHCl3: 7.25 ppm మరియు DMSO: 2.5 ppm వద్ద కనుగొనబడతాయి 
+NMR Spectra:	ఎన్ఎంఆర్ వర్ణపటం(స్పెక్ట్రా): 
+An NMR spectrum gives various information of the compound that it helps in structural elucidation of the organic molecule;	సేంద్రీయ అణువు యొక్క నిర్మాణాత్మక స్పష్టీకరణకు సహాయపడే సమ్మేళనం యొక్క వివిధ సమాచారాన్ని NMR స్పెక్ట్రం ఇస్తుంది; 
+• The number of signals gives the the number of different sets of protons present in the sample measured.	ఈ సంకేతాల సంఖ్య, కొలిచిన నమూనాలో ఉన్న వివిధ రకాల ప్రోటాన్ల సంఖ్యను ఇస్తుంది. 
+• Chemical shift gives the environment of the protons	• రసాయన మార్పు ప్రోటాన్ల ఆవరణాన్ని ఇస్తుంది 
+• Multiplicity gives information on the number of protons on adjacent atoms	• బహుళత్వము(మల్టిప్లిసిటీ), ప్రక్కనే ఉన్న అణువులలో ప్రోటాన్ల సంఖ్య యెుక్క సమాచారాన్ని ఇస్తుంది 
+• Integration of the peaks (peak area) gives the number of protons in each environment	శిఖరాల ఏకీకరణ (పీక్ ఏరియా) ప్రతి ఆవరణంలో ప్రోటాన్ల సంఖ్యను ఇస్తుంది 
+Source: http://cactus.dixie.edu/smblack/chem2310/ch5/LG_key_Ch5.pdf	మూలం: http://cactus.dixie.edu/smblack/chem2310/ch5/LG_key_Ch5.pdf 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయెాగశాల అనుసంధాన కిట్ 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గౌహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్ 
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ప్రయెాగశాలల కొత్త సమూహం 
+VLEAD Blog	VLEAD బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ సెంటర్ 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

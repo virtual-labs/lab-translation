@@ -1,0 +1,71 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ల్యాబ్స్‌కు స్వాగతం - భారత ఇనిషియేటివ్ యొక్క MHRD ప్రభుత్వం
+Toggle navigation	నావిగేషన్‌ను టోగుల్ చేయండి
+HOME	హోం
+ALL LABS	అన్ని ల్యాబ్‌లు
+PARTNERS	PARTNERS
+CONTACT	సంప్రదించండి
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	కెమికల్ సైన్సెస్ → ఫిజికల్ కెమిస్ట్రీ ల్యాబ్ Experi ప్రయోగాల జాబితా
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	ఇంట్రడక్షన్ థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ ఫీడ్బ్యాక్
+Identification of Unknown Components Using Spectroscopic Techniques	స్పెక్ట్రోస్కోపిక్ టెక్నిక్స్ ఉపయోగించి తెలియని భాగాల గుర్తింపు
+right answer!	సరైన సమాధానం!
+oops, wrong answer!	అయ్యో, తప్పు సమాధానం!
+1. Spectral transistion has important property of position and frequency. The other imporant properties	1. స్పెక్ట్రల్ ట్రాన్సిషన్ స్థానం మరియు ఫ్రీక్వెన్సీ యొక్క ముఖ్యమైన ఆస్తిని కలిగి ఉంది. ఇతర అసంబద్ధమైన లక్షణాలు
+a. width and intensity	ఒక. వెడల్పు మరియు తీవ్రత
+b. width and broadness	బి. వెడల్పు మరియు వెడల్పు
+c. intensity and broadness	సి. తీవ్రత మరియు విస్తృతత
+d. all the above	d. పైన పేర్కొన్నవన్నీ
+2. Calculate the stretching frequencies of C=C bond:	2. సి = సి బంధం యొక్క సాగతీత పౌన encies పున్యాలను లెక్కించండి:
+a. 1650 cm-1	ఒక. 1650 సెం.మీ -1
+b. 3000 cm-1	బి. 3000 సెం.మీ -1
+c. 2206 cm-1	సి. 2206 సెం.మీ -1
+d. 1750 cm-1	d. 1750 సెం.మీ -1
+3. Air contains two major infrared active molecules:	3. గాలిలో రెండు ప్రధాన పరారుణ క్రియాశీల అణువులు ఉన్నాయి:
+a. nitrogen and oxygen	ఒక. నత్రజని మరియు ఆక్సిజన్
+b. nitrogen and water vapour	బి. నత్రజని మరియు నీటి ఆవిరి
+c. oxygen and carbon dioxide	సి. ఆక్సిజన్ మరియు కార్బన్ డయాక్సైడ్
+d. carbon dioxide and water vapour	d. కార్బన్ డయాక్సైడ్ మరియు నీటి ఆవిరి
+4. At 100 MHz frequency NMR spectrometer, the shift of the methyl bromide protons is 270 Hz from TMS. Calculate the chemical shift (?) of the compound:	4. 100 MHz ఫ్రీక్వెన్సీ NMR స్పెక్ట్రోమీటర్ వద్ద, మిథైల్ బ్రోమైడ్ ప్రోటాన్ల మార్పు TMS నుండి 270 Hz. సమ్మేళనం యొక్క రసాయన మార్పు (?) ను లెక్కించండి:
+a. 2.70 ppm	ఒక. 2.70 పిపిఎం
+b. 0.370 ppm	బి. 0.370 పిపిఎం
+c. 3.70 ppm	సి. 3.70 పిపిఎం
+d. 0.27 ppm	d. 0.27 పిపిఎం
+5. The distance between the peaks in a simple multiplet is called :	5. సాధారణ గుణకారంలో శిఖరాల మధ్య దూరాన్ని అంటారు:
+a. spin multiplicity	ఒక. స్పిన్ గుణకారం
+b. pascal triangle	బి. పాస్కల్ త్రిభుజం
+c. coupling constant	సి. కలపడం స్థిరాంకం
+d. chemical shift	d. రసాయన మార్పు
+6. The solvent used for proton NMR measurements should contain deuterium:	6. ప్రోటాన్ NMR కొలతలకు ఉపయోగించే ద్రావకం డ్యూటెరియం కలిగి ఉండాలి:
+a. to get a refine spectrum	ఒక. శుద్ధి స్పెక్ట్రం పొందడానికి
+b. because it is easy to solve the spectrum	బి. ఎందుకంటే స్పెక్ట్రంను పరిష్కరించడం సులభం
+c. protons can be located with deuterium as references	సి. ప్రోటాన్లు డ్యూటెరియంతో సూచనలుగా ఉంటాయి
+d. for locking and shimming purposed on FT NMR instruments	d. FT NMR సాధనలపై ఉద్దేశించిన లాకింగ్ మరియు షిమ్మింగ్ కోసం
+7. A metastable ion peak in a mass spectrum is the:	7. మాస్ స్పెక్ట్రంలో మెటాస్టేబుల్ అయాన్ శిఖరం:
+a. highest intensity peak	ఒక. అత్యధిక తీవ్రత శిఖరం
+b. less stable peak which are hardly seen in a mass spectra	బి. తక్కువ స్థిరమైన శిఖరం మాస్ స్పెక్ట్రాలో కనిపించదు
+c. broad peak which frequently appear at nonintegral values of m/z	సి. విస్తృత శిఖరం m / z యొక్క నాన్ఇంటెగ్రల్ విలువల వద్ద తరచుగా కనిపిస్తుంది
+d. broad peaks which appear at the M+ ion value	d. M + అయాన్ విలువ వద్ద కనిపించే విస్తృత శిఖరాలు
+8. The molecular ion peak in an aldehyde is:	8. ఆల్డిహైడ్‌లోని పరమాణు అయాన్ శిఖరం:
+a. usually weak for both aromatic and aliphatic aldehyde	ఒక. సుగంధ మరియు అలిఫాటిక్ ఆల్డిహైడ్ రెండింటికీ సాధారణంగా బలహీనంగా ఉంటుంది
+b. usually weak for an aromatic aldehyde	బి. సుగంధ ఆల్డిహైడ్ కోసం సాధారణంగా బలహీనంగా ఉంటుంది
+c. strong for an aliphatic aldehyde	సి. అలిఫాటిక్ ఆల్డిహైడ్ కోసం బలంగా ఉంటుంది
+d. weak for an aliphatic aldehyde and strong for an aromatic aldehyde	d. అలిఫాటిక్ ఆల్డిహైడ్ కోసం బలహీనమైనది మరియు సుగంధ ఆల్డిహైడ్ కోసం బలంగా ఉంటుంది
+9. The molecuar ion peak for nitro compounds are seldom seen in a mass spectra. The nitro compounds can be indentified by:	9. నైట్రో సమ్మేళనాల కోసం అణువు అయాన్ శిఖరం మాస్ స్పెక్ట్రాలో చాలా అరుదుగా కనిపిస్తుంది. నైట్రో సమ్మేళనాలను వీటి ద్వారా గుర్తించవచ్చు:
+a. moderate peak at m/z = 30 corresponding to NO+ and weak peak at m/z =46 corresponding to NO2+ ions	ఒక. NO + కు అనుగుణంగా m / z = 30 వద్ద మితమైన శిఖరం మరియు NO2 + అయాన్లకు అనుగుణంగా m / z = 46 వద్ద బలహీనమైన శిఖరం
+b. strong peaks at m/z = 30 corresponding to NO+ and weak peak at m/z =46 corresponding to NO2+ ions	బి. NO + కు అనుగుణంగా m / z = 30 వద్ద బలమైన శిఖరాలు మరియు NO2 + అయాన్లకు అనుగుణంగా m / z = 46 వద్ద బలహీనమైన శిఖరం
+c. only a weak peak at m/z =46 corresponding to NO2+ ions	సి. NO2 + అయాన్లకు అనుగుణంగా m / z = 46 వద్ద బలహీనమైన శిఖరం మాత్రమే
+d. only a moderate peak at m/z = 30 corresponding to NO+	d. NO + కు అనుగుణంగా m / z = 30 వద్ద మితమైన శిఖరం మాత్రమే
+10. Carbon dioxide laser which is a mixture of carbon dioxide and nitrogen has a potential use in routine:	10. కార్బన్ డయాక్సైడ్ మరియు నత్రజని మిశ్రమం అయిన కార్బన్ డయాక్సైడ్ లేజర్ దినచర్యలో సంభావ్య ఉపయోగం కలిగి ఉంది:
+a. Infrared spectroscopy	ఒక. పరారుణ స్పెక్ట్రోస్కోపీ
+b. mass spectroscopy	బి. మాస్ స్పెక్ట్రోస్కోపీ
+c. NMR spectroscopy	సి. NMR స్పెక్ట్రోస్కోపీ
+d. Laser technology	d. లేజర్ టెక్నాలజీ
+Updates	నవీకరణలు
+Lab Integration Kit 1.0.0 Released	ల్యాబ్ ఇంటిగ్రేషన్ కిట్ 1.0.0 విడుదల చేయబడింది
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గువహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ల్యాబ్‌ల కొత్త సెట్
+VLEAD Blog	VLEAD బ్లాగ్
+Sakshat Portal	అక్షత్ పోర్టల్
+Nodal Center	నోడల్ సెంటర్
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in
+Feedback	అభిప్రాయం
+Follow us	మమ్మల్ని అనుసరించు

@@ -1,0 +1,24 @@
+Graph Plot	ग्राफ प्लॉट 
+Mouse hovers at (0, 0 ).	माउस (०, ०) पर मंडराता है। 
+Proton environment	प्रोटॉन पर्यावरण 
+Q1.How many types of proton environment are present ?	Q1. कितने प्रकार के प्रोटॉन पर्यावरण मौजूद हैं? 
+Ans:	उत्तर: 
+Q2.How many different nmr signals would you expect ?	Q2.आप कितने प्रकार के अलग-अलग एनएमआर संकेतों की उम्मीद करेंगे? 
+Ans:	उत्तर: 
+Chemical Shift	 रासायनिक विस्थापन 
+Q3.Give the chemical shift of A :-	Q3.G: A का रासायनिक रासायनिक विस्थापन दिजिए: - 
+Ans:	उत्तर: 
+Q4.Give the chemical shift of B :-	Q4. B का रासायनिक रासायनिक विस्थापन दिजिए: - 
+Ans:	उत्तर: 
+Integration	एकीकरण 
+Q5.What is the relative intensity of the peaks ?	Q5. चोटियों की सापेक्ष तीव्रता क्या है? 
+Ans:	उत्तर: 
+Splitting pattern	विभाजन पैटर्न 
+Q6.Number of neighbouring protons for A ?	Q6.A के लिए पड़ोसी प्रोटॉन की संख्या? 
+Ans:	उत्तर: 
+Q7.Number of lines expected ?	Q7. कितनी लाइने हो सकती हैं? 
+Ans:	उत्तर: 
+Q8.Number of neighbouring protons for B ?	Q8. B के लिए पड़ोसी प्रोटॉन की संख्या? 
+Ans:	उत्तर: 
+Q9.Number of lines expected ?	Q9. कितनी लाइने हो सकती हैं? 
+Ans:	उत्तर:

@@ -1,0 +1,92 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशालाओं (वर्चुअल लैब्स) में आपका स्वागत है- एमएचआरडी भारत सरकार की एक पहल 
+Toggle navigation	टॉगल से संचालित करना, टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना) 
+HOME	होम 
+ALL LABS	सभी प्रयोगशालाएँ (लैब्स) 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	भूमिका, सिद्धांत,उद्देश्य, प्रयोग, मैनुअल क्विज़, और किताबे, प्रतिक्रिया 
+Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds	नाभिकीय चुंबकीय अनुनाद स्पेक्ट्रोस्कोपी और चुनिंदा कार्बनिक यौगिकों के सरल 1H एनएमआर स्पेक्ट्रा का उत्थान 
+right answer!	सही उत्तर! 
+oops, wrong answer!	उफ़, गलत जवाब! 
+1. NMR technique uses:	1. एनएमआर तकनीक का उपयोग करता है: 
+Microwave	माइक्रोवेव 
+Radio waves	रेडियो तरंगें 
+Infrared radiation	अवरक्त विकिरण 
+Gamma radiation	गामा विकिरण 
+2. The x-axis in a NMR spectrum is	2. एनएमआर स्पेक्ट्रम में x- अक्ष है 
+ratio of the magnetic field strength in ppm	 चुंबकीय क्षेत्र की ताकत का अनुपात पीपीएम में 
+frequency in cm-1	आवृत्ति सेंटीमीटर -1 में 
+mass to charge ratio (m/z)	अनुपात को चार्ज करने के लिए द्रव्यमान (एम / जेड) 
+Absorbance	अवशोषण 
+3. A shielded proton is the one which experiences:	3. एक ढाल प्रोटॉन वह है जो अनुभव करता है: 
+More electron density and more magnetic field strength	अधिक इलेक्ट्रॉन घनत्व और अधिक चुंबकीय क्षेत्र की ताकत 
+Less electron density and less magnetic field strength	कम इलेक्ट्रॉन घनत्व और कम चुंबकीय क्षेत्र की ताकत 
+More electron density and less magnetic field strength	अधिक इलेक्ट्रॉन घनत्व और कम चुंबकीय क्षेत्र की ताकत 
+Less electron density and more magnetic field strength	कम इलेक्ट्रॉन घनत्व और अधिक चुंबकीय क्षेत्र की ताकत 
+4. The internal reference standard used in NMR experiments is:	4. एनएमआर प्रयोगों में प्रयुक्त आंतरिक संदर्भ मानक है: 
+tetramethylsilane	टेट्रामेथ्य्लसिलेन 
+deuterated solvents	ड्यूटरित विलायन 
+Nor-Leucine	नॉर लुसिनी 
+2,2-diphenyl-1-picrylhydrazyl	2,2-डाइफेनिल 1-पिक्रैलिडरजिल 
+5. The TMS (tetramethylsilane) peak value is assigned at:	5. टीएसएस(टेट्रामेथ्य्लसिलेन) शिखर का मान इस पर दिया जाता है: 
+δ = 0.05	5 = 0.05 
+δ = 0.11	δ = 0.11 
+δ = 1.00	δ = 1.00 
+δ = 0.00	δ = 0.00 
+6. The number of hydrogens are calculated from peak integration by studying the	6. किसका अध्ययन करके शिखर एकीकरण की गणना से हाइड्रोजेन की संख्या का पता लगाया जाता है 
+Intensity of the peak	शिखर की तीव्रता 
+Area under the curve	वक्र के नीचे का क्षेत्र 
+Position of the peak	चोटी की स्थिति 
+frequency used	उपयुक्त आवृत्ति का 
+7. The most common deuterated solvent used for polar compounds is:	7. ध्रुवीय यौगिकों के लिए सबसे आम इस्तेमाल किया जाने वाला ड्यूटरित विलायक है: 
+DMF	डीएमएफ 
+DMSO	डीएमएसओ 
+Chroloform	क्रोलोफोर्म 
+Water	पानी 
+8. The 13C NMR spectrum gives information about:	8. 13सी एनएमआर स्पेक्ट्रम के बारे में जानकारी देता है: 
+Number of equivalent Carbon atoms	समतुल्य कार्बन परमाणुओं की संख्या 
+Number of non- equivalent Carbon atoms	गैर-समतुल्य कार्बन परमाणुओं की संख्या 
+Number of equivalent hydrogen atoms	समतुल्य हाइड्रोजन परमाणुओं की संख्या 
+Number of non- equivalent hydrogen atoms	गैर-समतुल्य हाइड्रोजन परमाणुओं की संख्या 
+9. The number of peaks tells you:	9. चोटियों की संख्या आपको बताती है: 
+the number of different proton environments	विभिन्न प्रोटॉन वातावरणों की संख्या 
+the general environment of the protons	प्रोटॉन का सामान्य वातावरण 
+number of protons atoms on the adjacent atom	बगलवाले परमाणु पर प्रोटॉन परमाणुओं की संख्या 
+number of protons in each environment	प्रत्येक वातावरण में प्रोटॉन की संख्या 
+10. In a NMR spectrum the peak multiplicity gives:	10. एक एनएमआर स्पेक्ट्रम में शिखर बहुलता देता है: 
+the number of different proton environments	विभिन्न प्रोटॉन वातावरणों की संख्या 
+the general environment of the protons	प्रोटॉन का सामान्य वातावरण 
+number of protons atoms on the adjacent atom	बगलवाले परमाणु पर प्रोटॉन परमाणुओं की संख्या 
+number of protons in each environment	प्रत्येक वातावरण में प्रोटॉन की संख्या 
+Solutions	समाधान 
+1. NMR technique uses:	1. एनएमआर तकनीक का उपयोग करता है: 
+Radio waves	रेडियो तरंगें 
+2. The x-axis in a NMR spectrum is	2. एनएमआर स्पेक्ट्रम में x- अक्ष है 
+ratio of the magnetic field strength in ppm	पीपीएम में चुंबकीय क्षेत्र की ताकत का अनुपात 
+3. A shielded proton is the one which experiences:	3. एक ढाल प्रोटॉन वह है जो अनुभव करता है: 
+More electron density and less magnetic field strength	अधिक इलेक्ट्रॉन घनत्व और कम चुंबकीय क्षेत्र की ताकत 
+4. The internal reference standard used in NMR experiments is:	4. एनएमआर प्रयोगों में प्रयुक्त आंतरिक संदर्भ मानक है: 
+tetramethylsilane	टेट्रामेथ्य्लसिलेन 
+5. The TMS (tetramethylsilane) peak value is assigned at:	5. टीएसएस(टेट्रामेथ्य्लसिलेन) शिखर का मान इस पर दिया जाता है: 
+δ = 0.00	δ = 0.00 
+6. The number of hydrogens are calculated from peak integration by studying the	6. . किसका अध्ययन करके शिखर एकीकरण की गणना से हाइड्रोजेन की संख्या का पता लगाया जाता है 
+Aread under the curve	वक्र के नीचे का क्षेत्र 
+7. The most common deuterated solvent used for polar compounds is:	7. ध्रुवीय यौगिकों के लिए सबसे आम इस्तेमाल किया जाने वाला ड्यूटरित विलायक है: 
+DMSO	डीएमएसओ 
+8. The 13C NMR spectrum gives information about:	8. 13सी एनएमआर स्पेक्ट्रम के बारे में जानकारी देता है: 
+Number of non- equivalent Carbon atoms	गैर-समतुल्य कार्बन परमाणुओं की संख्या 
+9. The number of peaks tells you:	9. चोटियों की संख्या आपको बताती है: 
+the number of different proton environments	विभिन्न प्रोटॉन वातावरणों की संख्या 
+10. In a NMR spectrum the peak multiplicity gives:	10. एक एनएमआर स्पेक्ट्रम में शिखर बहुलता देता है: 
+number of protons atoms on the adjacent atom	बगलवाले परमाणु पर प्रोटॉन परमाणुओं की संख्या 
+Updates	अपडेट 
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 वर्चुअल लैब्स का एक नया सेट 
+VLEAD Blog	वीलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया 
+Follow us	हमारा अनुगमन करो

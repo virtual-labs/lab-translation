@@ -1,0 +1,71 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशालाओं (वर्चुअल लैब्स) में आपका स्वागत है- एमएचआरडी भारत सरकार की एक पहल
+Toggle navigation	टॉगल से संचालित करना, टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना)
+HOME	होम
+ALL LABS	सभी प्रयोगशालाएँ (लैब्स)
+PARTNERS	भागीदार
+CONTACT	संपर्क करें
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	भूमिका, सिद्धांत,उद्देश्य, प्रयोग, मैनुअल क्विज़, और किताबे, प्रतिक्रिया
+Determination of Molar Mass of Simple Compounds Using Mass Spectroscopy	नाभिकीय चुंबकीय अनुनाद स्पेक्ट्रोस्कोपी और चुनिंदा कार्बनिक यौगिकों के सरल 1H एनएमआर स्पेक्ट्रा का उत्थान
+right answer!	सही उत्तर!
+oops, wrong answer!	उफ़, गलत जवाब!
+1. Mass spectrum gives valuable information about:	1. मास स्पेक्ट्रम के बारे में बहुमूल्य जानकारी देता है:
+a. molecular mass	ए. मॉलिक्यूलर मास्स
+b. functionals groups	बी. कार्यात्मक समूह
+c. conjugation	सी. विकार
+d. vibrational states	डी. कंपन अवस्था
+2. The ions are separated based on their mass to charge ratios in	2. आयनों को अनुपात में चार्ज करने के लिए उनके द्रव्यमान के आधार पर अलग किया जाता है
+a. ionsiation chamber	ए. आयनन कक्ष
+b. mass analyzer	बी. बड़े पैमाने पर विश्लेषक
+c. sample inlet	सी. नमूना इनलेट
+d. detector	डी. डिटेक्टर
+3. The typical ionisation energy used in a EI-MS is:	3. EI-MS में प्रयुक्त विशिष्ट आयनीकरण ऊर्जा है:
+a. 0.7 eV	ए. 0.7 ई.वी.
+b. 7 eV	बी. 7 ई.वी.
+c. 70 eV	सी. 70 ई.वी.
+d. 700 e V	डी. 700 ई वी
+4. Mass spectrum is a plot of:	4. मास स्पेक्ट्रम का एक प्लॉट है:
+a. relative intensity vs mass-to-charge	ए. रिश्तेदार तीव्रता बनाम बड़े पैमाने पर प्रभारी
+b. relative intensity vs mass-to-energy	बी. सापेक्ष तीव्रता बनाम द्रव्यमान-से-ऊर्जा
+c. voltage vs mass-to-charge	सी. वोल्टेज बनाम मास-चार्ज
+d. voltage vs mass -to -energy	डी. वोल्टेज बनाम द्रव्यमान
+5. The molecular ion peak in a mass spectrum corresponds to:	5. एक जन स्पेक्ट्रम में आणविक आयन शिखर से मेल खाती है:
+a. ion formed by fragmentation of a molecule	ए. अणु के विखंडन से बनने वाला आयन
+b. molecule losing an electron to form a radical cation	बी. अणु एक इलेक्ट्रॉन को खोने के लिए एक कट्टरपंथी राशन बनाते हैं
+c. the most abundant ion	सी. सबसे प्रचुर मात्रा में आयन
+d. ion with smallest mass-to-charge	डी. आयन सबसे छोटे द्रव्यमान-प्रभारी के साथ
+6. The base peak in a mass spectrum corresponds to:	6. द्रव्यमान स्पेक्ट्रम में आधार शिखर निम्नलिखित से मेल खाता है:
+a. ion formed by fragmentation of a molecule	ए. अणु के विखंडन से बनने वाला आयन
+b. molecule losing an electron to form a radical cation	बी. अणु एक इलेक्ट्रॉन को खोने के लिए एक कट्टरपंथी राशन बनाते हैं
+c. the most abundant ion	सी. सबसे प्रचुर मात्रा में आयन
+d. ion with smallest mass-to-charge	डी. आयन सबसे छोटे द्रव्यमान-प्रभारी के साथ
+7. In an magnetic sector mass analyser, the ion separation is based on:	7. एक चुंबकीय क्षेत्र द्रव्यमान विश्लेषक में, आयन पृथक्करण पर आधारित है:
+a. ions with the correct mass-to-charge ratio undergo stable oscillation and passes through the cylinderal rods before they hit the detector	ए. सही मास-टू-चार्ज अनुपात के साथ आयन स्थिर दोलन से गुजरते हैं और डिटेक्टर में आने से पहले सिलेंडर की छड़ से गुजरते हैं
+b. lighter ions have higher velocity	बी. हल्के आयनों का वेग अधिक होता है
+c. greater mass to charge ratio have larger radius of the curved path	सी. अधिक द्रव्यमान से आवेशित अनुपात में घुमावदार पथ का बड़ा दायरा होता है
+d. Heavier ions have higher velocity	डी. हीवियर आयनों का वेग अधिक होता है
+8. The sample introduced into the sample inlet first gets:	8. नमूना इनलेट में पेश किया गया नमूना पहले मिलता है:
+a. vapourised	ए. वाष्पीकृत
+b. ionised	बी. आइनिसाईज़ेड
+c. accelarated	सी. एक्सकिलटरेड
+d. deflected	डी. हटाया हुआ
+9. If a compound has an even number of nitrogen atoms, its molecular ion will appear at an even mass value. This is called:	9. यदि किसी कंपाउंड में नाइट्रोजन परमाणुओं की संख्या समान है, तो इसका आणविक आयन समान द्रव्यमान मूल्य पर दिखाई देगा। यह कहा जाता है:
+a. Mass rule	ए. बड़े पैमाने पर नियम
+b. Molecular ion rule	बी. आणविक आयन नियम
+c. Nitrogen rule	सी. नाइट्रोजन नियम
+d. Stevenson's rule	डी. स्टीवेंसन का नियम
+10. The most probable fragmentation is the onw that leaves the positive charge on the fragment with the lowest ionsiation energy. This rule is called:	10. सबसे संभावित विखंडन वह ओनव है जो सबसे कम आयनों के साथ अंश पर सकारात्मक चार्ज छोड़ता है। इस नियम को कहा जाता है:
+a. Mass rule	ए. बड़े पैमाने पर नियम
+b. Molecular ion rule	बी. आणविक आयन नियम
+c. Nitrogen rule	सी. नाइट्रोजन नियम
+d. Stevenson's rule	डी. स्टीवेंसन का नियम
+Updates	अपडेट
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 वर्चुअल लैब्स का एक नया सेट
+VLEAD Blog	वीलिड ब्लॉग
+Sakshat Portal	साक्षात पोर्टल
+Nodal Center	नोडल केंद्र
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in
+Feedback	प्रतिक्रिया
+Follow us	हमारा अनुगमन करो

@@ -1,0 +1,22 @@
+{
+  "name": "vlab-translation",
+  "version": "1.0.0",
+  "description": "Translation of vlab experiments to hindi/telugu",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VLEAD",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vlead-projects/experiments/lab-translation.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/vlead-projects/experiments/lab-translation/issues"
+  },
+  "homepage": "https://gitlab.com/vlead-projects/experiments/lab-translation#readme"
+}

@@ -1,0 +1,118 @@
+Physical Chemistry Lab	भौतिक रसायन प्रयोगशाला(फिजिकल केमिस्ट्री लैब) 
+Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy	इंफ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी के समाधानों के यंत्रीकरण एवं कार्य सिद्धांत 
+Introduction	प्रस्तावना 
+Infrared spectroscopy or IR spectroscopy is the technique that involves the infrared region of the electromagnetic spectrum. IR region lies between the visible and microwave regions and works mostly based on absorption spectroscopy. The infrared portion of the electromagnetic spectrum is usually divided into three regions; the near or higher energy IR (14000 - 4000 cm-1), mid IR (4000 - 400 cm-1 ) and far or low energy infrared (400 - 10 cm-1). The mid-infrared gives the fundamental vibrations and associated rotational-vibrational structure of the substance under study. Infrared spectroscopy is an absorption of infrared radiation by the molecules and is used to elucidate the structure of the molecule by identifying their functional groups. One of the common laboratory instruments that use this technique is a Fourier transform infrared (FTIR) spectrometer.	इन्फ्रारेड स्पेक्ट्रोस्कोपी या आईआर स्पेक्ट्रोस्कोपी वह तकनीक है जिसमें विद्युत चुम्बकीय स्पेक्ट्रम के इन्फ्रारेड क्षेत्र को शामिल किया जाता है। IR क्षेत्र दृश्यमान और सूक्ष्म-तरंग(माइक्रोवेव) क्षेत्रों के बीच होता है और ज्यादातर अवशोषण स्पेक्ट्रोस्कोपी पर आधारित है। विद्युत चुम्बकीय स्पेक्ट्रम का इन्फ्रारेड भाग आमतौर पर तीन क्षेत्रों में विभाजित होता है; निकट या उच्च ऊर्जा आईआर (14000-4000 सेमी -1), मध्य आईआर (4000-400 सेमी -1) और दूर या कम ऊर्जा इन्फ्रारेड (400-10 सेमी -1)। मध्य इन्फ्रारेड अध्ययन के तहत पदार्थ के मूलभूत कंपन और संबंद्ध घूर्णी-कंपनयुक्त रचना देता है। इन्फ्रारेड स्पेक्ट्रोस्कोपी अणुओं द्वारा इन्फ्रारेड विकिरण का अवशोषण है और उनके कार्यात्मक समूहों के अण्विक संरचना की पहचान को स्पष्ट करने के लिए उपयोग में आता है। इस तकनीक का उपयोग करने वाले आम प्रयोगशाला उपकरणों में से एक फूरियर ट्रांसफॉर्म इंफ्रारेड (FTIR) स्पेक्ट्रोमीटर है। 
+Picture source: http://www.rediris.ca/infrared.html	चित्र स्रोत: http://www.rediris.ca/infrared.html 
+Theory	सिद्धांत 
+When two atoms combine to form a stable covalent moleculer, there are two repulsion forces acting between the two hetero atoms. One between the positively charged nuclei of both the atoms and the other between the negative electron clouds. The other force is the attraction between the nucleus of one atom with the electons of the other atom. Balancing the forces between them, the two atoms settle at a mean internuclear distance or the bond length where the total energy of the system is minimum. Any change like pulling the atoms away or squeezing them brings change in the bond length which requires an input of energy.	जब दो परमाणु एक स्थिर सहसंयोजक अणु बनाने के लिए संयोजित होते हैं, तो दो हेटरो परमाणुओं के बीच दो प्रतिकर्षण बल कार्य करते हैं। सकारात्मक चार्ज किए गये दोनों परमाणुओं के नाभिक के बीच पहला और दूसरा नकारात्मक इलेक्ट्रॉन क्लाउड के बीच। अन्य बल एक परमाणु के नाभिक के बीच का और दूसरे परमाणु के इलेक्ट्रान का आकर्षण है। उन दोनों के बीच बलों को संतुलित करते हुए, दो परमाणु एक आंतरिक दूरी या बांड की लंबाई पर वहां स्थिर होते हैं जहां सिस्टम की कुल ऊर्जा न्यूनतम होती है। परमाणुओं को दूर खींचने या उन्हें निचोड़ने के कारण हुए परिवर्तन बांड की लंबाई में परिवर्तन लाता है जिसके लिए ऊर्जा के इनपुट की आवश्यकता होती है। 
+A diatomic molecule with the above description is considered as two vibrating masses that are connected by a spring. The internuclear distance between the atoms at energy minimum is referred to as the equilibrium distance (re)Any change in this distance is given by Hooke' law as:	उपरोक्त विवरणयुक्त एक डायटोमिक अणु को दो कंपनयुक्त द्रव्यमान माना जाता है जो एक स्प्रिंग से जुड़े हैं। न्यूनतम ऊर्जा पर परमाणुओं के बीच की दूरी को न्यूनतम ऊर्जा पर संतुलन दूरी (पुनः) के रूप में संदर्भित किया जाता है। इस दूरी में कोई भी परिवर्तन हूक के नियम द्वारा इसतरह दिया गया है: 
+f = -k(r-re)	f = -k (r-re) 
+where f is the restoring force and r is the bond length. The energy associated cinsidering the energy curve to be parobolic is given as :	जहां f रिस्टोरिंग फोर्स है और r बॉन्ड लेंथ है। पैरोबोलिक होने के लिए ऊर्जा वक्र से संबंधित ऊर्जा निम्नानुसार है: 
+E= 1/2k(r-re)2	E = 1 / 2k (r-re) 2 
+For any haormonic oscillator, when the bond vibrates, its enrgy of vibration is changing continually and periodically from kinetic to potential enrgy and back again. The total energy is proportional to the frequency of vibration, and is given as:	किसी भी हॉरमोनिक ऑसिलेटर के संदर्भ में जब बॉन्ड में कंपन(वाइब्रेट) होता है, तो कंपन (वाइब्रेशन) की अपनी ऊर्जा लगातार और समय-समय पर गत्यात्मक (काइनेटिक) से संभवनीय ऊर्जा (एनर्जी) में और वापस फिर से बदलती रहती है। कुल ऊर्जा कंपन की आवृत्ति की आनुपातिक है, और निचे इसतरह दी गई है: 
+Eosc = hνosc	Eosc = hνosc 
+The elastic nature of the bond has an intrinsic vibrational frequency which is determined by the force constant K of the spring or its stiffness, the masses of the bonded atoms.	बांड की लोचदार प्रकृति की एक आंतरिक कंपन आवृत्ति होती है जो लचक (स्प्रिंग) या उसकी अकड के बल स्थिरांक K से निर्धारित होती है, संयुक्त अणुओं का द्रव्यभार। 
+where c is the speed of light, and μ is the reduced mass of the system which is given by:	जब c प्रकाश की गति है, और μ सिस्टम का घटा हुआ द्रव्यभार है जोकि निचे दिया है: 
+μ = m1m2/m1 + m2	μ = m1m2 / m1 + m2 
+The value of the force constant varies from bond to bond. K for a triple bond is three times those of a single bond and for a double bond it is twice those of a single bond. There are two significant features that can be drawn:	बल स्थिरांक का मान प्रति बंधन के लिए भिन्न होता है। ट्रिपल बॉन्ड के लिए K एक सिंगल बॉन्ड के तीन गुना होता है और एक डबल बॉन्ड के लिए यह सिंगल बॉन्ड का दोगुना होता है। इससे दो महत्वपूर्ण विशेषताएं निसृत होती हैं: 
+1. Strong bonds have large force constants and vibrate at a higher frequency than the weaker bonds.	1. मजबूत बॉन्ड के बल स्थिरांक बड़े होते हैं और कमजोर बॉन्ड की तुलना में उच्च आवृत्ति पर कंपित होते हैं। 
+2. Bonds between the heavy atoms (larger reduced mass) vibrate at a lower frequency than that of bonds between the lighter atoms.	2. भारी अणुओं (अधिक घटा हुआ द्रव्यमान) के बीच के बांड, हल्के अणुओं के बीच के बांड की तुलना में कम आवृत्ति पर कंपित होते हैं। 
+The Infrared Spectrometer:	इन्फ्रारेड स्पेक्ट्रोमीटर: 
+The infrared spectrometer or the spectrophotometer is the instrument that determines the IR absorption spectra of a compound. There are two types of spectrometers that are widely used in laboratories.	इन्फ्रारेड स्पेक्ट्रोमीटर या स्पेक्ट्रोफोटोमीटर एक ऐसा उपकरण है जो एक यौगिक के आईआर अवशोषण स्पेक्ट्रा को निर्धारित करता है। दो प्रकार के स्पेक्ट्रोमीटर हैं जो प्रयोगशालाओं में व्यापक रूप से उपयोग किए जाते हैं। 
+a. Dispersive infrared spectrometers	क. विकीरणकारी इन्फ्रारेड स्पेक्ट्रोमीटर 
+b. Fourier-Transform spectrometers	ख. फूरियर ट्रांसफॉर्म स्पेक्ट्रोमीटर 
+Figure 2: The main components of a fourier transform infrared (FTIR) spectrophotometer.	आकृति 2: फूरियर ट्रांसफॉर्म इन्फ्रारेड (एफटीआईआर) स्पेक्ट्रोफोटोमीटर के मुख्य घटक. 
+Picture source: http://cnx.org/content/m34660/latest/?collection=col10699/latest	चित्र स्रोत: http://cnx.org/content/m34660/latest/?collection=col10699/lestest 
+FT-IR spectrometers are the modern spectometers that provide the spectrum more rapidly than the dispersive ones. The optical pathway produces a pattern called the interferogram. This is a complex signal which is a plot of intensity versus time. For more practical purposes this time-domine spectrum is converted to a frequency-domain spectrum, that is intensity versus frequency. This conversion is done by a mathematical operation called a Fourier-Transform (FT). FT separates the individual frequencies from the interferogram producing a virtual spectrum identical to the one abtained form dispersive spectrometers. The biggest advantage of using a FT-IR spectometers is that it is possible to collect number of interferograms of the same sample in less than a second. When a fourier-Transform is performed a sum of all the interferograms gives spectrum which has a better signal to noise ratio. Greater speed and greater sensitivity makes FT-IR spectrometers preferred over dispersive spectometers.	एफटी आईआर स्पेक्ट्रोमीटर आधुनिक स्पेक्ट्रोमीटर हैं जो प्रसारणशील स्पेक्ट्रोमीटर की तुलना में स्पेक्ट्रम अधिक तेजी से प्रदान करते हैं। ऑप्टिकल पाथवे इंटरफेरोग्राम नामक एक आकृति (पैटर्न) उत्पन्न करता है। यह एक जटिल संकेत है जो तीव्रता बनाम समय की एक ढांचा है। अधिक व्यावहारिक उद्देश्यों के लिए इस समय-क्षेत्र (टाइम-डोमिन) स्पेक्ट्रम को एक आवृत्ति-क्षेत्र स्पेक्ट्रम में बदला जाता है, याने कि तीव्रता बनाम आवृत्ति। यह रूपांतरण एक गणितीय ऑपरेशन द्वारा किया जाता है जिसे फूरियर ट्रांसफॉर्म (एफटी) कहा जाता है। एफटी पृथक आवृत्तियों को इंटरफेरोग्राम से अलग करता है जो कि प्रसारणशील स्पेक्ट्रोमीटर से प्राप्त स्पेक्ट्रम के समान एक आभासी स्पेक्ट्रम का उत्पादन करता है। एफटी आईआर स्पेक्ट्रोमीटर का उपयोग करने का सबसे बड़ा लाभ यह है कि एक सेकंड से भी कम समय में एक ही नमूने के कई इंटरफेरोग्राम एकत्रित करना संभव है। जब एक फूरियर ट्रांसफॉर्म किया जाता है तो सभी इंटरफेरोग्राम का योग स्पेक्ट्रम देता है जो संकेत बनाम शोर का बेहतर अनुपात है। अधिक गति और अधिक संवेदनशीलता के कारण एफटी आईआर स्पेक्ट्रोमीटर प्रसारणशील स्पेक्ट्रोमीटर से अधिक पसंदिदा है। 
+Figure 3: FT-IR spectrophotometers collects the interferograms of the sample and fourier-transform them to a absorption spectrum.	आकृति 3: एफटी आईआर स्पेक्ट्रोफोटोमीटर नमूने के इंटरफेरोग्राम को इकट्ठा करता है और फूरियर को एक अवशोषण स्पेक्ट्रम में बदल देता है। 
+Picture source: http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm	चित्र स्रोत: http://facademy.sdmiramar.edu/fgarces/LabMatters/Instifications/FTIR/FTIR.htm 
+Objective	लक्ष्य 
+(i) To learn solution sample prepartion and handling procedures to measure an IR spectrum	(i) आईआर स्पेक्ट्रम को मापने के लिए सॉल्यूशन सैंपल प्रीपरेशन और हैंडलिंग प्रक्रियाओं को सीखना 
+(ii) Spectral analysis of the sample measured	(ii) मापे गए नमूने का स्पेक्ट्रल विश्लेषण 
+Experiment	प्रयोग 
+Click here	यहां क्लिक करे 
+Manual	सूचना-पत्रिका 
+Follow the procedure given below:	नीचे दी गई पद्धति का पालन करें: 
+(1) Click on the sample bottle to transfer small amount (2-5mg) of the substance into the empty sample bottle.	(1) खाली बोतल में पदार्थ की छोटी मात्रा (2-5mg) को स्थानांतरित करने के लिए नमूना (सैंपल) बोतल पर क्लिक करें। 
+(2) Click on the solvent bottle to transfer 2 to 3ml of the solvent (CCl4) to the sample to prepared a clear solution.	(2) साफ़ मिश्रण तैयार करने के लिए सॉल्वेंट (CCl4) के 2 से 3 मिलीलीटर द्रावक को डालने के लिए सॉल्वेंट बोतल पर क्लिक करें। 
+(3) Click on the desiccator to take out the 'solution IR cell'.	(3) 'मिश्रण आईआर सेल' को बाहर निकालने के लिए डेसिकेटर पर क्लिक करें। 
+(4) Click on the sample solution to draw 1ml of the solution with a syringe	(4) 1ml मिश्रण को सिरिंज से निकालने के लिए नमूना मिश्रण पर क्लिक करें 
+(5) Click on the solution IR cell to transfer the sample solution until all the air is expelled from the solution cell.	(5) सैंपल सॉल्यूशन को निकालने के लिए सॉल्यूशन IR सेल पर सॉल्यूशन सेल की सारी हवा बाहर निष्कासित होते तक क्लिक करें 
+(6) Click on the solution IR cell to place the cell inside the spectrometer.	(6) स्पेक्ट्रोमीटर के अंदर सेल स्थापित करने के लिए मिश्रण IR सेल पर क्लिक करें। 
+(7) Click on 'start' button to start the spectrometer.	(7) स्पेक्ट्रोमीटर शुरू करने के लिए 'स्टार्ट' बटन पर क्लिक करें। 
+(8) Click on the evaluate button to spectral analysis.	(8) स्पेक्ट्रल विश्लेषण के लिए मूल्यांकन बटन पर क्लिक करें। 
+Quizzes	प्रश्नावली (क्विज़) 
+right answer!	सही उत्तर! 
+oops, wrong answer!	उफ़, गलत जवाब! 
+1. Molecular vibration requires:	1. आणविक कंपन को आवश्यकता है: 
+a. high energy radiation	क. उच्च ऊर्जा विकिरण 
+b. low-energy radiation	ख. निम्न ऊर्जा विकिरण 
+c. least energy radiation	ग. न्यूनतम ऊर्जा विकिरण 
+d. gamma radiation	घ. गामा विकिरण 
+2. The IR spectrum is usually given as:	2. आईआर स्पेक्ट्रम आमतौर पर निम्नानुसार दिया जाता है: 
+a. Hertz	क. हर्टज् 
+b. Wavenumber	ख. तरंग-संख्या 
+c. Frequency	ग. आवृत्ति 
+d. Option a and b	घ. विकल्प क और ख 
+3. The relation between the wavenumber and the wavelenght is:	3. तरंग-संख्या (वेवनंबर) और तरंग-दैर्ध्य (वेवलेंथ) के बीच का संबंध है: 
+a. Wavenumber = 1 / wavelength in centimeters	क. वेवनंबर = 1 / सेंटीमीटर में तरंग दैर्ध्य 
+b. Wavenumber = 100 / wavelength in nanometers	ख. वेवनंबर = 100 / नैनोमीटर में तरंग दैर्ध्य 
+c. Wavelength in nanometers = 1 / wavenumber	ग. नैनोमीटर तरंग-दैर्ध्य = 1 / तरंग-तरंग-संख्यासंख्या (वेवनंबर) 
+d. not related	घ. कोई संबंध नहीं 
+4. The IR measurements are given in wavenumber (cm-1) rather than wavelength because:	4. आईआर माप तरंगदैर्घ्य के बजाय तरंग-संख्या (वेवनंबर) (सेमी -1) में दिए जाते हैं क्योंकि: 
+a. wavelength measured in centimeters are too large area to scan	क. सेंटीमीटर में मापा गया तरंग दैर्ध्य स्कैन करने के लिए बहुत बड़ा क्षेत्र हो जाता है 
+b. wavelength measured in centimeters are large value to read and interpret	ख. पढ़ने और व्याख्या करने के लिए तरंग दैर्ध्य को सेंटीमीटर में नापने से प्रमाण बहुत बडा हो जाता है. 
+c. wavelength measured in micrometers are very small value to read and interpret	ग. पढ़ने और व्याख्या करने के लिए माइक्रोमीटर में मापे गए तरंग दैर्ध्य का प्रमाण बहुत कम हो जाता हैं 
+d. wavelength measured in micrometers are too large area to scan	घ. माइक्रोमीटर्स में मापा गया तरंग दैर्ध्य स्कैन करने के लिए बहुत बड़ा क्षेत्र हो जाता है 
+5. Which of the following is not an IR vibrational mode:	5. निम्नलिखित में से कौन एक IR कंपन मोड नहीं है: 
+a. stretching	क. खींचना 
+b. scissoring	ख. काटना 
+c. rocking	ग. हिलना 
+d. rolling	घ. लुढ़कना 
+6. Which among the following requires the most energy?	6. निम्नलिखित में से किसके लिए सबसे अधिक ऊर्जा की आवश्यकता होती है? 
+a. asymmetric stretch	क. असममित खिंचाव 
+b. wag and twist	ख. लटका और झटका (वैग एंड ट्विस्ट) 
+c. asymmetric bend	ग. असममित मोड (बेंड) 
+d. symmetric bend	घ. सममित मोड़ 
+7. A typical IR spectrum can be divided into two regions 600 to 1400cm-1 (right portion) and 1400 to 4000cm-1 left portion) , the right portion of the spectrum is called	7. किसी भी विशिष्ट IR स्पेक्ट्रम को 600 से 1400cm-1 (दाहिना हिस्सा) और 1400 से 4000cm-1 (बांया हिस्सा ) इन दो क्षेत्रो में विभाजित किया जा सकता है, स्पेक्ट्रम के दाहिने हिस्से को कहा जाता है 
+a. right region	क. सही क्षेत्र 
+b. funtional group region	ख. कार्यकारी समूह क्षेत्र 
+c. finger print region	ग. फिंगर प्रिंट क्षेत्र 
+d. vibrational region	घ. कंपन क्षेत्र 
+8. Which of the foloowing amines show two spikes for the N-H streching?	8. एन-एच स्ट्रेचिंग के लिए निम्नलिखित अमाइन में से कौन दो स्पाइक्स दिखाता है? 
+a. Primary amines	क. प्राथमिक अमीन 
+b. Secondary amines	ख. द्वितीय amines 
+c. Tertiary amines	सी. तृतीयक अमीन 
+d. All the above	घ. उपर्युक्त सभी 
+9. The O-H group in alcohol and carboxylic acids show at:	9. अल्कोहल और कार्बोक्जिलिक एसिड में मौजूद ओ-एच समूह यहां दिखाई देते है: 
+a. At the same region around 3000cm-1	क. लगभग 3000 सेमी -1 के समान क्षेत्र में 
+b. alcohol at 3300cm-1 and carboxylic acid at 3000cm-1	ख. अल्कोहल 3300 सेमी -1 और कार्बोक्जिलिक एसिड 3000 सेमी -1 पर 
+c. alcohol at 3000cm-1 and carboxylic acid at 3300cm-1	ग. अल्कोहल 3000cm -1 और कार्बोक्जिलिक एसिड 3300cm-1 पर 
+d. Cannot say	घ. कह नहीं सकते 
+10. While handling the salt plates it is important not to use bare hands because:	10. नमक की तश्करियों का प्रयोग करते समय नंगे हाथों का प्रयोग न करना महत्वपूर्ण है क्योंकि: 
+a. The moisture from the hand would affect the salt plates and the spectrum	क. हाथ की नमी नमक की तश्करियों और स्पेक्ट्रम को प्रभावित करेगी 
+b. The solvents used are often carcinogenic.	ख. इस्तेमाल किए जाने वाले द्रावक (सॉल्वैंट्स) अक्सर कैन्सरकारी(कार्सिनोजेनिक) होते हैं। 
+c. The oils and dirt on your fingers will affect your spectrum.	ग. आपकी उंगलियों का तेल और गंदगी आपके स्पेक्ट्रम को प्रभावित करेगी। 
+d. All of the above.	घ. ऊपर के सब। 
+Further Readings	अतिरिक्त जानकारी के लिए 
+Book References:	पुस्तक संदर्भ: 
+Paula, Peter Atkins, Julio de (2009). Elements of physical chemistry (5th ed. ed.). Oxford: Oxford U.P	पावला, पीटर एटकिन्स, जूलियो डे (2009) भौतिक रसायन विज्ञान के तत्व (5 वीं संस्करण. एड.). ऑक्सफोर्ड: ऑक्सफोर्ड यू.पी. 
+Brian C Smith (1995). Fundamentals of Fourier Transform Infrared Spectroscopy	ब्रायन सी स्मिथ (1995). फेन्डामेंटल ऑफ फ्युरिअर ट्र्न्सफॉर्म इन्फ्रारेड स्पेक्ट्रोस्कोपी 
+Donald L. Pavia Gary M. Lampman, George S. Kriz James A. Vyvyan (2008) Introduction to Spectroscopy. Brooks/Cole	डोनाल्ड एल. पेविया गैरी एम. लैंपमैन, जॉर्ज एस. क्रिज़ जेम्स ए. विवियन (2008) इंट्रोडक्शन टू स्पेक्ट्रोस्कोपी. ब्रूक्स / कोल 
+Colin N. Banwell, Elaine M. McCash (1994). Fundamentals of Molecular Spectroscopy. Mcgraw hill.	कॉलिन एन. बैनवेल, इलेन एम. मैकाश (1994). आणविक स्पेक्ट्रोस्कोपी के मूल तत्व. मैकग्रा हिल. 
+References:	संदर्भ: 
+http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html	http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html 
+http://chem-ilp.net/labTechniques/IRVideo.htm	http://chem-ilp.net/labTechniques/IRVideo.htm 
+http://www.umass.edu/microbio/chime/ir-spect/#	http://www.umass.edu/microbio/chime/ir-spect/# 
+http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#	http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html# 
+http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm	http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm 
+http://solidstate.physics.sunysb.edu/book/prob/node111.html	http://solidstate.physics.sunysb.edu/book/prob/node111.html 
+http://www3.wooster.edu/chemistry/analytical/default.html	http://www3.wooster.edu/chemistry/analytical/default.html 
+http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument	http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument 
+http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html	http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html 
+http://www.learnerstv.com/animation/animation.php?ani=56&cat=Chemistry	http://www.learnerstv.com/animation/animation.php?ani=56&cat=Chemistry 
+http://www.chem.purdue.edu/gchelp/vibs/#	http://www.chem.purdue.edu/gchelp/vibs/# 
+http://www3.wooster.edu/chemistry/analytical/ftir/default.html	http://www3.wooster.edu/chemistry/analytical/ftir/default.html 
+http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html	http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html 
+Feedback	प्रतिक्रिया 
+Feedback	प्रतिक्रिया

@@ -1,0 +1,20 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशाला (वर्चुअल लैब्ज्) में आपका स्वागत है-भारत सरकार के मानव संसाधन विकास मंत्रालय (एमएचआरडी) की पहल 
+Toggle navigation	टॉगल नेविगेशन 
+HOME	घर (होम) 
+ALL LABS	सभी प्रयोगशालाएं 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	प्रस्तावना/भूमिका, परिकल्पना/सिद्धांत, उद्देश्य(ऑब्जेक्टिव) प्रयोग (एक्सपेरिमेंट), मैनुअल, प्रश्नावली (क्विज़), अतिरिक्त जानकारी (रीडिंग), प्रतिक्रिया (फीडबैक) 
+Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds	आण्विक चुंबकीय अनुनाद स्पेक्ट्रोस्कोपी और चुनिंदा य़ौगिक मिश्रण (ऑरगेनिक कम्पाउण्ड) के सरल 1H एनएमआर स्पेक्ट्रा का मूल्यांकन 
+Nuclear Magnetic Resonance (NMR) spectroscopy is one of the powerful analytical techniques used in determining the structure of organic compounds. Isotopes of 1H, 13C, 19F and 31P have I = ½ and of great interest. 1H NMR or the proton NMR is the technique in which the hydrogen nuclei of the compound/substance is studied in order to determine the structure of the compound under study. The two most characteristic of a NMR spectra are the chemical shift and the coupling constant. This experiment deals with virtually recording the proton NMR spectra for a set of samples and analyzing them.	आण्विक चुंबकीय अनुनाद (NMR) स्पेक्ट्रोस्कोपी यौगिक मिश्रणों की संरचना का निर्धारण करने में उपयोग की जाने वाली शक्तिशाली विश्लेषणात्मक तकनीकों में से एक है। 1H, 13C, 19F और 31P के आइसोटोप्स् का I = ½ और यह बहुत रोचक बात है। 1H NMR या प्रोटॉन NMR वह तकनीक है जिसमें अध्ययन के तहत यौगिक की संरचना का निर्धारण करने के लिए मिश्रण/ पदार्थ के हाइड्रोजन अणुओं का अध्ययन किया जाता है। NMR स्पेक्ट्रा की दो सबसे बड़ी विशेषता रासायनिक बदलाव और युग्मन स्थिरांक हैं। यह प्रयोग वस्तुतः नमूनों के एक सेट के लिए प्रोटॉन एनएमआर स्पेक्ट्रा को रिकॉर्ड करने और उनका विश्लेषण करने से संबंधित है। 
+Updates	अब तक का(अपडेट) 
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी प्रयोगशालाओं (वर्चुअल लैब्ज्) का एक नया सेट 
+VLEAD Blog	विलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया 
+Follow us	हमारा अनुसरण करें

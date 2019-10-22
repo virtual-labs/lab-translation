@@ -1,0 +1,42 @@
+Physical Chemistry Lab	भौतिक रसायन विज्ञान प्रयोगशाला
+Simple Pendulum	सरल पेंडुलम
+Introduction परिचय
+In this module, basic concepts of simple oscillator are explained. Initially, an example of simple pendulum is taken and the basic terminology i.e., what is initial displacement, initial velocity,natural frequency and time period are explained. Each of these terms is illustrated by giving an example, where user can enter his value and observe the behavior of structure for his input.	इस मॉड्यूल में, सरल थरथरानवाला की बुनियादी अवधारणाओं को समझाया गया है। प्रारंभ में, सरल पेंडुलम का एक उदाहरण लिया जाता है और मूल शब्दावली यानी प्रारंभिक विस्थापन, प्रारंभिक वेग, प्राकृतिक आवृत्ति और समय अवधि क्या है। इनमें से प्रत्येक शब्द का उदाहरण देकर उदाहरण दिया गया है, जहां उपयोगकर्ता अपने मूल्य में प्रवेश कर सकता है और अपने इनपुट के लिए संरचना के व्यवहार का निरीक्षण कर सकता है।
+Simple harmonic oscillator consists of a mass (m) hanging from a string of length (l), fixed at a pivot point P. When the mass is displaced from its mean position by giving some initial displacement (angle), oscillator starts swinging back and fourth with periodic motion.	सरल हार्मोनिक थरथरानवाला में एक द्रव्यमान (m) होता है, जो एक लम्बाई (l) की एक स्ट्रिंग से लटका होता है, जिसे एक धुरी बिंदु P पर स्थिर किया जाता है। जब द्रव्यमान को कुछ प्रारंभिक विस्थापन (कोण) देकर अपनी स्थिति से विस्थापित किया जाता है, तो थरथरानवाला पीछे की ओर झूलता रहता है और आवधिक गति के साथ चौथा।
+Theory	सिद्धांत
+There are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ By applying Newton's second law for rotational systems, the equation of motion for the pendulum may be obtained. 	\ _ (Ax ^ 2 + bx + c = 0 \) के दो समाधान हैं और वे $$ x = {-b \ pm \ sqrt {b ^ 2-4ac} \ over 2a} हैं। $$ न्यूटन के दूसरे को लागू करने से। घूर्णी प्रणालियों के लिए कानून, पेंडुलम के लिए गति का समीकरण प्राप्त हो सकता है।
+Where, τ = Torque ; I = Moment of Inertia; α = Angular Velocity. m is mass of the oscillator, l is the length of the oscillator and theta is initial displacement. The above equation can be rearranged as 	जहां, τ = टोक़; I = जड़ता का क्षण; α = कोणीय वेग। मीटर ऑसिलेटर का द्रव्यमान है, l ऑसिलेटर की लंबाई है और थीटा प्रारंभिक विस्थापन है। उपरोक्त समीकरण को फिर से व्यवस्थित किया जा सकता है
+If the amplitude of angular displacement is small then we can use the approximation (sinθ ≈ θ). By considering the above approximation, the equation of motion reduces to :	यदि कोणीय विस्थापन का आयाम छोटा है तो हम सन्निकटन (sinθ ≈ θ) का उपयोग कर सकते हैं। उपरोक्त सन्निकटन पर विचार करने से, गति का समीकरण निम्न हो जाता है:
+The solution for equation of simple harmonic oscillator is	सरल हार्मोनिक थरथरानवाला के समीकरण के लिए समाधान है
+where, θ(t) is the history of oscillation, θ0 is the initial angle, ω=(g/l)1/2 is the natural frequency of the motion.	जहां, θ(t) दोलन का इतिहास है, θ0 प्रारंभिक कोण है, ω = (g / l) 1/2 गति की प्राकृतिक आवृत्ति है।
+Objective	उद्देश्य
+Objective of simple harmonic oscillator experiment is to understand the concept of time period (natural frequency) in harmonic oscillations .	सरल हार्मोनिक ऑसिलेटर प्रयोग का उद्देश्य हार्मोनिक दोलनों में समयावधि (प्राकृतिक आवृत्ति) की अवधारणा को समझना है।
+Experiment	प्रयोग
+Manual	गाइड
+Start the experiment with the default values of length, mass and intial displacement (in angle). Pause the experiment after few cycles and note the observation.	लंबाई, द्रव्यमान और अंतर विस्थापन के डिफ़ॉल्ट मूल्यों (कोण में) के साथ प्रयोग शुरू करें। कुछ चक्रों के बाद प्रयोग को रोकें और अवलोकन पर ध्यान दें।
+Observation 1:	अवलोकन 1:
+Find the time period of the pendulum by noting the time interval of any one complete cycle from the response graph.	प्रतिक्रिया ग्राफ से किसी एक पूर्ण चक्र के समय अंतराल को नोट करके पेंडुलम की समय अवधि ज्ञात करें।
+You may note that this time period value is same for any complete cycle. Read More	आप ध्यान दें कि इस समय अवधि का मान किसी भी पूर्ण चक्र के लिए समान है। अधिक पढ़ें
+Quizzes	क्विज़
+Q1. Time taken for one complete oscillation is called Time Period of the oscillator.	Q1. एक पूर्ण दोलन के लिए लिए गए समय को दोलक की समयावधि कहा जाता है।
+True	सत्य
+False	असत्य
+Q2.Time period of the oscillator is constant for given values of mass, length and initial conditions.	Q2. थरथरानवाला की समय अवधि द्रव्यमान, लंबाई और प्रारंभिक स्थितियों के दिए गए मूल्यों के लिए स्थिर है।
+True	सत्य
+False	असत्य
+Q3. Value of Time period depends on initial conditions.	Q3. समय अवधि का मूल्य प्रारंभिक स्थितियों पर निर्भर करता है।
+True	सत्य
+False	असत्य
+Q4. Value of time period depends on mass.	Q4.  समयावधि का मान द्रव्यमान पर निर्भर करता है।
+True	सत्य
+False	असत्य
+Q5. Value of time period depends on length of the oscillator.	Q5. समयावधि का मान दोलक की लंबाई पर निर्भर करता है।
+True	सत्य
+False	असत्य
+Procedure	प्रक्रिया
+Procedure for the experiment is as follows	प्रयोग की प्रक्रिया इस प्रकार है
+Further Readings	आगे की रीडिंग
+http://en.wikipedia.org/wiki/Simple_harmonic_motion	http://en.wikipedia.org/wiki/Simple_harmonic_motion
+http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html	http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html
+â€œDynamics of structuresâ€ by Anil K chopra.	â€œDynamics of structuresâ€ by Anil K chopra.
+http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html	http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html

@@ -1,0 +1,23 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशाला (वर्चुअल लैब्ज्) में आपका स्वागत है-भारत सरकार के मानव संसाधन विकास मंत्रालय (एमएचआरडी) की पहल
+Toggle navigation	टॉगल नेविगेशन
+HOME	घर (होम)
+ALL LABS	सभी प्रयोगशालाएं
+PARTNERS	भागीदार
+CONTACT	संपर्क करें
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	प्रस्तावना/भूमिका, परिकल्पना/सिद्धांत, उद्देश्य(ऑब्जेक्टिव) प्रयोग (एक्सपेरिमेंट), मैनुअल, प्रश्नावली (क्विज़), अतिरिक्त जानकारी (रीडिंग), प्रतिक्रिया (फीडबैक)
+Identification of Unknown Components Using Spectroscopic Techniques	स्पेक्ट्रोस्कोपिक तकनीकों का उपयोग करके अज्ञात घटकों की पहचान
+Principle behind all spectroscopic techniques is that under certain conditions, materials absorb or emit energy . Different spectroscopic techniques work over different ranges of frequency depending on the processes and magnitudes of the energy changes.	सभी स्पेक्ट्रोस्कोपिक तकनीकों के पीछे सिद्धांत यह है कि कुछ शर्तों के तहत, सामग्री ऊर्जा को अवशोषित या उत्सर्जित करती है। विभिन्न स्पेक्ट्रोस्कोपिक तकनीक ऊर्जा परिवर्तनों की प्रक्रियाओं और परिमाणों के आधार पर आवृत्ति की विभिन्न श्रेणियों पर काम करती हैं।
+Electromagentic radiation: microwave, Infra Red, Visible and Ultaviolet, X-ray and gamma rays spectroscopy.	इलेक्ट्रोमैगनेटिक विकिरण: माइक्रोवेव, इंफ्रा रेड, दृश्यमान और पराबैंगनी, एक्स-रे और गामा किरणें स्पेक्ट्रोस्कोपी।
+Acoustic spectrscopy	ध्वनिक स्पेक्ट्रोस्कोपी
+Other mechanical methods.	अन्य यांत्रिक विधियाँ।
+Updates	अब तक का(अपडेट)
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी प्रयोगशालाओं (वर्चुअल लैब्ज्) का एक नया सेट
+VLEAD Blog	विलिड ब्लॉग
+Sakshat Portal	साक्षात पोर्टल
+Nodal Center	नोडल केंद्र
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in
+Feedback	प्रतिक्रिया
+Follow us	हमारा अनुसरण करें

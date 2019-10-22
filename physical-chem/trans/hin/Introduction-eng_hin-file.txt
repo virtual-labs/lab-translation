@@ -1,0 +1,20 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशालाओं (वर्चुअल लैब्स) में आपका स्वागत है- एमएचआरडी भारत सरकार की एक पहल 
+Toggle navigation	टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना) 
+HOME	होम 
+ALL LABS	सभी प्रयोगशालाएँ (लैब्स) 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Chemical Sciences	रासायनिक विज्ञान 
+Introduction Experiments Target Audience Courses Aligned Pre-requisite Softwares Feedback	परिचय, प्रयोग लक्ष्य, श्रोतागणों का पाठ्यक्रम, संरेखित पूर्व-अपेक्षित सॉफ्टवेयर्स, प्रतिक्रिया 
+Physical Chemistry Lab	भौतिक रसायन विज्ञान प्रयोगशाला 
+Physical chemistry virtual laboratory is designed to introduce some spectroscopic and analytical techniques to students at various levels. Depending upon the nature of the source (energy), the material and their interaction there are various spectroscopic techniques that are widely studied in understanding chemical molecules and processes. In this context, we have developed ten sets of experiments which will cover the following techniques: Electron paramagnetic resonance spectroscopy which involves study of an unpaired electron of an atom or molecule (paramagnetic species) Proton Nuclear Magnetic Resonance Spectroscopy in which the hydrogen nuclei of the compound/substance is studied in order to determine the structure of organic compound Infrared spectroscopy involves the infrared region of the electromagnetic spectrum, is used for determination of functional groups in the compound. Mass spectroscopy is an analytical tool to weigh the molar masses of a given molecule. Voltammetry is an electroanalytical method in which the current is measured as a function of applied potential. The voltammogram gives the information of the analyte measured. Exposure to sophisticated and advance techniques, skills necessary to conduct experiment and interpret the data/spectra would be the outcome of the laboratory.	भौतिकी रसायन विज्ञान प्रायौगिक कार्यशाला, विभिन्न स्तरों पर छात्रों को, कुछ स्पेक्ट्रोस्कोपिक और विश्लेषणात्मक तकनीकों का परिचय कराने के लिए, तैयार की गयी है। स्रोत (ऊर्जा) के स्वरूप, पदार्थों एवं उनके पारस्परिक प्रभाव के आधार पर, विभिन्न स्पेक्ट्रोस्कोपिक तकनीकें हैं जिनका अध्ययन, रसायनिक अणुओं और प्रक्रियाओं को समझने में व्यापक रूप से किया जाता हैं। इस संदर्भ में, हमने प्रयोगों के दस सेट विकसित किये हैं जिनमें निम्नलिखित तकनीकों को देखेंगे: इलेक्ट्रॉन परा-चुंबकीय अनुकम्पन स्पेक्ट्रोस्कोपी, जिसमें एक परमाणु या अणु (परा-चुंबकीय प्रजाति) के बिना जोड़ी के एक इलेक्ट्रॉन का अध्ययन शामिल है, प्रोटॉन नाभकीय चुंबकीय अनुकम्पन स्पेक्ट्रोस्कोपी, जिसमें किसी यौगिक / पदार्थ के हाइड्रोजन नाभिकों का अध्ययन, कार्बनिक यौगिक की संरचना का निर्धारण करने के लिए किया जाता है। इन्फ्रारेड स्पेक्ट्रोस्कोपी में विद्युत चुम्बकीय स्पेक्ट्रम के इन्फ्रारेड क्षेत्र को शामिल किया जाता है, जिसका उपयोग यौगिक के कार्यात्मक समूहों के निर्धारण के लिए किया जाता है। द्रव्यमान स्पेक्ट्रोस्कोपी, किसी भी दिए गए अणु के आणविक द्रव्यमान को तौलने के लिए, एक विश्लेषणात्मक साधन है। वोल्टामेट्री, एक विद्युत विश्लेषणात्मक विधि है जिसमें विद्युत धारा को, प्रयुक्त सामर्थ्य के एक फलन के रूप में मापा जाता है। वोल्टामोग्राम, मापे गये विश्लेष्य पदार्थ के बारे में जानकारी देता है। परिष्कृत और अग्रिम तकनीकों के संपर्क में, प्रयोग करने के लिए आवश्यक कौशल और डेटा / स्पेक्ट्रा की व्याख्या करना प्रयोगशाला के परिणाम होंगे। 
+Updates	अपडेट्स(अभी_तक के) 
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया (प्रयोगशाला एकीकरण सामग्री 1.0.0 जारी की) 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी (वर्चुअल लैब्स)प्रयोगशाला का एक नया सेट 
+VLEAD Blog	व्हीलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया 
+Follow us	हमारा अनुगमन करें

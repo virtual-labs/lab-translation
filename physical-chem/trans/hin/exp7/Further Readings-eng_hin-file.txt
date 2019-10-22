@@ -1,0 +1,38 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशालाओं (वर्चुअल लैब्स) में आपका स्वागत है- एमएचआरडी भारत सरकार की एक पहल 
+Toggle navigation	टॉगल से संचालित करना,टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना) 
+HOME	होम 
+ALL LABS	सभी प्रयोगशालाएँ (लैब्स) 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	भूमिका, सिद्धांत,उद्देश्य, प्रयोग, मैनुअल क्विज़, आगे के पाठ्यांक, प्रतिक्रिया 
+Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy	 इन्स्ट्रूमेंटेशन एंड वर्किंग प्रिंसिपल्स ऑफ सोल्यूशंस इंफ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी 
+Book References:	संदर्भ के लिए पुस्तके : 
+Paula, Peter Atkins, Julio de (2009). Elements of physical chemistry (5th ed. ed.). Oxford: Oxford U.P	पाउला, पीटर एटकिन्स, जूलियो डे (2009)। भौतिक रसायन विज्ञान के तत्व (5 वां संस्करण ईडी)। ऑक्सफोर्ड: ऑक्सफोर्ड यू.पी. 
+Brian C Smith (1995). Fundamentals of Fourier Transform Infrared Spectroscopy	ब्रायन सी स्मिथ (1995)। फूरियर ट्रांसफ़ॉर्म इन्फ्रारेड स्पेक्ट्रोस्कोपी के मूल तत्व 
+Donald L. Pavia Gary M. Lampman, George S. Kriz James A. Vyvyan (2008) Introduction to Spectroscopy. Brooks/Cole	डोनाल्ड एल. पाविया गैरी एम. लैंपमैन, जॉर्ज एस. क्रिज़ जेम्स ए. व्यवयान (2008) इंट्रोडक्शन टू स्पेक्ट्रोस्कोपी। ब्रूक्स / कोल 
+Colin N. Banwell, Elaine M. McCash (1994). Fundamentals of Molecular Spectroscopy. Mcgraw hill.	कॉलिन एन. बैनवेल, ऐलेन एम. मैकाश (1994)। (आणविक स्पेक्ट्रोस्कोपी के मूल तत्व)। मक्ग्रॉ हिल। 
+References:	संदर्भ: 
+http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html	http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html 
+http://chem-ilp.net/labTechniques/IRVideo.htm	http://chem-ilp.net/labTechniques/IRVideo.htm 
+http://www.umass.edu/microbio/chime/ir-spect/#	http://www.umass.edu/microbio/chime/ir-spect/# 
+http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#	http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html# 
+http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm	http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm 
+http://solidstate.physics.sunysb.edu/book/prob/node111.html	http://solidstate.physics.sunysb.edu/book/prob/node111.html 
+http://www3.wooster.edu/chemistry/analytical/default.html	http://www3.wooster.edu/chemistry/analytical/default.html 
+http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument	http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument 
+http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html	http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html 
+http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry	http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry 
+http://www.chem.purdue.edu/gchelp/vibs/#	http://www.chem.purdue.edu/gchelp/vibs/# 
+http://www3.wooster.edu/chemistry/analytical/ftir/default.html	http://www3.wooster.edu/chemistry/analytical/ftir/default.html 
+http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html	http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html 
+Updates	अपडेट्स(अभी_तक के) 
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया(प्रयोगशाला एकीकरण सामग्री 1.0.0 जारी की गई) 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी प्रयोगशालाओं (वर्चुअल लैब्स) का एक नया सेट 
+VLEAD Blog	 वीलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया 
+Follow us	हमारा अनुगमन करें

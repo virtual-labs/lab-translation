@@ -1,0 +1,16 @@
+Graph Plot	గ్రాఫ్ ప్లాట్
+Mouse hovers at	వద్ద మౌస్ హోవర్స్
+(0, 0 ).	(0, 0).
+Proton environment	ప్రోటాన్ పర్యావరణం
+Q1.How many types of proton environment are present ?	Q1. ఎన్ని రకాల ప్రోటాన్ వాతావరణం ఉన్నాయి?
+Ans:	జ:
+Q2.How many different nmr signals would you expect ?	Q2. మీరు ఎన్ని విభిన్న ఎన్ఎమ్ఆర్ సిగ్నల్స్ ఆశించారు?
+Ans:	జ:
+Chemical Shift	కెమికల్ షిఫ్ట్
+Q3.Give the chemical shift:-	Q3. రసాయన మార్పు ఇవ్వండి: -
+Ans:	జ:
+Splitting pattern	విభజన నమూనా
+Q4.Number of neighbouring protons ?	Q4. పొరుగు ప్రోటాన్ల సంఖ్య?
+Ans:	జ:
+Q5.Number of lines expected ?	Q5. Expected హించిన పంక్తుల సంఖ్య?
+Ans:	జ:

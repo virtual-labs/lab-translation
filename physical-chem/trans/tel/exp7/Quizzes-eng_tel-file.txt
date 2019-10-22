@@ -1,0 +1,71 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	భారత ప్రభుత్వం చొరవతో, MHRD-వర్చువల్ ప్రయెాగశాలకు స్వాగతం 
+Toggle navigation	టోగుల్ నావిగేషన్‌ 
+HOME	హోం 
+ALL LABS	అన్ని ప్రయెాగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయన శాస్త్రాలు → భౌతిక రసాయన శాస్త్ర ప్రయోగశాల → ప్రయోగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం సిద్ధాంతం లక్ష్యం ప్రయోగం సంపుటి(మాన్యువల్) క్విజ్స్ ముందస్తు అవసరమైన సాఫ్ట్‌వేర్లు మరింత చదవల్సినవి అభిప్రాయాలు 
+Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy	ద్రావణాల ఇన్ఫ్రారెడ్ (ఐఆర్) స్పెక్ట్రోస్కోపీ యెుక్క నిర్మాణం మరియు పని చేసే సూత్రాలు 
+right answer!	సరైన సమాధానం! 
+oops, wrong answer!	అయ్యో, తప్పు సమాధానం! 
+1. Molecular vibration requires:	1. అణువుల కంపనాలకు(మాలిక్యులర్ వైబ్రేషన్) అవసరమైనవి: 
+a. high energy radiation	ఎ. అధిక శక్తి రేడియేషన్ 
+b. low-energy radiation	బి. తక్కువ శక్తి రేడియేషన్ 
+c. least energy radiation	సి. కనీస శక్తి రేడియేషన్ 
+d. gamma radiation	d. గామా రేడియేషన్ 
+2. The IR spectrum is usually given as:	2. ఐఆర్ స్పెక్ట్రం సాధారణంగా ఇలా ఇవ్వబడుతుంది: 
+a. Hertz	ఎ. హెర్ట్జ్ 
+b. Wavenumber	బి. తరంగసంఖ్య 
+c. Frequency	సి. పౌనః పున్యం 
+d. Option a and b	డి. ఎ మరియు బి 
+3. The relation between the wavenumber and the wavelenght is:	3. తరంగసంఖ్య మరియు తరంగదైర్ఘ్యం మధ్య సంబంధం: 
+a. Wavenumber = 1 / wavelength in centimeters	ఎ. తరంగసంఖ్య = 1 / సెంటీమీటర్లలో తరంగదైర్ఘ్యం 
+b. Wavenumber = 100 / wavelength in nanometers	బి. తరంగసంఖ్య = 100 / నానోమీటర్లలో తరంగదైర్ఘ్యం 
+c. Wavelength in nanometers = 1 / wavenumber	సి. నానోమీటర్లలో తరంగదైర్ఘ్యం = 1 / తరంగసంఖ్య 
+d. not related	డి. దేనికి సంభందించినది కాదు 
+4. The IR measurements are given in wavenumber (cm-1) rather than wavelength because:	4. IR కొలతలు తరంగదైర్ఘ్యం కంటే తరంగసంఖ్య (సెం.మీ -1) లో ఇవ్వబడ్డాయి ఎందుకంటే: 
+a. wavelength measured in centimeters are too large area to scan	ఎ. సెంటీమీటర్లలో కొలిచిన తరంగదైర్ఘ్య ప్రాంతం స్కాన్ చేయాడానికి చాలా పెద్దగా ఉంటుంది 
+b. wavelength measured in centimeters are large value to read and interpret	బి. సెంటీమీటర్లలో కొలిచిన తరంగదైర్ఘ్యం విలువ చదవడం మరియు అర్థం చేసుకోవడానికి పెద్దదిగా ఉంటుంది 
+c. wavelength measured in micrometers are very small value to read and interpret	సి. మైక్రోమీటర్లలో కొలిచిన తరంగదైర్ఘ్యం విలువ చదవడం మరియు అర్థం చేసుకోవడానికి చిన్నదిగా ఉంటుంది 
+d. wavelength measured in micrometers are too large area to scan	డి. మైక్రోమీటర్లలో కొలిచిన తరంగదైర్ఘ్యం ప్రాంతం స్కాన్ చేయాడానికి చాలా పెద్దగా ఉంటుంది 
+5. Which of the following is not an IR vibrational mode:	5. క్రింది వాటిలో ఏది ఐఆర్ కంపన స్ధితి(వైబ్రేషనల్ మోడ్) కాదు: 
+a. stretching	ఎ. సాగదీయడం 
+b. scissoring	బి. కత్తిరించడం 
+c. rocking	సి. ఊగడం 
+d. rolling	డి. దొర్లించడం 
+6. Which among the following requires the most energy?	6. కింది వాటిలో దేనికి ఎక్కువ శక్తి అవసరం? 
+a. asymmetric stretch	ఎ. అసౌష్టవ సాగదీత 
+b. wag and twist	బి. ఊపడం మరియు మెలిపెట్టడం 
+c. asymmetric bend	సి. అసౌష్టవంగా వంచడం 
+d. symmetric bend	d. సౌష్టవంగా వంచడం 
+7. A typical IR spectrum can be divided into two regions 600 to 1400cm-1 (right portion) and 1400 to 4000cm-1 left portion) , the right portion of the spectrum is called	7. ఒక సాధారణ ఐఆర్ స్పెక్ట్రంను 600 నుండి 1400 సెం.మీ -1 (కుడి భాగం) మరియు 1400 నుండి 4000 సెం.మీ -1(ఎడమ భాగం) అనే రెండు ప్రాంతాలుగా విభజించవచ్చు, స్పెక్ట్రం యొక్క కుడి భాగాన్ని ఏం అంటారంటే 
+a. right region	ఎ. కుడి ప్రాంతం 
+b. funtional group region	బి. క్రియాశీలక(గ్రూప్)ప్రాంతం 
+c. finger print region	సి. వేలు ముద్రణ ప్రాంతం 
+d. vibrational region	డి. కంపన ప్రాంతం 
+8. Which of the foloowing amines show two spikes for the N-H streching?	8. N-H స్ట్రెచింగ్ లో ఏ ఎమైన్ లు రెండు శిఖరాలని(స్పైక్‌లు) చూపిస్తాయి? 
+a. Primary amines	ఎ. ప్రాథమిక(Primary) ఎమైన్స్ 
+b. Secondary amines	బి. గౌణ(Secondary) అమైన్స్ 
+c. Tertiary amines	సి. తృతీయ ఎమైన్స్ 
+d. All the above	డి. పైవన్నీ 
+9. The O-H group in alcohol and carboxylic acids show at:	9. ఆల్కహాల్ మరియు కార్బాక్సిలిక్ ఆమ్లాలలో O-H సమూహం ఎక్కడ చూపిస్తుంది: 
+a. At the same region around 3000cm-1	ఎ. అదే ప్రాంతంలో దాదాపుగా 3000 సెం.మీ -1 వద్ద 
+b. alcohol at 3300cm-1 and carboxylic acid at 3000cm-1	బి. 3300cm-1 వద్ద ఆల్కహాల్ మరియు 3000cm-1 వద్ద కార్బాక్సిలిక్ ఆమ్లం 
+c. alcohol at 3000cm-1 and carboxylic acid at 3300cm-1	సి. 3000cm-1 వద్ద ఆల్కహాల్ మరియు 3300cm-1 వద్ద కార్బాక్సిలిక్ ఆమ్లం 
+d. Cannot say	d. చెప్పలేము 
+10. While handling the salt plates it is important not to use bare hands because:	10. ఉప్పు పలకలను వాడేటప్పుడు ముఖ్యంగా ఉత్త చేతులు ఉపయోగించకూడదు ఎందుకంటే: 
+a. The moisture from the hand would affect the salt plates and the spectrum	ఎ. చేతిలో ఉండే తేమ ఉప్పు పలకలు మరియు స్పెక్ట్రంపై ప్రభావం చూపుతుంది 
+b. The solvents used are often carcinogenic.	బి. తరచుగా ఉపయోగించే ద్రావకాలు క్యాన్సర్ కారకాలు. 
+c. The oils and dirt on your fingers will affect your spectrum.	సి. మీ వేళ్ళలోని జిడ్డు మరియు ధూళి మీ స్పెక్ట్రంను ప్రభావితం చేస్తాయి. 
+d. All of the above.	డి. పైన ఉన్నవన్నీ. 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయెాగశాల అనుసంధాన కిట్ 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గౌహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్ 
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ప్రయెాగశాలల కొత్త సమూహం 
+VLEAD Blog	VLEAD బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ సెంటర్ 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

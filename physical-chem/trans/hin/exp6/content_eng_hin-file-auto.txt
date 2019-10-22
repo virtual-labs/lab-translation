@@ -1,0 +1,134 @@
+Physical Chemistry Lab	भौतिकी रसायन विज्ञान प्रयोगशाला 
+Principles of Electron Paramagnetic Resonance Spectroscopy	इलेक्ट्रॉन पैरामैग्नेटिक अनुकम्पन (रेजोनेंस) स्पेक्ट्रोस्कोपी के सिद्धांत 
+Introduction	परिचय 
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.	नमक प्लेटों का उपयोग करते हुए इन्फ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी के उपकरण एवं कार्य सिद्धांत। 
+Infrared region lies between the visible and microwave regions of the electromagnetic spectrum and works mostly based on absorption spectroscopy. The infrared portion of the electromagnetic spectrum is usually divided into three regions; the near or higher energy IR, mid IR and far or low energy infrared. The mid-infrared which is (4000 - 400 cm-1 ) gives the fundamental vibrations and associated rotational-vibrational structure of the substance under study. Infrared spectroscopy is an absorption of infrared radiation by the molecules and is used to elucidate the structure of the molecule by identifying their functional groups. One of the common laboratory instruments that use this technique is a Fourier transform infrared (FTIR) spectrometer.	अवरक्त (इंफ्रारेड) क्षेत्र (इलेक्ट्रोमैग्नेटिक) विद्युत चुम्बकीय स्पेक्ट्रम के दृश्य और माइक्रोवेव क्षेत्रों के बीच स्थित है और ज्यादातर अवशोषण स्पेक्ट्रोस्कोपी पर आधारित है। विद्युत चुम्बकीय स्पेक्ट्रम का अवरक्त (इंफ्रारेड) भाग आमतौर पर तीन क्षेत्रों में विभाजित होता है; निकट या उच्च ऊर्जा आईआर, मध्य आईआर और दूर या कम ऊर्जा अवरक्त। मध्य-अवरक्त जो (4000-400 cm-1) अध्ययन के तहत पदार्थ के मौलिक कंपन और संबंधित घूर्णी-कंपन संरचना देता है। इन्फ्रारेड स्पेक्ट्रोस्कोपी अणुओं द्वारा अवरक्त विकिरण का अवशोषण है और उनके कार्यात्मक समूहों की पहचान करके अणु की संरचना को स्पष्ट करने के लिए उपयोग किया जाता है। इस तकनीक का उपयोग करने वाले आम प्रयोगशाला उपकरणों में से एक फूरियर ट्रांसफॉर्म इंफ्रारेड (FTIR) स्पेक्ट्रोमीटर है। 
+Figure 1: Energy levels of molecules.	चित्र 1: अणुओं का ऊर्जा स्तर। 
+Picture source: http://www.wag.caltech.edu/home/jang/genchem/infrared.htm	चित्र स्रोत: http://www.wag.caltech.edu/home/jang/genchem/infrared.htm 
+Theory	सिद्धांत
+When two atoms combine to form a stable covalent moleculer, there are two repulsion forces acting between the two hetero atoms. One between the positively charged nuclei of both the atoms and the other between the negative electron clouds. The other force is the attraction between the nucleus of one atom with the electons of the other atom. Balancing the forces between them, the two atoms settle at a mean internuclear distance or the bond length where the total energy of the system is minimum. Any change like pulling the atoms away or squeezing them brings change in the bond length which requires an input of energy.	जब दो परमाणु एक स्थिर सहसंयोजक अणु बनाने के लिए संयोजित होते हैं, तो दो हेटरो परमाणुओं के बीच दो प्रतिकर्षण बल कार्य करते हैं। दोनों परमाणुओं के सकारात्मक रूप से चार्ज नाभिक के बीच और दूसरा नकारात्मक इलेक्ट्रॉन बादलों के बीच। अन्य बल एक परमाणु के नाभिक के बीच का आकर्षण है, दूसरे परमाणु के इलेक्ट्रान के साथ। उन दोनों के बीच बलों को संतुलित करते हुए, दो परमाणु एक आंतरिक दूरी या बांड की लंबाई पर व्यवस्थित होते हैं जहां सिस्टम की कुल ऊर्जा न्यूनतम होती है। किसी भी परिवर्तन जैसे परमाणुओं को खींचना या उन्हें निचोड़ना बांड की लंबाई में परिवर्तन लाता है जिसके लिए ऊर्जा के इनपुट की आवश्यकता होती है।
+A diatomic molecule with the above description is considered as two vibrating masses that are connected by a spring. The internuclear distance between the atoms at energy minimum is referred to as the equilibrium distance (re)Any change in this distance is given by Hooke' law as:	उपरोक्त विवरण के साथ एक डायटोमिक अणु को दो हिलने वाले द्रव्यमान के रूप में माना जाता है जो एक वसंत से जुड़े होते हैं। न्यूनतम ऊर्जा पर परमाणुओं के बीच की आंतरिक दूरी को संतुलन दूरी (पुनः) के रूप में संदर्भित किया जाता है। इस दूरी में कोई भी परिवर्तन हूक के नियम द्वारा दिया गया है:
+f = -k(r-re)	f = -k(r-re)
+where f is the restoring force and r is the bond length. The energy associated cinsidering the energy curve to be parobolic is given as :	जहां f रिस्टोरिंग फोर्स है और r बॉन्ड लेंथ है। पैरोबोलिक होने के लिए ऊर्जा वक्र से संबंधित ऊर्जा निम्नानुसार है:
+E= 1/2k(r-re)2	E= 1/2k(r-re)2
+Figure 2: Vibrational energy levels and allowed transitions between them for a diatomic molecule in a simple harmonic motion.	चित्र 2: कंपन ऊर्जा का स्तर और उनके बीच एक सरल हार्मोनिक गति में एक डायटोमिक अणु के लिए संक्रमण की अनुमति है।
+Picture source: http://condensedconcepts.blogspot.in/2011/10/concrete-test-of-morse-potential-in.htm	चित्र स्रोत: http://condensedconcepts.blogspot.in/2011/10/concrete-test-of-morse-potential-in.htm
+For any haormonic oscillator, when the bond vibrates, its enrgy of vibration is changing continually and periodically from kinetic to potential enrgy and back again. The total energy is proportional to the frequency of vibration, and is given as:	किसी भी हॉरमोनिक ऑसिलेटर के लिए, जब बॉन्ड वाइब्रेट होता है, तो वाइब्रेशन की अपनी ऊर्जा लगातार और समय-समय पर काइनेटिक से संभावित एनर्जी और फिर से वापस बदलती रहती है। कुल ऊर्जा कंपन की आवृत्ति के लिए आनुपातिक है, और निम्नानुसार दिया गया है:
+Eosc = hνosc	Eosc = hνosc
+The elastic nature of the bond has an intrinsic vibrational frequency which is determined by the force constant K of the spring or its stiffness, the masses of the bonded atoms.	बांड की लोचदार प्रकृति में एक आंतरिक कंपन आवृत्ति होती है जो वसंत के बल K के स्थिर या इसकी कठोरता से निर्धारित होती है, बंधी हुई परमाणुओं की जनता।
+where c is the speed of light, and μ is the reduced mass of the system which is given by:	जहाँ c प्रकाश की गति है, और μ सिस्टम का घटा हुआ द्रव्यमान है जो निम्न द्वारा दिया जाता है:
+μ = m1m2/m1 + m2 	μ = m1m2/m1 + m2
+The value of the force constant varies from bond to bond. K for a triple bond is three times those of a single bond and for a double bond it is twice those of a single bond. There are two significant features that can be drawn:	बल स्थिरांक का मान बंधन से भिन्न होता है। ट्रिपल बॉन्ड के लिए K एक सिंगल बॉन्ड के तीन गुना होता है और एक डबल बॉन्ड के लिए यह सिंगल बॉन्ड का दोगुना होता है। खींची जा सकने वाली दो महत्वपूर्ण विशेषताएं हैं:
+1. Strong bonds have large force constants and vibrate at a higher frequency than the weaker bonds.	1. मजबूत बॉन्ड में बड़े बल स्थिरांक होते हैं और कमजोर बॉन्ड की तुलना में उच्च आवृत्ति पर कंपन होते हैं।
+2. Bonds between the heavy atoms (larger reduced mass) vibrate at a lower frequency than that of bonds between the lighter atoms.	2. भारी परमाणुओं (बड़े कम द्रव्यमान) के बीच के बांड, हल्के परमाणुओं के बीच बांड की तुलना में कम आवृत्ति पर कंपन करते हैं।
+Figure 3: Vibrational modes of an organic molecule.The energy of molecular vibration is quantised. A molecule can only stretch and bend at certain allowed frequencies.	चित्र 3: एक कार्बनिक अणु के कंपन मोड। आणविक कंपन की ऊर्जा मात्रा है। एक अणु केवल कुछ निश्चित आवृत्तियों पर खिंचाव और झुक सकता है।
+Picture source: http://chemwiki.ucdavis.edu/Organic_Chemistry/Organic_Chemistry_With_a_Biological_Emphasis/Chapter__4%3A_Structure_Determination_I/Section_4.2%3A__Infrared_spectroscopy	चित्र स्रोत: http://chemwiki.ucdavis.edu/Organic_Chemistry/Organic_Chemistry_With_a_Biological_Emphasis/Chapter__4%3A_ructure_Determination_I/Section_4.2%3A__Infrared_spectroscopy
+Sample preparation for Infrared spectroscopy:	इन्फ्रारेड स्पेक्ट्रोस्कोपी के लिए नमूना तैयार करना:
+The sample to be measured must be taken in a sample holder or cell which is made of ionic substance. Sodium chloride or potassium bromide plates are used. Potassium bromide plates are more expensive than sodium chloride but has an advantage over the sodium chloride because of the asbsorbs at 650cm-1. Glass or platics absorb strongly through the infrared region.	मापा जाने वाला नमूना एक नमूना धारक या सेल में लिया जाना चाहिए जो आयनिक पदार्थ से बना हो। सोडियम क्लोराइड या पोटेशियम ब्रोमाइड प्लेटों का उपयोग किया जाता है। पोटेशियम ब्रोमाइड प्लेट सोडियम क्लोराइड की तुलना में अधिक महंगे हैं, लेकिन 650 सेमी -1 पर एस्कॉर्बर्स की वजह से सोडियम क्लोराइड पर एक फायदा है। ग्लास या प्लैटिक्स अवरक्त क्षेत्र के माध्यम से दृढ़ता से अवशोषित करते हैं।
+Liquids: A drop of the liquid sample is placed between a pair of polished IR salt plates. The plates are pressed together and the sample forms a thin film between the salt plates. A spectrum obtained by this method is neat for there is no use of solvent in the sample preparation.	तरल पदार्थ: तरल नमूने की एक बूंद पॉलिश आईआर नमक प्लेटों की एक जोड़ी के बीच रखी जाती है। प्लेटों को एक साथ दबाया जाता है और नमूना नमक प्लेटों के बीच एक पतली फिल्म बनाता है। नमूना तैयार करने में विलायक का कोई उपयोग नहीं होने के लिए इस विधि द्वारा प्राप्त स्पेक्ट्रम साफ-सुथरा है।
+Solids: One of the methods used to prepare sample is the Bbr Pellet method. Where the sample is powdered along with KBr and pressed under high pressure to form a pellet.	सॉलिड्स: नमूना तैयार करने के लिए इस्तेमाल की जाने वाली विधियों में से एक Bbr गोली विधि है। जहां नमूना केबीआर के साथ पाउडर किया जाता है और एक गोली बनाने के लिए उच्च दबाव में दबाया जाता है।
+The other method is the Nujol method where the sample is ground along with few drops of mineral oil or nujol and the thick suspension is place between the salt plates.	दूसरी विधि नुजूल विधि है जहां नमूना खनिज तेल या नुजोल की कुछ बूंदों के साथ जमीन है और नमक प्लेटों के बीच मोटी निलंबन है।
+Figure 4: IR salt plates (Sodium Chloride)	चित्र 4: IR नमक प्लेटें (सोडियम क्लोराइड)
+Picture source: http://www.sciencephoto.com/media/222708/view	चित्र स्रोत: http://www.sciencephoto.com/media/222708/view
+The Infrared Spectrometer:	इन्फ्रारेड स्पेक्ट्रोमीटर:
+The infrared spectrometer or the spectrophotometer is the instrument that determines the IR absorption spectra of a compound. There are two types of spectrometers that are widely used in laboratories.	अवरक्त स्पेक्ट्रोमीटर या स्पेक्ट्रोफोटोमीटर एक उपकरण है जो एक यौगिक के आईआर अवशोषण स्पेक्ट्रा को निर्धारित करता है। दो प्रकार के स्पेक्ट्रोमीटर हैं जो प्रयोगशालाओं में व्यापक रूप से उपयोग किए जाते हैं।
+a. Dispersive infrared spectrometers	ए। फैलाने वाले अवरक्त स्पेक्ट्रोमीटर
+b. Fourier-Transform spectrometers	ख। फूरियर-ट्रांसफॉर्म स्पेक्ट्रोमीटर
+Figure4: The main components of a fourier transform infrared (FTIR) spectrophotometer.	चित्रा 4: एक फूरियर के मुख्य घटक अवरक्त (एफटीआईआर) स्पेक्ट्रोफोटोमीटर को बदलते हैं।
+Picture source: http://cnx.org/content/m34660/latest/?collection=col10699/latest	चित्र स्रोत: http://cnx.org/content/m34660/latest/?collection=col10699/lestest
+FT-IR spectrometers are the modern spectometers that provide the spectrum more rapidly than the dispersive ones. The optical pathway produces a pattern called the interferogram. This is a complex signal which is a plot of intensity versus time. For more practical purposes this time-domine spectrum is converted to a frequency-domain spectrum, that is intensity versus frequency. This conversion is done by a mathematical operation called a Fourier-Transform (FT). FT separates the individual frequencies from the interferogram producing a virtual spectrum identical to the one abtained form dispersive spectrometers. The biggest advantage of using a FT-IR spectometers is that it is possible to collect number of interferograms of the same sample in less than a second. When a fourier-Transform is performed a sum of all the interferograms gives spectrum which has a better signal to noise ratio. Greater speed and greater sensitivity makes FT-IR spectrometers preferred over dispersive spectometers.	एफटी-आईआर स्पेक्ट्रोमीटर आधुनिक स्पेक्ट्रोमीटर हैं जो स्पेक्ट्रम को फैलाने वाले की तुलना में अधिक तेजी से प्रदान करते हैं। ऑप्टिकल पाथवे इंटरफेरोग्राम नामक एक पैटर्न का उत्पादन करता है। यह एक जटिल संकेत है जो तीव्रता बनाम समय की एक साजिश है। अधिक व्यावहारिक उद्देश्यों के लिए यह टाइम-डोमिन स्पेक्ट्रम एक आवृत्ति-डोमेन स्पेक्ट्रम में बदल जाता है, जो कि तीव्रता बनाम आवृत्ति है। यह रूपांतरण एक गणितीय ऑपरेशन द्वारा किया जाता है जिसे फूरियर-ट्रांसफॉर्म (एफटी) कहा जाता है। एफटी अलग-अलग आवृत्तियों को अलग-अलग आवृत्तियों से अलग करता है जो एक आभासी स्पेक्ट्रम का उत्पादन करता है जो एक प्राप्त प्रपत्र डिस्पेंसर स्पेक्ट्रोमीटर के समान है। एफटी-आईआर स्पेक्ट्रोमीटर का उपयोग करने का सबसे बड़ा लाभ यह है कि एक सेकंड से भी कम समय में एक ही नमूने के इंटरफेरोग्राम की संख्या एकत्र करना संभव है। जब एक फूरियर-ट्रांसफॉर्म किया जाता है तो सभी इंटरफेरोग्राम का योग स्पेक्ट्रम देता है जो शोर अनुपात के लिए बेहतर संकेत है। ग्रेटर गति और अधिक संवेदनशीलता एफटी-आईआर स्पेक्ट्रोमीटर को फैलाने वाले स्पेक्ट्रोमीटर से अधिक पसंद करती है।
+Objective
+(i) To learn sample prepartion and handling procedures to measure an IR spectrum using salt plates.	(i) नमक प्लेटों का उपयोग करके आईआर स्पेक्ट्रम को मापने के लिए नमूना पूर्वसर्ग और हैंडलिंग प्रक्रियाओं को सीखना।
+(ii) Spectral analysis of the sample measured.	(ii) मापे गए नमूने का स्पेक्ट्रल विश्लेषण।
+Experiment	प्रयोग
+Click here 	यहाँ क्लिक करें
+Manual	गाइड
+Follow the procedure given below:	नीचे दी गई प्रक्रिया का पालन करें:
+1. Click on the sample bottle (the first bottle) to transfer a small quantity of the sample to the mortar.	1. नमूना की एक छोटी मात्रा मोर्टार में स्थानांतरित करने के लिए नमूना बोतल (पहली बोतल) पर क्लिक करें।
+2. Click on the mortar to grind the sample to fine paste	2. नमूने को महीन पीसने के लिए मोर्टार पर क्लिक करें
+3. Click on the bottle containing Nujol to transfer few drops to the mortar.	3. मोर्टार को कुछ बूंदों को स्थानांतरित करने के लिए नुजोल युक्त बोतल पर क्लिक करें।
+4. Click on the mortar to make a fine paste of sample	4. नमूना का एक अच्छा पेस्ट बनाने के लिए मोर्टार पर क्लिक करें
+5. Transfer the sample prepared onto one of the IR discs	5. आईआर डिस्क में से एक पर तैयार किए गए नमूने को स्थानांतरित करें
+6. Place carefully the other disc and press to form a thin film.	6. ध्यान से दूसरे डिस्क को रखें और एक पतली फिल्म बनाने के लिए दबाएं।
+7. Move the IR plates to the plate holder	7. आईआर धारक को प्लेट धारक पर ले जाएं
+8. Place the other part of the holder to sandwich the IR discs.	8. IR डिस्क को सैंडविच करने के लिए धारक के दूसरे भाग को रखें।
+9. Click on the holder to place the the sample in the spectrometer.	9. स्पेक्ट्रोमीटर में नमूना रखने के लिए धारक पर क्लिक करें।
+10. Click start to run the spectrometer.	10. स्पेक्ट्रोमीटर चलाने के लिए स्टार्ट पर क्लिक करें।
+Quizzes	क्विज़
+right answer!	सही उत्तर! 
+oops, wrong answer!	उफ़, गलत जवाब! 
+1. The most commonly used and relatively less expensive cell for routine use in IR spectroscopy is:	1. सबसे अधिक इस्तेमाल किया और आईआर स्पेक्ट्रोस्कोपी में नियमित उपयोग के लिए अपेक्षाकृत कम महंगी सेल है:
+a. Sodium chloride	ए. सोडियम क्लोराइड
+b. Potassium Chloride	बी. पोटेशियम क्लोराइड
+c. Glass Cells	सी. ग्लास सेल
+d. Plastic Cells	डी. प्लास्टिक सेल
+2. Materials made of glass are not used for IR measurement because:	2. ग्लास से बनी सामग्री का उपयोग IR माप के लिए नहीं किया जाता है क्योंकि:
+a. strongly absorb through out the IR region of the spectrum.	ए. स्पेक्ट्रम के आईआर क्षेत्र के माध्यम से दृढ़ता से अवशोषित.
+b. do not absorb through out the IR region of the spectrum.	बी. स्पेक्ट्रम के आईआर क्षेत्र के माध्यम से अवशोषित नहीं करते.
+c. udergo scattering.	सी. udergo बिखरना.
+d. remains unaltered	डी. अनछुआ रहता है
+3. To measure the Spectrum of a compound in the range of 4000 to 400 cm-1 the following plates is used:	3. 4000 से 400 सेमी -1 की सीमा में एक परिसर के स्पेक्ट्रम को मापने के लिए निम्नलिखित प्लेटों का उपयोग किया जाता है:
+a. Glass plates	ए. कांच की प्लेटें
+b. Sodium chloride plates	बी. सोडियम क्लोराइड प्लेटें
+c. Potassium bromide plates	सी. पोटेशियम ब्रोमाइड प्लेटें
+d. Silica plates	डी. सिलिका की प्लेटें
+4. Which of the following bonds is expected to have the highest frequency stretch?	4. निम्न में से किस बॉन्ड से उच्चतम आवृत्ति खिंचाव होने की उम्मीद है?
+a. carbon-carbon single bond	ए. कार्बन-कार्बन एकल बंधन
+b. carbon-carbon double bond	बी. कार्बन-कार्बन डबल बॉन्ड
+c. carbon-carbon triple bond	सी. कार्बन-कार्बन ट्रिपल बांड
+d. carbon-bromine single bond	डी. कार्बन-ब्रोमाइन एकल बंधन
+5. A strong signal at 3300 cm-1 in an IR spectrum indicates presence of	5. आईआर स्पेक्ट्रम में 3300 सेमी -1 पर एक मजबूत संकेत की उपस्थिति का संकेत देता है
+a. alcohol	ए. शराब
+b. ether	बी. ईथर
+c. carbonyl	सी. कार्बोनिल
+d. amine	डी. अमाइन
+6. The carbonyl (C=O) stretching frequency appears at:	6. कार्बोनिल (C = O) स्ट्रेचिंग फ़्रीक्वेंसी यहाँ दिखाई देती है:
+a. 740 - 720	ए. 740 - 720
+b. 1870 - 1650	बी. 1870 - 1650
+c. 3640 - 3250	सी. 3640 - 3250
+d. 1160 - 1030	डी. 1160 - 1030
+7. Where in an IR spectrum does a carbon-carbon triple bond show a stretching vibration	7. जहां एक IR स्पेक्ट्रम में एक कार्बन-कार्बन ट्रिपल बॉन्ड एक स्ट्रेचिंग कंपन दिखाता है
+a. 2700 cm-1	ए. 2700 सेमी -1
+b. 3100 cm-1	बी. 3100 सेमी -1
+c. 2100 cm-1	सी. 2100 सेमी -1
+d. 3300 cm-1	डी. 3300 सेमी -1
+8. Infrared spectroscopy provides valuable information about	8. इन्फ्रारेड स्पेक्ट्रोस्कोपी के बारे में बहुमूल्य जानकारी प्रदान करता है
+a. molecular weight	ए. आणविक वजन
+b. Physical properties	बी. भौतिक गुण
+c. chemical properties	सी. रासायनिक गुण
+d. functional groups.	डी. कार्यात्मक समूह।
+9. What determines the intensity of an IR peak absorption in an IR spectrum?	9. IR स्पेक्ट्रम में IR चोटी के अवशोषण की तीव्रता क्या निर्धारित करती है?
+a. the change in polarizability during vibration	ए. कंपन के दौरान ध्रुवीकरण में परिवर्तन
+b. the change in bond length during vibration	बी. कंपन के दौरान बंधन की लंबाई में परिवर्तन
+c. the change in dipole moment during vibration	सी. कंपन के दौरान द्विध्रुवीय क्षण में परिवर्तन
+d. the molecular weight of the bonding atoms	डी. बंधन परमाणुओं का आणविक भार
+10. The most effect method of IR spectroscopy is the:	10. IR स्पेक्ट्रोस्कोपी का सबसे प्रभावी तरीका है:
+a. Dispersion spectrometers	ए. डिस्पेरशन स्पेक्ट्रोमीटर
+b. Reflection spectrometers	बी. प्रतिबिंब स्पेक्ट्रोमीटर
+c. Fourier-Transform spectrometers	सी. फूरियर-ट्रांसफॉर्म स्पेक्ट्रोमीटर
+d. Deflection spectrometers	डी. प्रतिक्षेपक स्पेक्ट्रोमीटर
+Further Readings
+Book References:	पुस्तक संदर्भ: 
+1. Paula, Peter Atkins, Julio de (2009). Elements of physical chemistry (5th ed. ed.). Oxford: Oxford U.P	1. पाउला, पीटर एटकिन्स, जूलियो डे (2009)। भौतिक रसायन विज्ञान के तत्व (5 वा संस्करण. एड.)। ऑक्सफोर्ड: ऑक्सफोर्ड यू.पी. 
+2. Brian C Smith (1995). Fundamentals of Fourier Transform Infrared Spectroscopy, Donald L. Pavia Gary M. Lampman, George S. Kriz James A. Vyvyan (2008) Introduction to Spectroscopy. Brooks/Cole	2. ब्रायन सी स्मिथ (1995).फंडामेंटल्स ऑफ फूरियर ट्रांसफॉर्म इंफ्रारेड स्पेक्ट्रोस्कोपी, डोनाल्ड एल. पाविया गैरी एम. लैम्पमैन, जॉर्ज एस. क्रिज़ जेम्स ए. विव्यान (2008) इंट्रोडक्शन टू स्पेक्ट्रोस्कोपी. ब्रूक्स/कोल 
+3. Colin N. Banwell, Elaine M. McCash (1994). Fundamentals of Molecular Spectroscopy. Mcgraw hill.	3. कॉलिन एन. बानवेल, ऐलेन एम. मैकाश (1994). फंडामेंटल्स ऑफ मॉलेक्युलर स्पेक्ट्रोस्कोपी. मैकग्रोव हिल. 
+Other references:	अन्य संदर्भ: 
+1. http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html	1. http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html 
+2. http://chem-ilp.net/labTechniques/IRVideo.htm	2. http://chem-ilp.net/labTechniques/IRVideo.htm 
+3 http://www.umass.edu/microbio/chime/ir-spect/#	3 http://www.umass.edu/microbio/chime/ir-spect/# 
+4. http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#	4. http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html# 
+5. http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm	5. http://www2.chemistry.msu.edu/facademy/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm 
+6. http://solidstate.physics.sunysb.edu/book/prob/node111.html	6. http://solidstate.physics.sunysb.edu/book/prob/node111.html 
+7. http://www3.wooster.edu/chemistry/analytical/default.html	7. http://www3.wooster.edu/chemistry/analytical/default.html 
+8. http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument	8. http://facademy.sdmiramar.edu/fgarces/LabMatters/Instelines/FTIR/FTIR.htm#Instrument 
+9. http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html	9. http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html 
+10. http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry	10. http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry 
+11. http://www.chem.purdue.edu/gchelp/vibs/#	11. http://www.chem.purdue.edu/gchelp/vibs/# 
+12. http://www3.wooster.edu/chemistry/analytical/ftir/default.html	12. http://www3.wooster.edu/chemistry/analytical/ftir/default.html 
+13. http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html	13. http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html 
+Sample preparation:	नमूना तैयार करना: 
+http://orgchem.colorado.edu/procedures/IR/IRprepother.html	http://orgchem.colorado.edu/procedures/IR/IRprepother.html 
+http://orgchem.colorado.edu/procedures/IR/IRsolids.html	http://orgchem.colorado.edu/procedures/IR/IRsolids.html 
+http://www.niu.edu/AnalyticalLab/ftir/sample%20preparation.shtml	http://www.niu.edu/AnalyticalLab/ftir/sample%20preparation.shtml 
+Feedback	प्रतिक्रिया (फीडबैक) 
+Feedback	प्रतिक्रिया (फीडबैक) 

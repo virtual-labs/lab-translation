@@ -1,0 +1,22 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative
+Toggle navigation
+HOME
+ALL LABS
+PARTNERS
+CONTACT
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.
+Infrared region lies between the visible and microwave regions of the electromagnetic spectrum and works mostly based on absorption spectroscopy. The infrared portion of the electromagnetic spectrum is usually divided into three regions; the near or higher energy IR, mid IR and far or low energy infrared. The mid-infrared which is (4000 - 400 cm-1 ) gives the fundamental vibrations and associated rotational-vibrational structure of the substance under study. Infrared spectroscopy is an absorption of infrared radiation by the molecules and is used to elucidate the structure of the molecule by identifying their functional groups. One of the common laboratory instruments that use this technique is a Fourier transform infrared (FTIR) spectrometer.
+Figure 1: Energy levels of molecules.
+Picture source: http://www.wag.caltech.edu/home/jang/genchem/infrared.htm
+Updates
+Lab Integration Kit 1.0.0 Released
+Summer Sprint Integration Workshop at IIT Guwahati
+A new set of 35 Virtual Labs on Portable Media
+VLEAD Blog
+Sakshat Portal
+Nodal Center
+Contact : support@vlabs.ac.in
+Feedback
+Follow us

@@ -1,0 +1,71 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ల్యాబ్స్‌కు స్వాగతం - భారత ఇనిషియేటివ్ యొక్క MHRD ప్రభుత్వం
+Toggle navigation	నావిగేషన్‌ను టోగుల్ చేయండి
+HOME	హోం
+ALL LABS	అన్ని ల్యాబ్‌లు
+PARTNERS	PARTNERS
+CONTACT	సంప్రదించండి
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	కెమికల్ సైన్సెస్ → ఫిజికల్ కెమిస్ట్రీ ల్యాబ్ Experi ప్రయోగాల జాబితా
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	ఇంట్రడక్షన్ థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ ఫీడ్బ్యాక్
+Instrumentation and Working Principles Principles of Mass Spectroscopy	ఇన్స్ట్రుమెంటేషన్ మరియు వర్కింగ్ ప్రిన్సిపల్స్ మాస్ స్పెక్ట్రోస్కోపీ యొక్క సూత్రాలు
+right answer!	సరైన సమాధానం!
+oops, wrong answer!	అయ్యో, తప్పు సమాధానం!
+1. In a mass spectrometry the sample under study is	1. మాస్ స్పెక్ట్రోమెట్రీలో అధ్యయనం కింద ఉన్న నమూనా
+a. is converted to the vapor state before entering the ionization chamber	ఒక. అయనీకరణ గదిలోకి ప్రవేశించే ముందు ఆవిరి స్థితికి మార్చబడుతుంది
+b. is converted to liquid state before entering the ionization chamber	బి. అయనీకరణ గదిలోకి ప్రవేశించే ముందు ద్రవ స్థితికి మార్చబడుతుంది
+c. is passed through the ionization chamber and is converted to vapor state.	సి. అయోనైజేషన్ చాంబర్ గుండా వెళుతుంది మరియు ఆవిరి స్థితికి మార్చబడుతుంది.
+d. is directly studied in gas , liquid or solid state.	d. నేరుగా గ్యాస్, ద్రవ లేదా ఘన స్థితిలో అధ్యయనం చేయబడుతుంది.
+2. Regardless of the method of sample introduction, sample molecules undergo the following before being analyzed or detected:	2. నమూనా పరిచయం యొక్క పద్ధతితో సంబంధం లేకుండా, నమూనా అణువులను విశ్లేషించడానికి లేదా గుర్తించడానికి ముందు ఈ క్రింది వాటికి లోనవుతుంది:
+a. converted to charge particles by ion source	ఒక. అయాన్ మూలం ద్వారా చార్జ్ రేణువులుగా మార్చబడుతుంది
+b. converted to gas or liquid state	బి. గ్యాస్ లేదా ద్రవ స్థితికి మార్చబడుతుంది
+c. repelled by the electric or magnetic field.	సి. విద్యుత్ లేదా అయస్కాంత క్షేత్రం ద్వారా తిప్పికొట్టబడుతుంది.
+d. keep under vacuum	d. శూన్యంలో ఉంచండి
+3. The simplest and the common method of converting a sample to ion is	3. నమూనాను అయాన్‌గా మార్చే సరళమైన మరియు సాధారణ పద్ధతి
+a. Filament heating	ఒక. తంతు తాపన
+b. Electron Ionization	బి. ఎలక్ట్రాన్ అయోనైజేషన్
+c. Electrospray Ionization	సి. ఎలెక్ట్రోస్ప్రే అయోనైజేషన్
+d. Chemical ionization	d. రసాయన అయనీకరణ
+4. The energy required to remove an electron from an atom or molecule is	4. అణువు లేదా అణువు నుండి ఎలక్ట్రాన్ను తొలగించడానికి అవసరమైన శక్తి
+a. Ionization electron	ఒక. అయోనైజేషన్ ఎలక్ట్రాన్
+b. Ionization energy/potential	బి. అయోనైజేషన్ శక్తి / సంభావ్యత
+c. Electron affinity	సి. ఎలక్ట్రాన్ అఫినిటీ
+d. Electronegativity	d. విద్యుదాత్మకత
+5. The drawback to EI-MS are :	5. EI-MS కు లోపం:
+a. lifetime of some compound fragments are too short to be detected	ఒక. కొన్ని సమ్మేళనం శకలాలు జీవితకాలం గుర్తించబడటం చాలా తక్కువ
+b. samples should be relatively volatile	బి. నమూనాలు సాపేక్షంగా అస్థిరంగా ఉండాలి
+c. compounds with high molecular weights cannot be measured	సి. అధిక పరమాణు బరువులు కలిగిన సమ్మేళనాలను కొలవలేము
+d. All the above	d. పైవన్నీ
+6. The mass spectrometry that uses desorption ionization (DI) techniques are:	6. ఎడారీకరణ అయనీకరణ (DI) పద్ధతులను ఉపయోగించే మాస్ స్పెక్ట్రోమెట్రీ:
+a. Secondary ion mass spectroscopy (SIMS)	ఒక. సెకండరీ అయాన్ మాస్ స్పెక్ట్రోస్కోపీ (సిమ్స్)
+b. Fast atom bombardment (FAB)	బి. ఫాస్ట్ అణువు బాంబు పేలుడు (FAB)
+c. Matrix-assisted laser desorption ionization (MALDI)	సి. మ్యాట్రిక్స్-అసిస్టెడ్ లేజర్ డీసార్ప్షన్ అయనీకరణ (MALDI)
+d. All the above	d. పైవన్నీ
+7. Larger and non volatile molecules can be detected using:	7. పెద్ద మరియు అస్థిర అణువులను ఉపయోగించి కనుగొనవచ్చు:
+a. EI-MS	ఒక. EI-MS
+b. MALDI	బి. MALDI
+c. CI-MS	సి. CI-MS
+d. None of the above	d. పైవి ఏవీ లేవు
+8. If a compound has an even number of nitrogen atoms, its molecular ion will appear at an even mass and a compounds with an odd number of nitrogen atoms, the molecular ion will appear at an odd mass. This is called:	8. ఒక సమ్మేళనం సమాన సంఖ్యలో నత్రజని అణువులను కలిగి ఉంటే, దాని పరమాణు అయాన్ సమాన ద్రవ్యరాశి వద్ద మరియు బేసి సంఖ్యలో నత్రజని అణువులతో కూడిన సమ్మేళనాలు కనిపిస్తాయి, పరమాణు అయాన్ బేసి ద్రవ్యరాశి వద్ద కనిపిస్తుంది. దీనిని అంటారు:
+a. Mass rule	ఒక. సామూహిక పాలన
+b. Molecular ion rule	బి. పరమాణు అయాన్ నియమం
+c. Nitrogen rule	సి. నత్రజని నియమం
+d. Mass determination rule	d. సామూహిక నిర్ణయం నియమం
+9. To confirm a particular peak corresponds to a molecular ion is done by:	9. ఒక నిర్దిష్ట శిఖరాన్ని ధృవీకరించడానికి పరమాణు అయాన్‌కు అనుగుణంగా ఉంటుంది:
+a. checking for the most intense peak	ఒక. అత్యంత తీవ్రమైన శిఖరం కోసం తనిఖీ చేస్తోంది
+b. lowering the energy of the beam as a result the intensity of the molecular ion peak will increas	బి. పుంజం యొక్క శక్తిని తగ్గించడం ఫలితంగా పరమాణు అయాన్ శిఖరం యొక్క తీవ్రత పెరుగుతుంది
+c. Increasing the amount of the sample taken	సి. తీసుకున్న నమూనా మొత్తాన్ని పెంచడం
+d. Look for the parent peak	d. మాతృ శిఖరం కోసం చూడండి
+10. The presence of which element in a compound is characterized by an odd number of m/z for its parent peak?	10. సమ్మేళనం లోని ఏ మూలకం ఉనికిని దాని మాతృ శిఖరం కోసం బేసి సంఖ్య m / z కలిగి ఉంటుంది?
+a. Oxygen	ఒక. ఆక్సిజన్
+b. Carbon	బి. కార్బన్
+c. Nitrogen	సి. నత్రజని
+d. Hydrogen	d. హైడ్రోజన్
+Updates	నవీకరణలు
+Lab Integration Kit 1.0.0 Released	ల్యాబ్ ఇంటిగ్రేషన్ కిట్ 1.0.0 విడుదల చేయబడింది
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గువహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ల్యాబ్‌ల కొత్త సెట్
+VLEAD Blog	VLEAD బ్లాగ్
+Sakshat Portal	అక్షత్ పోర్టల్
+Nodal Center	నోడల్ సెంటర్
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in
+Feedback	అభిప్రాయం
+Follow us	మమ్మల్ని అనుసరించు

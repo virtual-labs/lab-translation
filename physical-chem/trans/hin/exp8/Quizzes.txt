@@ -1,0 +1,71 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	वर्चुअल लैब्स में आपका स्वागत है - एमएचआरडी भारत सरकार की एक पहल
+Toggle navigation	टॉगल से संचालित करना
+HOME	घर
+ALL LABS	सभी लैब्स
+PARTNERS	भागीदार
+CONTACT	संपर्क करें
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	रासायनिक विज्ञान → भौतिक रसायन विज्ञान प्रयोगशाला → प्रयोगों की सूची
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	परिचय थ्योरी ऑब्जेक्टिव एक्सपेरिमेंट मैनुअल क्विज़ आगे रीडिंग फीडबैक
+Instrumentation and Working Principles Principles of Mass Spectroscopy	मास स्पेक्ट्रोस्कोपी के इंस्ट्रूमेंटेशन और कार्यकारी सिद्धांत
+right answer!	सही उत्तर!
+oops, wrong answer!	उफ़, गलत जवाब!
+1. In a mass spectrometry the sample under study is	1. एक द्रव्यमान स्पेक्ट्रोमेट्री में अध्ययन के तहत नमूना है
+a. is converted to the vapor state before entering the ionization chamber	ए. आयनीकरण कक्ष में प्रवेश करने से पहले वाष्प अवस्था में परिवर्तित हो जाता है
+b. is converted to liquid state before entering the ionization chamber	बी. आयनीकरण कक्ष में प्रवेश करने से पहले तरल अवस्था में परिवर्तित हो जाता है
+c. is passed through the ionization chamber and is converted to vapor state.	सी. आयनीकरण कक्ष के माध्यम से पारित किया है और वाष्प राज्य में परिवर्तित हो गया है।
+d. is directly studied in gas , liquid or solid state.	डी. गैस, तरल या ठोस अवस्था में सीधे अध्ययन किया जाता है।
+2. Regardless of the method of sample introduction, sample molecules undergo the following before being analyzed or detected:	2. नमूना परिचय की विधि के बावजूद, नमूना अणु विश्लेषण या पता लगाए जाने से पहले निम्न से गुजरते हैं:
+a. converted to charge particles by ion source	ए. आयन स्रोत द्वारा चार्ज कणों में परिवर्तित
+b. converted to gas or liquid state	बी. गैस या तरल अवस्था में परिवर्तित
+c. repelled by the electric or magnetic field.	सी. बिजली या चुंबकीय क्षेत्र द्वारा repelled।
+d. keep under vacuum	डी. शून्य के नीचे रखो
+3. The simplest and the common method of converting a sample to ion is	3. एक नमूना को आयन में परिवर्तित करने का सबसे सरल और सामान्य तरीका है
+a. Filament heating	ए. फिलामेंट हीटिंग
+b. Electron Ionization	बी. इलेक्ट्रॉन आयनिकरण
+c. Electrospray Ionization	सी. इलेक्ट्रोप्रोय इओनिज़ेशन
+d. Chemical ionization	डी. रासायनिक आयनीकरण
+4. The energy required to remove an electron from an atom or molecule is	4. एक परमाणु या अणु से एक इलेक्ट्रॉन को निकालने के लिए आवश्यक ऊर्जा है
+a. Ionization electron	ए. आयनिकरण इलेक्ट्रॉन
+b. Ionization energy/potential	बी. आयनीकरण ऊर्जा / क्षमता
+c. Electron affinity	सी. इलेक्ट्रान बन्धुता
+d. Electronegativity	डी. वैद्युतीयऋणात्मकता
+5. The drawback to EI-MS are :	5. EI-MS में दोष यह हैं:
+a. lifetime of some compound fragments are too short to be detected	ए. कुछ यौगिक अंशों के जीवनकाल का पता लगाया जाना बहुत कम है
+b. samples should be relatively volatile	बी. नमूने अपेक्षाकृत अस्थिर होना चाहिए
+c. compounds with high molecular weights cannot be measured	सी. उच्च आणविक भार वाले यौगिकों को मापा नहीं जा सकता है
+d. All the above	डी. उपर्युक्त सभी
+6. The mass spectrometry that uses desorption ionization (DI) techniques are:	6. द्रव्यमान स्पेक्ट्रोमेट्री जो desorption ionization (DI) तकनीकों का उपयोग करती है:
+a. Secondary ion mass spectroscopy (SIMS)	ए. माध्यमिक आयन द्रव्यमान स्पेक्ट्रोस्कोपी (SIMS)
+b. Fast atom bombardment (FAB)	बी. तेज़ परमाणु बमबारी (FAB)
+c. Matrix-assisted laser desorption ionization (MALDI)	सी. मैट्रिक्स-असिस्टेड लेजर डिसोर्शन आयनीकरण (MALDI)
+d. All the above	डी. उपर्युक्त सभी
+7. Larger and non volatile molecules can be detected using:	7. बड़े और गैर वाष्पशील अणुओं का उपयोग करके पता लगाया जा सकता है:
+a. EI-MS	ए. ईआई-एमएस
+b. MALDI	बी. MALDI
+c. CI-MS	सी. सीआई-एमएस
+d. None of the above	डी. इनमे से कोई भी नहीं
+8. If a compound has an even number of nitrogen atoms, its molecular ion will appear at an even mass and a compounds with an odd number of nitrogen atoms, the molecular ion will appear at an odd mass. This is called:	8. यदि किसी यौगिक में नाइट्रोजन परमाणुओं की संख्या समान होती है, तो उसका आणविक आयन एक सम द्रव्यमान में दिखाई देगा और एक यौगिक जिसमें विषम परमाणु संख्या होगी, आणविक आयन विषम द्रव्यमान में दिखाई देंगे। यह कहा जाता है:
+a. Mass rule	ए. बड़े पैमाने पर शासन
+b. Molecular ion rule	बी. आणविक आयन नियम
+c. Nitrogen rule	सी. नाइट्रोजन नियम
+d. Mass determination rule	डी. मास निर्धारण नियम
+9. To confirm a particular peak corresponds to a molecular ion is done by:	9. एक विशेष शिखर की पुष्टि के लिए एक आणविक आयन से मेल खाती है:
+a. checking for the most intense peak	ए. सबसे तीव्र शिखर के लिए जाँच
+b. lowering the energy of the beam as a result the intensity of the molecular ion peak will increas	बी. बीम की ऊर्जा को कम करने के परिणामस्वरूप आणविक आयन शिखर की तीव्रता बढ़ जाएगी
+c. Increasing the amount of the sample taken	सी. लिए गए नमूने की मात्रा में वृद्धि
+d. Look for the parent peak	डी. मूल चोटी के लिए देखो
+10. The presence of which element in a compound is characterized by an odd number of m/z for its parent peak?	10. किसी यौगिक में किस तत्व की उपस्थिति उसके मूल शिखर के लिए विषम संख्या में m / z की विशेषता है?
+a. Oxygen	ए. ऑक्सीजन
+b. Carbon	बी. कार्बन
+c. Nitrogen	सी. नाइट्रोजन
+d. Hydrogen	डी. हाइड्रोजन
+Updates	अपडेट
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 वर्चुअल लैब्स का एक नया सेट
+VLEAD Blog	VLEAD ब्लॉग
+Sakshat Portal	साक्षात पोर्टल
+Nodal Center	नोडल केंद्र
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in
+Feedback	प्रतिक्रिया
+Follow us	हमारा अनुगमन करो

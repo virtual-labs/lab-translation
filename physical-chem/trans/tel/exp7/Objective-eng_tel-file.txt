@@ -1,0 +1,21 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ప్రయోగశాలకు స్వాగతం-భారత ప్రభుత్వ ఎమ్ హెచ్ ఆర్ డి యొక్క చొరవతో 
+Toggle navigation	పేజీకి సంబంధించిన లింకులను తెరవడంను లేదా మెనూల ద్వారా తెరవడంను (నావిగేషన్‌ను)టోగుల్ చేయండి. 
+HOME	ముఖపుట(హోం) 
+ALL LABS	అన్ని ప్రయోగశాలలు(ఆల్ ల్యాబ్‌స్) 
+PARTNERS	భాగస్వాములు(పార్టనర్స్) 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయాన విజ్ఞానశాస్త్రం→భౌతిక రసాయన శాస్త్ర ప్రయోగశాల→ప్రయోగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం(ఇంట్రడక్షన్) థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత పఠనం (రీడింగ్స్) అభిప్రాయం(ఫీడ్బ్యాక్) 
+Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy	 ఇన్ఫ్రా రెడ్ (ఐఆర్) స్పెక్ట్రోస్కోపీ యొక్క ఇన్స్ట్రుమెంటేషన్ మరియు ద్రావణం యొక్క పనిచేసే సూత్రాలు ( వర్కింగ్ ప్రిన్సిపల్స్) 
+(i) To learn solution sample prepartion and handling procedures to measure an IR spectrum	(i) ఐ ఆర్ స్పెక్ట్రం కొలిచేందుకు ద్రావణం నమూనా తయారీ మరియు నిర్వహణ విధానాలను నేర్చుకోవడం 
+(ii) Spectral analysis of the sample measured	(ii) కొలిచిన నమూనా యొక్క వర్ణపట(స్పెక్ట్రల్) విశ్లేషణ(ఎనాలిసిస్) 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయోగశాల అనుసంధాన(ఇంటిగ్రేషన్) సంభందిత సామాను(కిట్) 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐ ఐ టి గౌహతిలో వేసవి స్ప్రింట్ అనుసంధాన కార్యసాల(వర్కషాప్) 
+A new set of 35 Virtual Labs on Portable Media	చిన్న (పోర్టబుల్) ప్రసార మాధ్యమంలో 35 వర్చువల్ ప్రయోగశాలల కొత్త సమూహం(సెట్) 
+VLEAD Blog	విలీడ్ బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ కేంద్రం(సెంటర్) 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

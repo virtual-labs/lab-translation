@@ -1,0 +1,22 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ప్రయోగశాలకు స్వాగతం-భారత ప్రభుత్వ ఎమ్ హెచ్ ఆర్ డి యొక్క చొరవతో 
+Toggle navigation	పేజీకి సంబంధించిన లింకులను తెరవడంను లేదా మెనూల ద్వారా తెరవడంను (నావిగేషన్‌ను)టోగుల్ చేయండి 
+HOME	ముఖపుట(హోం) 
+ALL LABS	అన్ని ప్రయోగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences	రసాయాన విజ్ఞానశాస్త్రం 
+Introduction Experiments Target Audience Courses Aligned Pre-requisite Softwares Feedback	పరిచయం, ప్రయోగాలు, ప్రేక్షకుల లక్ష్యంగా, కోర్సుల సమలేఖనం ,ముందస్తు అవసరమైన సాఫ్ట్‌వేర్‌లు,అభిప్రాయం 
+Physical Chemistry Lab	భౌతిక రసాయన శాస్త్ర ప్రయోగశాల 
+Java allows you to play online virtual labs.	ఆన్‌లైన్ వర్చువల్ ప్రయోగశాలలను(ల్యాబ్‌లను) ఆడటానికి (ప్లే చేయడానికి) జావా మిమ్మల్ని అనుమతిస్తుంది. 
+The Java 3D API enables the creation of three-dimensional graphics applications and Internet-based 3D applets. It provides high-level constructs for creating and manipulation 3D geometry and building the structures used in rendering that geometry. With this software, you can efficiently define and render very large virtual worlds.	జావా 3D API త్రిమితీయ(త్రీడైమెంషన్) గ్రాఫిక్స్ అనువర్తనాలు(గ్రాఫిక్స్) మరియు ఇంటర్నెట్ ఆధారిత 3D ఆప్లెట్ల సృష్టిని అనుమతిస్తుంది. ఇది 3D రేఖాగణితము(జ్యామిట్రిని) సృష్టించడానికి మరియు తారుమారు చేయడానికి మరియు ఆ రేఖాగణితము(జ్యామిట్రిని) రెండరింగ్ చేయడానికి ఉపయోగించే నిర్మాణాలను నిర్మించడానికి ఉన్నత-స్థాయి నిర్మాణాలను అందిస్తుంది. ఈ సాఫ్ట్‌వేర్‌తో, మీరు చాలా పెద్ద వర్చువల్ ప్రపంచాలను సమర్థవంతంగా నిర్వచించవచ్చు మరియు అందించవచ్చు. 
+Adobe Flash (formerly Macromedia Flash) is a multimedia platform used to add animation, video, and interactivity to web pages.	అడోబ్ ఫ్లాష్ (గతంలో మాక్రోమీడియా ఫ్లాష్) అనేది వెబ్ పేజీలకు యానిమేషన్, వీడియో మరియు ఇంటరాక్టివిటీని జోడించడానికి ఉపయోగించే మల్టీమీడియా ప్లాట్‌ఫాం. 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయోగశాల అనుసంధాన(ఇంటిగ్రేషన్) సంభందిత సామాను(కిట్) 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐ ఐ టి గౌహతిలో వేసవి స్ప్రింట్ అనుసంధాన కార్యసాల(వర్కషాప్) 
+A new set of 35 Virtual Labs on Portable Media	చిన్న (పోర్టబుల్) ప్రసార మాధ్యమంలో(మీడియాలో)35 వర్చువల్ ప్రయోగశాలల కొత్త సమూహం(సెట్) 
+VLEAD Blog	వీలీడ్ బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ కేంద్రం(సెంటర్) 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

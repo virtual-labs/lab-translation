@@ -1,0 +1,5 @@
+Graph Plot	గ్రాఫ్ ప్లాట్
+Mouse hovers at	వద్ద మౌస్ హోవర్స్
+(0, 0 ).	(0, 0).
+Q1.What is the capital of India ?	Q1. భారతదేశ రాజధాని ఏమిటి?
+Ans:	జ:

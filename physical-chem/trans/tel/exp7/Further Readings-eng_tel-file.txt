@@ -1,0 +1,38 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ప్రయోగశాలకు స్వాగతం-భారత ప్రభుత్వ ఎమ్ హెచ్ ఆర్ డి యొక్క చొరవతో 
+Toggle navigation	పేజీకి సంబంధించిన లింకులను తెరవడంను లేదా మెనూల ద్వారా తెరవడంను (నావిగేషన్‌ను)టోగుల్ చేయండ 
+HOME	ముఖపుట(హోం) 
+ALL LABS	అన్ని ప్రయోగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయాన విజ్ఞానశాస్త్రం →భౌతిక రసాయన శాస్త్ర ప్రయోగశాల →ప్రయోగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత చదవటం(రీడింగ్స్) అభిప్రాయం(ఫీడ్బ్యాక్) 
+Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy	సొల్యూషన్స్ ఇన్ఫ్రా రెడ్ (ఐఆర్) స్పెక్ట్రోస్కోపీ యొక్క ఇన్స్ట్రుమెంటేషన్ మరియు పనిచేసే సూత్రాలు (వర్కింగ్ ప్రిన్సిపల్స్) 
+Book References:	పుస్తక సూచనలు/ప్రస్తావనలు: 
+Paula, Peter Atkins, Julio de (2009). Elements of physical chemistry (5th ed. ed.). Oxford: Oxford U.P	పౌలా, పీటర్ అట్కిన్స్, జూలియో డి (2009). భౌతిక కెమిస్ట్రీ యొక్క అంశాలు(ఎలిమెంట్స్ అఫ్ ఫిజికల్ కెమిస్ట్రీ) (5 వ ఎడిషన్). ఆక్స్ఫర్డ్: ఆక్స్ఫర్డ్ యు.పి. 
+Brian C Smith (1995). Fundamentals of Fourier Transform Infrared Spectroscopy	బ్రియాన్ సి స్మిత్ (1995). ఫోరియర్ ట్రాన్స్ఫార్మ్ ఇన్ఫ్రారెడ్ స్పెక్ట్రోస్కోపీ యొక్క మూలసిద్ధాంతములు(ఫండమెంటల్స్) 
+Donald L. Pavia Gary M. Lampman, George S. Kriz James A. Vyvyan (2008) Introduction to Spectroscopy. Brooks/Cole	డోనాల్డ్ ఎల్. పావియా గెరి ఎం. లాంప్మన్, జార్జ్ ఎస్. క్రిజ్ జేమ్స్ ఎ. వైవ్యన్ (2008) స్పెక్ట్రోస్కోపీ కు పరిచయం(ఇంట్రడక్షన్ టు స్పెక్ట్రోస్కోపీ). బ్రూక్స్ / కోల్ 
+Colin N. Banwell, Elaine M. McCash (1994). Fundamentals of Molecular Spectroscopy. Mcgraw hill.	కోలిన్ ఎన్. బాన్వెల్, ఎలైన్ ఎం. మక్కాష్ (1994). పరమాణు (మాలిక్యులర్) స్పెక్ట్రోస్కోపీ యొక్క ఫండమెంటల్స్. మెక్‌గ్రా హిల్. 
+References:	సూచనలు/ప్రస్తావనలు: 
+http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html	http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html 
+http://chem-ilp.net/labTechniques/IRVideo.htm	http://chem-ilp.net/labTechniques/IRVideo.htm 
+http://www.umass.edu/microbio/chime/ir-spect/#	http://www.umass.edu/microbio/chime/ir-spect/# 
+http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#	http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html# 
+http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm	http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm 
+http://solidstate.physics.sunysb.edu/book/prob/node111.html	http://solidstate.physics.sunysb.edu/book/prob/node111.html 
+http://www3.wooster.edu/chemistry/analytical/default.html	http://www3.wooster.edu/chemistry/analytical/default.html 
+http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument	http://faculty.sdmiramar.edu/fgarces/LabMatters/Instruments/FTIR/FTIR.htm#Instrument 
+http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html	http://www.biophysik.uni-freiburg.de/Spectroscopy/FTIR/spectroscopy.html 
+http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry	http://www.learnerstv.com/animation/animation.php?ani=56&cat;=Chemistry 
+http://www.chem.purdue.edu/gchelp/vibs/#	http://www.chem.purdue.edu/gchelp/vibs/# 
+http://www3.wooster.edu/chemistry/analytical/ftir/default.html	http://www3.wooster.edu/chemistry/analytical/ftir/default.html 
+http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html	http://orgchem.colorado.edu/hndbksupport/irtutor/tutorial.html 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయోగశాల అనుసంధాన(ఇంటిగ్రేషన్) సంభందిత సామాను(కిట్) 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐ ఐ టి గౌహతిలో వేసవి స్ప్రింట్ అనుసంధాన కార్యసాల(వర్కషాప్) 
+A new set of 35 Virtual Labs on Portable Media	చిన్న (పోర్టబుల్) ప్రసార మాధ్యమంలో 35 వర్చువల్ ప్రయోగశాలల కొత్త సమూహం(సెట్) 
+VLEAD Blog	వీలీడ్ బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ కేంద్రం(సెంటర్) 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

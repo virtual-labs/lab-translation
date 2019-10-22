@@ -1,0 +1,10 @@
+#+title: Translation
+
+* Setup
+
+=clear_previous_run.sh=
++ change to lab variable and set it to the
+desired location.
++ change to ensrc variable
+
+=transConfig.json= : change to =LAB_PATH= value.

@@ -1,0 +1,30 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ల్యాబ్స్‌కు స్వాగతం - భారత ఇనిషియేటివ్ యొక్క MHRD ప్రభుత్వం
+Toggle navigation	నావిగేషన్‌ను టోగుల్ చేయండి
+HOME	హోం
+ALL LABS	అన్ని ల్యాబ్‌లు
+PARTNERS	PARTNERS
+CONTACT	సంప్రదించండి
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	కెమికల్ సైన్సెస్ → ఫిజికల్ కెమిస్ట్రీ ల్యాబ్ Experi ప్రయోగాల జాబితా
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	ఇంట్రడక్షన్ థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ ఫీడ్బ్యాక్
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.	ఉప్పు పలకలను ఉపయోగించి ఇన్ఫ్రా రెడ్ (ఐఆర్) స్పెక్ట్రోస్కోపీ యొక్క ఇన్స్ట్రుమెంటేషన్ మరియు వర్కింగ్ ప్రిన్సిపల్స్.
+Follow the procedure given below:	క్రింద ఇచ్చిన విధానాన్ని అనుసరించండి:
+1. Click on the sample bottle (the first bottle) to transfer a small quantity of the sample to the mortar.	1. నమూనా యొక్క చిన్న పరిమాణాన్ని మోర్టార్‌కు బదిలీ చేయడానికి నమూనా బాటిల్ (మొదటి బాటిల్) పై క్లిక్ చేయండి.
+2. Click on the mortar to grind the sample to fine paste	2. నమూనాను చక్కగా పేస్ట్ చేయడానికి మోర్టార్ పై క్లిక్ చేయండి
+3. Click on the bottle containing Nujol to transfer few drops to the mortar.	3. మోర్టార్‌కు కొన్ని చుక్కలను బదిలీ చేయడానికి నుజోల్ ఉన్న సీసాపై క్లిక్ చేయండి.
+4. Click on the mortar to make a fine paste of sample	4. నమూనా యొక్క చక్కటి పేస్ట్ చేయడానికి మోర్టార్ మీద క్లిక్ చేయండి
+5. Transfer the sample prepared onto one of the IR discs	5. తయారుచేసిన నమూనాను ఐఆర్ డిస్కుల్లో ఒకదానికి బదిలీ చేయండి
+6. Place carefully the other disc and press to form a thin film.	6. ఇతర డిస్క్‌ను జాగ్రత్తగా ఉంచండి మరియు సన్నని ఫిల్మ్‌ను రూపొందించడానికి నొక్కండి.
+7. Move the IR plates to the plate holder	7. ఐఆర్ ప్లేట్లను ప్లేట్ హోల్డర్‌కు తరలించండి
+8. Place the other part of the holder to sandwich the IR discs.	8. ఐఆర్ డిస్కులను శాండ్‌విచ్ చేయడానికి హోల్డర్ యొక్క ఇతర భాగాన్ని ఉంచండి.
+9. Click on the holder to place the the sample in the spectrometer.	9. స్పెక్ట్రోమీటర్‌లో నమూనాను ఉంచడానికి హోల్డర్‌పై క్లిక్ చేయండి.
+10. Click start to run the spectrometer.	10. స్పెక్ట్రోమీటర్‌ను అమలు చేయడానికి ప్రారంభం క్లిక్ చేయండి.
+Updates	నవీకరణలు
+Lab Integration Kit 1.0.0 Released	ల్యాబ్ ఇంటిగ్రేషన్ కిట్ 1.0.0 విడుదల చేయబడింది
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గువహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ల్యాబ్‌ల కొత్త సెట్
+VLEAD Blog	VLEAD బ్లాగ్
+Sakshat Portal	అక్షత్ పోర్టల్
+Nodal Center	నోడల్ సెంటర్
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in
+Feedback	అభిప్రాయం
+Follow us	మమ్మల్ని అనుసరించు

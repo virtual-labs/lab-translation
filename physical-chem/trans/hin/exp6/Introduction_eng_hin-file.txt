@@ -1,0 +1,31 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशाला (वर्चुअल लैब्ज्) में आपका स्वागत-भारत सरकार के मानव संसाधन विकास मंत्रालय (एमएचआरडी) की पहल 
+Toggle navigation	टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना) 
+HOME	घर 
+ALL LABS	सभी प्रयोगशालाएं (लैब्ज्) 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Chemical Sciences	रासायनिक विज्ञान
+Physical Chemistry Lab	भौतिक रसायन विज्ञान प्रयोगशाला
+List Of Experiments	प्रयोगों की सूची 
+Introduction	प्रस्तावना 
+Theory	सिद्धांत 
+Objective	उद्देश्य 
+Experiment	प्रयोग 
+Manual	मैनुअल(गाइड/नियमावली) 
+Quizzes	प्रश्नावली (क्विज़) 
+Further Readings	अतिरिक्त जानकारी के लिए 
+Feedback	प्रतिक्रिया (फीडबैक) 
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.	नमक प्लेटों का उपयोग करते हुए इन्फ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी के उपकरण एवं कार्य सिद्धांत। 
+Infrared region lies between the visible and microwave regions of the electromagnetic spectrum and works mostly based on absorption spectroscopy. The infrared portion of the electromagnetic spectrum is usually divided into three regions; the near or higher energy IR, mid IR and far or low energy infrared. The mid-infrared which is (4000 - 400 cm-1 ) gives the fundamental vibrations and associated rotational-vibrational structure of the substance under study. Infrared spectroscopy is an absorption of infrared radiation by the molecules and is used to elucidate the structure of the molecule by identifying their functional groups. One of the common laboratory instruments that use this technique is a Fourier transform infrared (FTIR) spectrometer.	अवरक्त (इंफ्रारेड) क्षेत्र (इलेक्ट्रोमैग्नेटिक) विद्युत चुम्बकीय स्पेक्ट्रम के दृश्य और माइक्रोवेव क्षेत्रों के बीच स्थित है और ज्यादातर अवशोषण स्पेक्ट्रोस्कोपी पर आधारित है। विद्युत चुम्बकीय स्पेक्ट्रम का अवरक्त (इंफ्रारेड) भाग आमतौर पर तीन क्षेत्रों में विभाजित होता है; निकट या उच्च ऊर्जा आईआर, मध्य आईआर और दूर या कम ऊर्जा अवरक्त। मध्य-अवरक्त जो (4000-400 cm-1) अध्ययन के तहत पदार्थ के मौलिक कंपन और संबंधित घूर्णी-कंपन संरचना देता है। इन्फ्रारेड स्पेक्ट्रोस्कोपी अणुओं द्वारा अवरक्त विकिरण का अवशोषण है और उनके कार्यात्मक समूहों की पहचान करके अणु की संरचना को स्पष्ट करने के लिए उपयोग किया जाता है। इस तकनीक का उपयोग करने वाले आम प्रयोगशाला उपकरणों में से एक फूरियर ट्रांसफॉर्म इंफ्रारेड (FTIR) स्पेक्ट्रोमीटर है। 
+Figure 1: Energy levels of molecules.	चित्र 1: अणुओं का ऊर्जा स्तर। 
+Picture source: http://www.wag.caltech.edu/home/jang/genchem/infrared.htm	चित्र स्रोत: http://www.wag.caltech.edu/home/jang/genchem/infrared.htm 
+Updates	अपडेट(अब तक का) 
+Lab Integration Kit 1.0.0 Released	प्रयोगशाला एकीकरण सामग्री 1.0.0 जारी कर दी गयी 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी कार्यशालाओं(वर्चुअल लैब्ज्) का एक नया सेट 
+VLEAD Blog	वीलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया (फीडबैक) 
+Follow us	हमारा अनुसरण करें

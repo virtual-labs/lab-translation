@@ -1,0 +1,127 @@
+Physical Chemistry Lab	ఫిజికల్ కెమిస్ట్రీ ల్యాబ్
+Instrumentation and Working Principles Principles of Mass Spectroscopy	ఇన్స్ట్రుమెంటేషన్ మరియు వర్కింగ్ ప్రిన్సిపల్స్ మాస్ స్పెక్ట్రోస్కోపీ యొక్క సూత్రాలు
+Introduction	పరిచయం
+Mass spectroscopy is the most accurate analytical tool to weigh the molar masses of a given molecule. The principle consist of ionizing the sample in the gas phase to formed positively charged ion or radical ions and then measure the mass to charge ratio of all ions. It is largely used in industry and academia and finds application in chemistry, Biotechnology, pharmaceutical, environmental, Clinical, Geological fields. Different methods use different techniques for ionisation which intern determines what types of samples can be analyzed by mass spectrometry. Of all available methods Electron Ionisation or Impact mass spectroscopy is the most widely used.	మాస్ స్పెక్ట్రోస్కోపీ అనేది ఇచ్చిన అణువు యొక్క మోలార్ ద్రవ్యరాశిని తూకం చేయడానికి అత్యంత ఖచ్చితమైన విశ్లేషణాత్మక సాధనం. ధనాత్మక చార్జ్డ్ అయాన్ లేదా రాడికల్ అయాన్లను ఏర్పరచటానికి గ్యాస్ దశలో నమూనాను అయనీకరణం చేసి, ఆపై అన్ని అయాన్ల నిష్పత్తిని వసూలు చేయడానికి ద్రవ్యరాశిని కొలుస్తుంది. ఇది ఎక్కువగా పరిశ్రమ మరియు అకాడెమియాలో ఉపయోగించబడుతుంది మరియు కెమిస్ట్రీ, బయోటెక్నాలజీ, ఫార్మాస్యూటికల్, ఎన్విరాన్మెంటల్, క్లినికల్, జియోలాజికల్ రంగాలలో అనువర్తనాన్ని కనుగొంటుంది. మాస్ స్పెక్ట్రోమెట్రీ ద్వారా ఏ రకమైన నమూనాలను విశ్లేషించవచ్చో ఇంటర్న్ నిర్ణయిస్తుంది. అందుబాటులో ఉన్న అన్ని పద్ధతులలో ఎలక్ట్రాన్ అయోనైజేషన్ లేదా ఇంపాక్ట్ మాస్ స్పెక్ట్రోస్కోపీ ఎక్కువగా ఉపయోగించబడుతుంది.
+Theory	థియరీ
+The magnetic sector mass analysis: The kinetic energy of an accelarated ion imparted by the voltage V is:	అయస్కాంత రంగ ద్రవ్యరాశి విశ్లేషణ: వోల్టేజ్ V చేత ఇవ్వబడిన ఒక అయాన్ యొక్క గతి శక్తి:
+where m is the mass of the ion, v is its velocity and z is the charge. When the ions pass through the two poles of a magent, the charged particles take a curve path. The radius of curvature (r) of this path is:	ఇక్కడ m అనేది అయాన్ యొక్క ద్రవ్యరాశి, v దాని వేగం మరియు z చార్జ్. అయాన్లు ఒక మాజెంట్ యొక్క రెండు ధ్రువాల గుండా వెళుతున్నప్పుడు, చార్జ్డ్ కణాలు ఒక వక్ర మార్గాన్ని తీసుకుంటాయి. ఈ మార్గం యొక్క వక్రత (r) యొక్క వ్యాసార్థం:
+where B is the magnetic field strength.	ఇక్కడ B అనేది అయస్కాంత క్షేత్ర బలం.
+Combining the above two equations:	పై రెండు సమీకరణాలను కలపడం:
+Greater the value of m/z value larger is the radius of the curved path. The analyser tube has a fixed radius of curvature and the magnetic field strength is varied such that all the ions reach the detector.	M / z విలువ యొక్క పెద్ద విలువ వక్ర మార్గం యొక్క వ్యాసార్థం. ఎనలైజర్ ట్యూబ్‌లో వక్రత యొక్క స్థిర వ్యాసార్థం ఉంటుంది మరియు అయస్కాంత క్షేత్ర బలం వైవిధ్యంగా ఉంటుంది, అంటే అన్ని అయాన్లు డిటెక్టర్‌కు చేరుతాయి.
+The mass spectrometer consist of five important componenets:	మాస్ స్పెక్ట్రోమీటర్ ఐదు ముఖ్యమైన నిష్పత్తిని కలిగి ఉంటుంది:
+a. Sample inlet: Here the sample under study is introduced into the chamber and the pressure inside the sample inlet is much lower than the outside pressure. A stream of molecules is produced here.	ఒక. నమూనా ఇన్లెట్: ఇక్కడ అధ్యయనం కింద ఉన్న నమూనాను గదిలోకి ప్రవేశపెడతారు మరియు నమూనా ఇన్లెట్ లోపల ఒత్తిడి బయటి పీడనం కంటే చాలా తక్కువగా ఉంటుంది. అణువుల ప్రవాహం ఇక్కడ ఉత్పత్తి అవుతుంది.
+b. Ion Source: The stream of molecules undergo ionisation by various methods. Different compounds are ionised by different methods. This includes: Electron Ionisation(EI), Chemical Ionisation (CI), Secondary ion mass spectrometry (SIMS), Fast Atom Bombardment (FAB) and Matrix Desorption Ionisation (MALDI)	బి. అయాన్ మూలం: అణువుల ప్రవాహం వివిధ పద్ధతుల ద్వారా అయనీకరణానికి లోనవుతుంది. వేర్వేరు సమ్మేళనాలు వేర్వేరు పద్ధతుల ద్వారా అయనీకరణం చెందుతాయి. ఇందులో ఇవి ఉన్నాయి: ఎలక్ట్రాన్ అయోనైజేషన్ (EI), కెమికల్ అయోనైజేషన్ (CI), సెకండరీ అయాన్ మాస్ స్పెక్ట్రోమెట్రీ (సిమ్స్), ఫాస్ట్ అటామ్ బాంబర్డ్మెంట్ (FAB) మరియు మ్యాట్రిక్స్ డీసార్ప్షన్ అయోనైజేషన్ (MALDI)
+c. Mass Analyser: Saparates the compound based on their mass to charge ratio (m/z).	సి. మాస్ ఎనలైజర్: వాటి ద్రవ్యరాశి నుండి ఛార్జ్ నిష్పత్తి (m / z) ఆధారంగా సమ్మేళనాన్ని సపరేట్ చేస్తుంది.
+d. Detector: The ions that are deflected under the magnetic field are detected by the detector.	d. డిటెక్టర్: అయస్కాంత క్షేత్రం కింద విక్షేపం అయ్యే అయాన్లు డిటెక్టర్ ద్వారా గుర్తించబడతాయి.
+e. Output: The siganl is then recorded and processed by the data system. The output is the mass spectrum.	ఇ. అవుట్పుట్: సిగన్ల్ అప్పుడు డేటా సిస్టమ్ చేత రికార్డ్ చేయబడుతుంది మరియు ప్రాసెస్ చేయబడుతుంది. అవుట్పుట్ మాస్ స్పెక్ట్రం.
+Picture source: http://web.mit.edu/12.000/www/finalpresentation/experiments/gcms.html	చిత్ర మూలం: http://web.mit.edu/12.000/www/finalpresentation/experiment/gcms.html
+Ionsiation methods and the source of ionisation:	అయోన్సియేషన్ పద్ధతులు మరియు అయనీకరణ మూలం:
+Ionisation source	అయోనైజేషన్ మూలం
+Ionisation method	అయోనైజేషన్ పద్ధతి
+Electrospray Ionisation (ESI)	ఎలెక్ట్రోస్ప్రే అయోనైజేషన్ (ESI)
+Evapouration of charged droplets	చార్జ్డ్ బిందువుల బాష్పీభవనం
+Nano Electrospray Ionisation (nanoESI)	నానో ఎలెక్ట్రోస్ప్రే అయోనైజేషన్ (నానోఇఎస్ఐ)
+Evapouration of charged droplets	చార్జ్డ్ బిందువుల బాష్పీభవనం
+Chemical Ionisation (CI)	కెమికల్ అయోనైజేషన్ (CI)
+Proton transfer	ప్రోటాన్ బదిలీ
+Atmospheric Pressure Chemical Ionisation (APCI)	వాతావరణ పీడన రసాయన అయోనైజేషన్ (APCI)
+Corona discharge and proton transfer	కరోనా ఉత్సర్గ మరియు ప్రోటాన్ బదిలీ
+Matrix Assisted Laser Desorption/Ionisation (MALDI)	మ్యాట్రిక్స్ అసిస్టెడ్ లేజర్ డీసార్ప్షన్ / అయోనైజేషన్ (మాల్డి)
+Proton absorption/ proton transfer	ప్రోటాన్ శోషణ / ప్రోటాన్ బదిలీ
+Desorption/Ionisation On Silicon (DIOS)	సిలికాన్ (DIOS) పై నిర్జలీకరణం / అయోనైజేషన్
+Proton absorption/ proton transfer	ప్రోటాన్ శోషణ / ప్రోటాన్ బదిలీ
+Fast Atom/Ion Bombardment (FAB)	ఫాస్ట్ అటామ్ / అయాన్ బాంబర్డ్మెంట్ (FAB)
+Ion desorption/ proton transfer	అయాన్ నిర్జలీకరణం / ప్రోటాన్ బదిలీ
+Electron Ionisation (EI)	ఎలక్ట్రాన్ అయోనైజేషన్ (EI)
+Electron beam/ electron transfer	ఎలక్ట్రాన్ పుంజం / ఎలక్ట్రాన్ బదిలీ
+Electron Ionisation method:	ఎలక్ట్రాన్ అయోనైజేషన్ పద్ధతి:
+In all the mass spectrometers regardsless of the method used to determine the mass-to-charge ratio of a molecule/compound, first the sample has to enter the mass spectrometer, then converted to charge particle by ion source before there are deflected by the magnetic field and detected. In EI-MS a beam of high energy electrons stike the incoming molecules. The electron and the molecules collide and the molecules form cationss. A repleeer plate that carries a positive electrical potential directs the newly created ions towards a series of accelaration plates. A large potetial difference (1 to 10 KV) is applied across these plates to produce a beam of positive ions. There is a repeller plate that absorbs any negative ions. Molecules that are not ionised are drwan off by the vacuum. Most of the molecules or atoms require 8 to 15 electron colts to get ionised. But usually the beam of electrons stike the molecules at 50 to 70 eV.	అణువు / సమ్మేళనం యొక్క ద్రవ్యరాశి-ఛార్జ్ నిష్పత్తిని నిర్ణయించడానికి ఉపయోగించే పద్దతితో సంబంధం లేకుండా అన్ని మాస్ స్పెక్ట్రోమీటర్లలో, మొదట నమూనా మాస్ స్పెక్ట్రోమీటర్‌లోకి ప్రవేశించాలి, తరువాత అయస్కాంతం ద్వారా విక్షేపం చెందడానికి ముందు అయాన్ మూలం ద్వారా కణాన్ని చార్జ్ చేయడానికి మార్చబడుతుంది. ఫీల్డ్ మరియు కనుగొనబడింది. EI-MS లో అధిక శక్తి ఎలక్ట్రాన్ల పుంజం ఇన్కమింగ్ అణువులను అంటుకుంటుంది. ఎలక్ట్రాన్ మరియు అణువులు ide ీకొంటాయి మరియు అణువులు కాటేషన్లను ఏర్పరుస్తాయి. సానుకూల విద్యుత్ సామర్థ్యాన్ని కలిగి ఉన్న ఒక రిప్లీర్ ప్లేట్ కొత్తగా సృష్టించిన అయాన్లను వరుస యాక్సెలరేషన్ ప్లేట్ల వైపుకు నిర్దేశిస్తుంది. సానుకూల అయాన్ల పుంజం ఉత్పత్తి చేయడానికి ఈ పలకలలో పెద్ద పొటేషియల్ వ్యత్యాసం (1 నుండి 10 కెవి) వర్తించబడుతుంది. ఏదైనా ప్రతికూల అయాన్లను గ్రహించే రిపెల్లర్ ప్లేట్ ఉంది. అయోనైజ్ చేయని అణువులు శూన్యం ద్వారా ద్రవాన్ ఆఫ్ అవుతాయి. చాలా అణువులకు లేదా అణువులకు అయనీకరణం చెందడానికి 8 నుండి 15 ఎలక్ట్రాన్ కోల్ట్స్ అవసరం. కానీ సాధారణంగా ఎలక్ట్రాన్ల పుంజం 50 నుండి 70 eV వద్ద అణువులను అంటుకుంటుంది.
+For recording a simple proton NMR spectra deuterated solvents especially for the use of NMR are used.	సాధారణ ప్రోటాన్ రికార్డింగ్ కోసం ఎన్ఎమ్ఆర్ స్పెక్ట్రా డ్యూటెరేటెడ్ ద్రావకాలను ముఖ్యంగా ఎన్ఎమ్ఆర్ ఉపయోగం కోసం ఉపయోగిస్తారు.
+Salient features of EI method:	EI పద్ధతి యొక్క ముఖ్యమైన లక్షణాలు:
+1. Basic and well understood ionisation method	1. ప్రాథమిక మరియు బాగా అర్థం చేసుకున్న అయనీకరణ పద్ధతి
+2. Ideal for all volatile compounds with masses less than 1000.	2. 1000 కంటే తక్కువ ద్రవ్యరాశి ఉన్న అన్ని అస్థిర సమ్మేళనాలకు అనువైనది.
+3. Leads to molecular ion fragmentation, fragmentation provides structural information.	3. పరమాణు అయాన్ ఫ్రాగ్మెంటేషన్‌కు దారితీస్తుంది, ఫ్రాగ్మెంటేషన్ నిర్మాణాత్మక సమాచారాన్ని అందిస్తుంది.
+4. Mass spectra are reproducible.	4. మాస్ స్పెక్ట్రా పునరుత్పత్తి.
+Objective	ఆబ్జెక్టివ్
+Introduction to mass spectrometry instrumentation and interpretation of mass spectra.	మాస్ స్పెక్ట్రోమెట్రీ ఇన్స్ట్రుమెంటేషన్ పరిచయం మరియు మాస్ స్పెక్ట్రా యొక్క వివరణ.
+Experiment	ప్రయోగం
+Click here	ఇక్కడ నొక్కండి
+Manual	మాన్యువల్
+Follow the procedure given below:	క్రింద ఇచ్చిన విధానాన్ని అనుసరించండి:
+Step1: Click on 'Load Sample'	దశ 1: 'లోడ్ నమూనా' పై క్లిక్ చేయండి
+Observe: The sample is introduced into the vaporisation chamber which is instantly vapourised due to high vacuum and heat.	గమనించండి: అధిక వాక్యూమ్ మరియు వేడి కారణంగా తక్షణమే ఆవిరైపోతున్న బాష్పీభవన గదిలోకి నమూనా ప్రవేశపెట్టబడుతుంది.
+Step 2: Click on 'Ionisation'	దశ 2: 'అయోనైజేషన్' పై క్లిక్ చేయండి
+Observe: Positively charged radical ions are formed by bombardment of beam of high energy electrons.	గమనించండి: అధిక శక్తి ఎలక్ట్రాన్ల పుంజం యొక్క బాంబు దాడి ద్వారా సానుకూలంగా చార్జ్ చేయబడిన రాడికల్ అయాన్లు ఏర్పడతాయి.
+Step 3:Click on 'Accelaration'	దశ 3: 'యాక్సెలరేషన్' పై క్లిక్ చేయండి
+Observe: The positively charged radical ions are accelerated by perforated negative electrodes.	గమనించండి: సానుకూలంగా చార్జ్ చేయబడిన రాడికల్ అయాన్లు చిల్లులు గల ప్రతికూల ఎలక్ట్రోడ్ల ద్వారా వేగవంతం అవుతాయి.
+Step 4: Click on 'Deflection'	దశ 4: 'విక్షేపం' పై క్లిక్ చేయండి
+Observe: The ions are sorted and separted by the magnetic field according to their mass/ charge ratio.	గమనించండి: అయాన్లు వాటి ద్రవ్యరాశి / ఛార్జ్ నిష్పత్తి ప్రకారం అయస్కాంత క్షేత్రం ద్వారా క్రమబద్ధీకరించబడతాయి మరియు వేరు చేయబడతాయి.
+Step 5:Click on 'Evaluation'	దశ 5: క్లిక్ చేయండి'మూల్యాంకనం' పై
+Observe:Takes one to a new page where one needs to analyse the mass spectrum.	గమనించండి: మాస్ స్పెక్ట్రంను విశ్లేషించాల్సిన కొత్త పేజీకి ఒకదాన్ని తీసుకుంటుంది.
+Quizzes	క్విజెస్
+right answer!	సరైన సమాధానం!
+oops, wrong answer!	అయ్యో, తప్పు సమాధానం!
+1. In a mass spectrometry the sample under study is	1. మాస్ స్పెక్ట్రోమెట్రీలో అధ్యయనం కింద ఉన్న నమూనా
+a. is converted to the vapor state before entering the ionization chamber	ఒక. అయనీకరణ గదిలోకి ప్రవేశించే ముందు ఆవిరి స్థితికి మార్చబడుతుంది
+b. is converted to liquid state before entering the ionization chamber	బి. అయనీకరణ గదిలోకి ప్రవేశించే ముందు ద్రవ స్థితికి మార్చబడుతుంది
+c. is passed through the ionization chamber and is converted to vapor state.	సి. అయోనైజేషన్ చాంబర్ గుండా వెళుతుంది మరియు ఆవిరి స్థితికి మార్చబడుతుంది.
+d. is directly studied in gas , liquid or solid state.	d. నేరుగా గ్యాస్, ద్రవ లేదా ఘన స్థితిలో అధ్యయనం చేయబడుతుంది.
+2. Regardless of the method of sample introduction, sample molecules undergo the following before being analyzed or detected:	2. నమూనా పరిచయం యొక్క పద్ధతితో సంబంధం లేకుండా, నమూనా అణువులను విశ్లేషించడానికి లేదా గుర్తించడానికి ముందు ఈ క్రింది వాటికి లోనవుతుంది:
+a. converted to charge particles by ion source	ఒక. అయాన్ మూలం ద్వారా చార్జ్ రేణువులుగా మార్చబడుతుంది
+b. converted to gas or liquid state	బి. గ్యాస్ లేదా ద్రవ స్థితికి మార్చబడుతుంది
+c. repelled by the electric or magnetic field.	సి. విద్యుత్ లేదా అయస్కాంత క్షేత్రం ద్వారా తిప్పికొట్టబడుతుంది.
+d. keep under vacuum	d. శూన్యంలో ఉంచండి
+3. The simplest and the common method of converting a sample to ion is	3. నమూనాను అయాన్‌గా మార్చే సరళమైన మరియు సాధారణ పద్ధతి
+a. Filament heating	ఒక. తంతు తాపన
+b. Electron Ionization	బి. ఎలక్ట్రాన్ అయోనైజేషన్
+c. Electrospray Ionization	సి. ఎలెక్ట్రోస్ప్రే అయోనైజేషన్
+d. Chemical ionization	d. రసాయన అయనీకరణ
+4. The energy required to remove an electron from an atom or molecule is	4. అణువు లేదా అణువు నుండి ఎలక్ట్రాన్ను తొలగించడానికి అవసరమైన శక్తి
+a. Ionization electron	ఒక. అయోనైజేషన్ ఎలక్ట్రాన్
+b. Ionization energy/potential	బి. అయోనైజేషన్ శక్తి / సంభావ్యత
+c. Electron affinity	సి. ఎలక్ట్రాన్ అఫినిటీ
+d. Electronegativity	d. విద్యుదాత్మకత
+5. The drawback to EI-MS are :	5. EI-MS కు లోపం:
+a. lifetime of some compound fragments are too short to be detected	ఒక. కొన్ని సమ్మేళనం శకలాలు జీవితకాలం గుర్తించబడటం చాలా తక్కువ
+b. samples should be relatively volatile	బి. నమూనాలు సాపేక్షంగా అస్థిరంగా ఉండాలి
+c. compounds with high molecular weights cannot be measured	సి. అధిక పరమాణు బరువులు కలిగిన సమ్మేళనాలను కొలవలేము
+d. All the above	d. పైవన్నీ
+6. The mass spectrometry that uses desorption ionization (DI) techniques are:	6. ఎడారీకరణ అయనీకరణ (DI) పద్ధతులను ఉపయోగించే మాస్ స్పెక్ట్రోమెట్రీ:
+a. Secondary ion mass spectroscopy (SIMS)	ఒక. సెకండరీ అయాన్ మాస్ స్పెక్ట్రోస్కోపీ (సిమ్స్)
+b. Fast atom bombardment (FAB)	బి. ఫాస్ట్ అణువు బాంబు పేలుడు (FAB)
+c. Matrix-assisted laser desorption ionization (MALDI)	సి. మ్యాట్రిక్స్-అసిస్టెడ్ లేజర్ డీసార్ప్షన్ అయనీకరణ (MALDI)
+d. All the above	d. పైవన్నీ
+7. Larger and non volatile molecules can be detected using:	7. పెద్ద మరియు అస్థిర అణువులను ఉపయోగించి కనుగొనవచ్చు:
+a. EI-MS	ఒక. EI-MS
+b. MALDI	బి. MALDI
+c. CI-MS	సి. CI-MS
+d. None of the above	d. పైవి ఏవీ లేవు
+8. If a compound has an even number of nitrogen atoms, its molecular ion will appear at an even mass and a compounds with an odd number of nitrogen atoms, the molecular ion will appear at an odd mass. This is called:	8. ఒక సమ్మేళనం సమాన సంఖ్యలో నత్రజని అణువులను కలిగి ఉంటే, దాని పరమాణు అయాన్ సమాన ద్రవ్యరాశి వద్ద మరియు బేసి సంఖ్యలో నత్రజని అణువులతో కూడిన సమ్మేళనాలు కనిపిస్తాయి, పరమాణు అయాన్ బేసి ద్రవ్యరాశి వద్ద కనిపిస్తుంది. దీనిని అంటారు:
+a. Mass rule	ఒక. సామూహిక పాలన
+b. Molecular ion rule	బి. పరమాణు అయాన్ నియమం
+c. Nitrogen rule	సి. నత్రజని నియమం
+d. Mass determination rule	d. సామూహిక నిర్ణయం నియమం
+9. To confirm a particular peak corresponds to a molecular ion is done by:	9. ఒక నిర్దిష్ట శిఖరాన్ని ధృవీకరించడానికి పరమాణు అయాన్‌కు అనుగుణంగా ఉంటుంది:
+a. checking for the most intense peak	ఒక. అత్యంత తీవ్రమైన శిఖరం కోసం తనిఖీ చేస్తోంది
+b. lowering the energy of the beam as a result the intensity of the molecular ion peak will increas	బి. పుంజం యొక్క శక్తిని తగ్గించడం ఫలితంగా పరమాణు అయాన్ శిఖరం యొక్క తీవ్రత పెరుగుతుంది
+c. Increasing the amount of the sample taken	సి. తీసుకున్న నమూనా మొత్తాన్ని పెంచడం
+d. Look for the parent peak	d. మాతృ శిఖరం కోసం చూడండి
+10. The presence of which element in a compound is characterized by an odd number of m/z for its parent peak?	10. సమ్మేళనం లోని ఏ మూలకం ఉనికిని దాని మాతృ శిఖరం కోసం బేసి సంఖ్య m / z కలిగి ఉంటుంది?
+a. Oxygen	ఒక. ఆక్సిజన్
+b. Carbon	బి. కార్బన్
+c. Nitrogen	సి. నత్రజని
+d. Hydrogen	d. హైడ్రోజన్
+Further Readings	మరింత రీడింగ్స్
+Book References:	పుస్తక సూచనలు:
+1. J. Keeler (2005). Understanding NMR Spectroscopy. John Wiley & Sons	1. జె. కీలర్ (2005). ఎన్‌ఎంఆర్ స్పెక్ట్రోస్కోపీని అర్థం చేసుకోవడం. జాన్ విలే & సన్స్
+interpreting Infrared, Raman, and Nuclear Magnetic Resonance Spectra, 2-Volume Set	ఇన్ఫ్రారెడ్, రామన్ మరియు న్యూక్లియర్ మాగ్నెటిక్ రెసొనెన్స్ స్పెక్ట్రా, 2-వాల్యూమ్ సెట్
+R.A. Nyquist, Academic Press, New York, NY, 2001	ఆర్.ఏ. న్యూక్విస్ట్, అకాడెమిక్ ప్రెస్, న్యూయార్క్, NY, 2001
+Other references:	ఇతర సూచనలు:
+2. http://www.chemguide.co.uk/analysismenu.html#top	2. http://www.chemguide.co.uk/analysismenu.html#top
+3. http://science.csustan.edu/tutorial/nmr/index.htm	3. http://science.csustan.edu/tutorial/nmr/index.htm
+4. http://www.wisc-online.com/objects/ViewObject.aspx?ID=GCH6304	4. http://www.wisc-online.com/objects/ViewObject.aspx?ID=GCH6304
+5. http://www.youtube.com/watch?v=SBuXwSFyZwU&feature=player_embedded	5. http://www.youtube.com/watch?v=SBuXwSFyZwU&feature=player_embedded
+6. http://www.youtube.com/watch?v=sDVTzayocWk&feature=related	6. http://www.youtube.com/watch?v=sDVTzayocWk&feature=related
+7. http://orgchem.colorado.edu/procedures/NMR/NMRacquisition.html	7. http://orgchem.colorado.edu/procedures/NMR/NMRacquisition.html
+Feedback	అభిప్రాయం
+Feedback	అభిప్రాయం

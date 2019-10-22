@@ -1,0 +1,92 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	భారత ప్రభుత్వం చొరవతో, MHRD-వర్చువల్ ప్రయెాగశాలకు స్వాగతం 
+Toggle navigation	నావిగేషన్‌ మరియు టోగుల్ చేయండి 
+HOME	హోం 
+ALL LABS	అన్ని ప్రయెాగశాలలు 
+PARTNERS	భాగస్వాములు 
+CONTACT	సంప్రదించండి 
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	రసాయన శాస్త్రాలు → భౌతిక రసాయన ప్రయెాగశాల → ప్రయోగాల జాబితా 
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	పరిచయం సిద్ధాంతం లక్ష్యం ప్రయోగాలు సంపుటి క్విజ్స్ ముందస్తు అవసరమైన సాఫ్ట్‌వేర్లు అభిప్రాయాలు 
+Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds	అణు అయస్కాంత ప్రతిధ్వని స్పెక్ట్రోస్కోపీ మరియు ఎంచుకున్న సేంద్రీయ సమ్మేళనాల 1 హెచ్ ఎన్ఎమ్ఆర్ వర్ణపటన్ని నిర్ధారించుట 
+right answer!	సరైన సమాధానం! 
+oops, wrong answer!	అయ్యో, తప్పు సమాధానం! 
+1. NMR technique uses:	1. NMR పద్దతి ఉపయోగాలు: 
+Microwave	మైక్రోవేవ్ 
+Radio waves	దూరవాణి తరంగాలు 
+Infrared radiation	పరారుణ వికిరణం(రేడియేషన్) 
+Gamma radiation	గామా వికిరణం(రేడియేషన్) 
+2. The x-axis in a NMR spectrum is	2. NMR స్పెక్ట్రంలో x- అక్షం 
+ratio of the magnetic field strength in ppm	ppm లో అయస్కాంత క్షేత్ర బలం యొక్క నిష్పత్తి 
+frequency in cm-1	cm-1 లో పౌనః పున్యము 
+mass to charge ratio (m/z)	ద్రవ్యరాశి మరియు ఆవేశాల నిష్పత్తి (m/z) 
+Absorbance	పీల్చే శక్తి 
+3. A shielded proton is the one which experiences:	3. కవచం కలిగిన ఆ ప్రోటాన్ అనుభూతులు: 
+More electron density and more magnetic field strength	ఎక్కువ ఎలక్ట్రాన్ సాంద్రత మరియు ఎక్కువ అయస్కాంత క్షేత్ర బలం 
+Less electron density and less magnetic field strength	తక్కువ ఎలక్ట్రాన్ సాంద్రత మరియు తక్కువ అయస్కాంత క్షేత్ర బలం 
+More electron density and less magnetic field strength	ఎక్కువ ఎలక్ట్రాన్ సాంద్రత మరియు తక్కువ అయస్కాంత క్షేత్ర బలం 
+Less electron density and more magnetic field strength	తక్కువ ఎలక్ట్రాన్ సాంద్రత మరియు ఎక్కువ అయస్కాంత క్షేత్ర బలం 
+4. The internal reference standard used in NMR experiments is:	4. NMR ప్రయోగాలలో ఉపయోగించే అంతర్గత సూచన ప్రమాణం: 
+tetramethylsilane	టెట్రామీథైల్సిలేన్ 
+deuterated solvents	డ్యూటెరేటెడ్ ద్రావకాలు 
+Nor-Leucine	నార్-ల్యుసిన్ 
+2,2-diphenyl-1-picrylhydrazyl	2,2-డై ఫినైల్-1-పిక్రిల్ హైడ్రాజైల్ 
+5. The TMS (tetramethylsilane) peak value is assigned at:	5. TMS (టెట్రామీథైల్సిలేన్) గరిష్ట విలువ ఇక్కడ కేటాయించబడింది: 
+δ = 0.05	δ = 0.05 
+δ = 0.11	δ = 0.11 
+δ = 1.00	δ = 1.00 
+δ = 0.00	δ = 0.00 
+6. The number of hydrogens are calculated from peak integration by studying the	6. పీక్ ఇంటిగ్రేషన్ నుండి ఈ క్రింది వాటిని అధ్యయనం చేయడం ద్వారా హైడ్రోజెన్ల సంఖ్యను లెక్కిస్తారు 
+Intensity of the peak	శిఖర తీవ్రత 
+Area under the curve	వక్రరేఖ కింద ఉన్న ప్రాంతం 
+Position of the peak	శిఖర స్థానం 
+frequency used	ఉపయోగించబడిన ఫ్రీక్వెన్సీ 
+7. The most common deuterated solvent used for polar compounds is:	7. ధ్రువ సమ్మేళనాల కోసం ఉపయోగించే అత్యంత సాధారణ డ్యూటెరేటెడ్ ద్రావకం: 
+DMF	DMF 
+DMSO	DMSO 
+Chroloform	క్లోరోఫామ్ 
+Water	నీరు 
+8. The 13C NMR spectrum gives information about:	8. 13 సి ఎన్ఎమ్ఆర్ స్పెక్ట్రం దీని గురించి సమాచారం ఇస్తుంది: 
+Number of equivalent Carbon atoms	సమానమైన కార్బన్ అణువుల సంఖ్య 
+Number of non- equivalent Carbon atoms	అసమానమైన కార్బన్ అణువుల సంఖ్య 
+Number of equivalent hydrogen atoms	సమానమైన హైడ్రోజన్ అణువుల సంఖ్య 
+Number of non- equivalent hydrogen atoms	అసమానమైన హైడ్రోజన్ అణువుల సంఖ్య 
+9. The number of peaks tells you:	9. శిఖరాల సంఖ్య మీకు ఏం చెబుతుందంటే: 
+the number of different proton environments	వివిధ ప్రోటాన్ ఆవరణాల సంఖ్య 
+the general environment of the protons	ప్రోటాన్ల సాధారణ ఆవరణం 
+number of protons atoms on the adjacent atom	ప్రక్కనే ఉన్న అణువులో ప్రోటాన్ల సంఖ్య 
+number of protons in each environment	ప్రతి ఆవరణంలో ప్రోటాన్ల సంఖ్య 
+10. In a NMR spectrum the peak multiplicity gives:	10. NMR స్పెక్ట్రంలో శిఖర బహుళత్వం ఇచ్చే వివరాలు: 
+the number of different proton environments	వివిధ ప్రోటాన్ ఆవరణాల సంఖ్య 
+the general environment of the protons	ప్రోటాన్ల సాధారణ ఆవరణం 
+number of protons atoms on the adjacent atom	ప్రక్కనే ఉన్న అణువులో ప్రోటాన్ల సంఖ్య 
+number of protons in each environment	ప్రతి ఆవరణంలో ప్రోటాన్ల సంఖ్య 
+Solutions	పరిష్కారాలు 
+1. NMR technique uses:	1. NMR పద్దతి ఉపయోగాలు: 
+Radio waves	దూరవాణి తరంగాలు 
+2. The x-axis in a NMR spectrum is	2. NMR స్పెక్ట్రంలో x- అక్షం 
+ratio of the magnetic field strength in ppm	ppm లో అయస్కాంత క్షేత్ర బలం యొక్క నిష్పత్తి 
+3. A shielded proton is the one which experiences:	3. కవచం కలిగిన ఆ ప్రోటాన్ అనుభూతులు: 
+More electron density and less magnetic field strength	ఎక్కువ ఎలక్ట్రాన్ సాంద్రత మరియు తక్కువ అయస్కాంత క్షేత్ర బలం 
+4. The internal reference standard used in NMR experiments is:	4. NMR ప్రయోగాలలో ఉపయోగించే అంతర్గత సూచన ప్రమాణం: 
+tetramethylsilane	టెట్రామీథైల్సిలేన్ 
+5. The TMS (tetramethylsilane) peak value is assigned at:	5. TMS (టెట్రామీథైల్సిలేన్) గరిష్ట విలువ ఇక్కడ కేటాయించబడింది: 
+δ = 0.00	δ = 0.00 
+6. The number of hydrogens are calculated from peak integration by studying the	6. పీక్ ఇంటిగ్రేషన్ నుండి ఈ క్రింది వాటిని అధ్యయనం చేయడం ద్వారా హైడ్రోజెన్ల సంఖ్యను లెక్కిస్తారు 
+Aread under the curve	వక్రరేఖ కింద ఉన్న ప్రాంతం 
+7. The most common deuterated solvent used for polar compounds is:	7. ధ్రువ సమ్మేళనాల కోసం ఉపయోగించే అత్యంత సాధారణ డ్యూటెరేటెడ్ ద్రావకం: 
+DMSO	DMSO 
+8. The 13C NMR spectrum gives information about:	8. 13 సి ఎన్ఎమ్ఆర్ స్పెక్ట్రం దీని గురించి సమాచారం ఇస్తుంది: 
+Number of non- equivalent Carbon atoms	సమానమైన కార్బన్ అణువుల సంఖ్య 
+9. The number of peaks tells you:	9. శిఖరాల సంఖ్య మీకు చెబుతుందంటే: 
+the number of different proton environments	వివిధ ప్రోటాన్ ఆవరణాలు 
+10. In a NMR spectrum the peak multiplicity gives:	10. NMR స్పెక్ట్రంలో శిఖర బహుళత్వం ఇచ్చే వివరాలు: 
+number of protons atoms on the adjacent atom	ప్రక్కనే ఉన్న అణువులో ప్రోటాన్ల అణువుల సంఖ్య 
+Updates	నవీకరణలు 
+Lab Integration Kit 1.0.0 Released	ప్రయెాగశాల అనుసంధాన కిట్ 1.0.0 విడుదల చేయబడింది 
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గౌహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్ 
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ప్రయెాగశాలల కొత్త సమూహం 
+VLEAD Blog	VLEAD బ్లాగ్ 
+Sakshat Portal	సాక్షత్ పోర్టల్ 
+Nodal Center	నోడల్ సెంటర్ 
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in 
+Feedback	అభిప్రాయం 
+Follow us	మమ్మల్ని అనుసరించండి

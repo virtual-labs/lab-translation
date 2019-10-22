@@ -1,0 +1,49 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ల్యాబ్స్‌కు స్వాగతం - భారత ఇనిషియేటివ్ యొక్క MHRD ప్రభుత్వం
+Toggle navigation	నావిగేషన్‌ను టోగుల్ చేయండి
+HOME	హోం
+ALL LABS	అన్ని ల్యాబ్‌లు
+PARTNERS	PARTNERS
+CONTACT	సంప్రదించండి
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	కెమికల్ సైన్సెస్ → ఫిజికల్ కెమిస్ట్రీ ల్యాబ్ Experi ప్రయోగాల జాబితా
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	ఇంట్రడక్షన్ థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ ఫీడ్బ్యాక్
+Identification of Unknown Components Using Spectroscopic Techniques	స్పెక్ట్రోస్కోపిక్ టెక్నిక్స్ ఉపయోగించి తెలియని భాగాల గుర్తింపు
+Select one of the two compounds before proceeding to the experiments	ప్రయోగాలకు వెళ్లేముందు రెండు సమ్మేళనాలలో ఒకదాన్ని ఎంచుకోండి
+Choose one of the three experiments to proceed to the lab.	ప్రయోగశాలకు వెళ్లడానికి మూడు ప్రయోగాలలో ఒకదాన్ని ఎంచుకోండి.
+Each lab has its own manual	ప్రతి ప్రయోగశాలకు దాని స్వంత మాన్యువల్ ఉంటుంది
+Manual for IR experiments:	IR ప్రయోగాల కోసం మాన్యువల్:
+Click on the sample bottle (the first bottle) to transfer a small quantity of the sample to the mortar.	నమూనా యొక్క చిన్న పరిమాణాన్ని మోర్టార్‌కు బదిలీ చేయడానికి నమూనా బాటిల్ (మొదటి బాటిల్) పై క్లిక్ చేయండి.
+Click on the mortar to grind the sample to fine paste	చక్కటి పేస్ట్‌కు నమూనాను రుబ్బుకోవడానికి మోర్టార్‌పై క్లిక్ చేయండి
+Click on the bottle containing Nujol to transfer few drops to the mortar.	కొన్ని చుక్కలను మోర్టార్‌కు బదిలీ చేయడానికి నుజోల్ ఉన్న సీసాపై క్లిక్ చేయండి.
+Click on the mortar to make a fine paste of sample	నమూనా యొక్క చక్కటి పేస్ట్ చేయడానికి మోర్టార్పై క్లిక్ చేయండి
+Transfer the sample prepared onto one of the IR discs	తయారుచేసిన నమూనాను ఐఆర్ డిస్కుల్లో ఒకదానికి బదిలీ చేయండి
+Place carefully the other disc and press to form a thin film.	ఇతర డిస్క్‌ను జాగ్రత్తగా ఉంచండి మరియు సన్నని ఫిల్మ్‌ను రూపొందించడానికి నొక్కండి.
+Move the IR plates to the plate holder	IR ప్లేట్లను ప్లేట్ హోల్డర్‌కు తరలించండి
+Place the other part of the holder to sandwich the IR discs.	ఐఆర్ డిస్కులను శాండ్‌విచ్ చేయడానికి హోల్డర్ యొక్క ఇతర భాగాన్ని ఉంచండి.
+Click on the holder to place the the sample in the spectrometer.	నమూనాను స్పెక్ట్రోమీటర్‌లో ఉంచడానికి హోల్డర్‌పై క్లిక్ చేయండి.
+1 Click start to run the spectrometer.	1 స్పెక్ట్రోమీటర్‌ను అమలు చేయడానికి ప్రారంభం క్లిక్ చేయండి.
+	
+Manual for NMR experiments:	NMR ప్రయోగాల కోసం మాన్యువల్:
+Click on fill the sample prepared into the NMR tubes	ఎన్‌ఎంఆర్ గొట్టాలలో తయారుచేసిన నమూనాను పూరించడానికి క్లిక్ చేయండి
+Click on load the sample into the NMR spectrometer	నమూనాను NMR స్పెక్ట్రోమీటర్‌లోకి లోడ్ చేయడంపై క్లిక్ చేయండి
+Click ons tart the measurement	కొలతలను టార్ట్ క్లిక్ చేయండి
+Click on Plot to plot the NMR spectrum	NMR స్పెక్ట్రం ప్లాట్ చేయడానికి ప్లాట్ పై క్లిక్ చేయండి
+Click on the evaluation button to analyse the spectrum.	స్పెక్ట్రం విశ్లేషించడానికి మూల్యాంకనం బటన్ పై క్లిక్ చేయండి.
+Manual for Mass experiments:	మాస్ ప్రయోగాలకు మాన్యువల్:
+Select a sample	నమూనాను ఎంచుకోండి
+Click on the solvent bottle to draw 1 ml of the solvent (methanol) and inject it into the sample inlet to clean any impurity in the sample pathway.	ద్రావకం (మిథనాల్) యొక్క 1 మి.లీ గీయడానికి ద్రావకం బాటిల్‌పై క్లిక్ చేసి, నమూనా మార్గంలో ఏదైనా అశుద్ధతను శుభ్రం చేయడానికి నమూనా ఇన్లెట్‌లోకి ఇంజెక్ట్ చేయండి.
+Click on the sample bottle to transfer small amount (around 1mg) of the substance into the empty sample bottle	పదార్థం యొక్క చిన్న మొత్తాన్ని (సుమారు 1 మి.గ్రా) ఖాళీ నమూనా బాటిల్‌లోకి బదిలీ చేయడానికి నమూనా బాటిల్‌పై క్లిక్ చేయండి
+Click on the solvent bottle to transfer 5 ml of the solvent (methanol) to the substance taken.	తీసుకున్న పదార్థానికి 5 మి.లీ ద్రావకం (మిథనాల్) బదిలీ చేయడానికి ద్రావకం సీసాపై క్లిక్ చేయండి.
+Click on the sample solution to make a clear solution	స్పష్టమైన పరిష్కారం చేయడానికి నమూనా పరిష్కారంపై క్లిక్ చేయండి
+Click on the sample solution to draw 1 ml of the sample prepared to load on to the mass spectrometer.	మాస్ స్పెక్ట్రోమీటర్‌లోకి లోడ్ చేయడానికి సిద్ధం చేసిన నమూనా యొక్క 1 మి.లీ గీయడానికి నమూనా పరిష్కారంపై క్లిక్ చేయండి.
+Click on 'start' button to start the spectrometer	స్పెక్ట్రోమీటర్ ప్రారంభించడానికి 'ప్రారంభించు' బటన్ పై క్లిక్ చేయండి
+Click on the evaluation button for spectral analysis	స్పెక్ట్రల్ విశ్లేషణ కోసం మూల్యాంకనం బటన్ పై క్లిక్ చేయండి
+Updates	నవీకరణలు
+Lab Integration Kit 1.0.0 Released	ల్యాబ్ ఇంటిగ్రేషన్ కిట్ 1.0.0 విడుదల చేయబడింది
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గువహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ల్యాబ్‌ల కొత్త సెట్
+VLEAD Blog	VLEAD బ్లాగ్
+Sakshat Portal	అక్షత్ పోర్టల్
+Nodal Center	నోడల్ సెంటర్
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in
+Feedback	అభిప్రాయం
+Follow us	మమ్మల్ని అనుసరించు

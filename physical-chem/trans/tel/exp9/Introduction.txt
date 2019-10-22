@@ -1,0 +1,21 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	వర్చువల్ ల్యాబ్స్‌కు స్వాగతం - భారత ఇనిషియేటివ్ యొక్క MHRD ప్రభుత్వం
+Toggle navigation	నావిగేషన్‌ను టోగుల్ చేయండి
+HOME	హోం
+ALL LABS	అన్ని ల్యాబ్‌లు
+PARTNERS	PARTNERS
+CONTACT	సంప్రదించండి
+Chemical Sciences →Physical Chemistry Lab →List Of Experiments	కెమికల్ సైన్సెస్ → ఫిజికల్ కెమిస్ట్రీ ల్యాబ్ Experi ప్రయోగాల జాబితా
+Introduction Theory Objective Experiment Manual Quizzes Further Readings Feedback	ఇంట్రడక్షన్ థియరీ ఆబ్జెక్టివ్ ప్రయోగం మాన్యువల్ క్విజ్ మరింత రీడింగ్స్ ఫీడ్బ్యాక్
+Determination of Molar Mass of Simple Compounds Using Mass Spectroscopy	మాస్ స్పెక్ట్రోస్కోపీని ఉపయోగించి సింపుల్ కాంపౌండ్స్ యొక్క మోలార్ మాస్ యొక్క నిర్ధారణ
+Mass spectroscopy the most poweful technique to weigh the molar masses of a given molecule. It is useful in indentifying unkonown compounds and studying their molecular structure. The principle consist of ionizing the sample in the gas phase to formed positively charged ion or radical ions and then measure the mass to charge ratio of all ions. It is largely used in industry and academia and finds application in chemistry, Biotechnology, pharmaceutical, environmental, Clinical, Geological fields. Different methods use different techniques for ionisation which intern determines what types of samples can be analyzed by mass spectrometry. Of all available methods Electron Ionisation or Impact mass spectroscopy is the the simplest of all mass technique that is widely used.	మాస్ స్పెక్ట్రోస్కోపీ ఇచ్చిన అణువు యొక్క మోలార్ ద్రవ్యరాశిని తూకం వేయడానికి అత్యంత శక్తివంతమైన సాంకేతికత. తెలియని సమ్మేళనాలను గుర్తించడానికి మరియు వాటి పరమాణు నిర్మాణాన్ని అధ్యయనం చేయడానికి ఇది ఉపయోగపడుతుంది. ధనాత్మక చార్జ్డ్ అయాన్ లేదా రాడికల్ అయాన్లను ఏర్పరచటానికి గ్యాస్ దశలో నమూనాను అయనీకరణం చేసి, ఆపై అన్ని అయాన్ల నిష్పత్తిని వసూలు చేయడానికి ద్రవ్యరాశిని కొలుస్తుంది. ఇది ఎక్కువగా పరిశ్రమ మరియు అకాడెమియాలో ఉపయోగించబడుతుంది మరియు కెమిస్ట్రీ, బయోటెక్నాలజీ, ఫార్మాస్యూటికల్, ఎన్విరాన్మెంటల్, క్లినికల్, జియోలాజికల్ రంగాలలో అనువర్తనాన్ని కనుగొంటుంది. మాస్ స్పెక్ట్రోమెట్రీ ద్వారా ఏ రకమైన నమూనాలను విశ్లేషించవచ్చో ఇంటర్న్ నిర్ణయిస్తుంది. అందుబాటులో ఉన్న అన్ని పద్ధతులలో ఎలక్ట్రాన్ అయోనైజేషన్ లేదా ఇంపాక్ట్ మాస్ స్పెక్ట్రోస్కోపీ అనేది విస్తృతంగా ఉపయోగించే అన్ని మాస్ టెక్నిక్‌లలో సరళమైనది.
+Picture source: http://www.mhhe.com/physsci/chemistry/chang7/esp/folder_structure/cl/m3/s3/index.htm	చిత్ర మూలం: http://www.mhhe.com/physsci/chemistry/chang7/esp/folder_structure/cl/m3/s3/index.htm
+Updates	నవీకరణలు
+Lab Integration Kit 1.0.0 Released	ల్యాబ్ ఇంటిగ్రేషన్ కిట్ 1.0.0 విడుదల చేయబడింది
+Summer Sprint Integration Workshop at IIT Guwahati	ఐఐటి గువహతిలో సమ్మర్ స్ప్రింట్ ఇంటిగ్రేషన్ వర్క్‌షాప్
+A new set of 35 Virtual Labs on Portable Media	పోర్టబుల్ మీడియాలో 35 వర్చువల్ ల్యాబ్‌ల కొత్త సెట్
+VLEAD Blog	VLEAD బ్లాగ్
+Sakshat Portal	అక్షత్ పోర్టల్
+Nodal Center	నోడల్ సెంటర్
+Contact : support@vlabs.ac.in	సంప్రదించండి: support@vlabs.ac.in
+Feedback	అభిప్రాయం
+Follow us	మమ్మల్ని అనుసరించు

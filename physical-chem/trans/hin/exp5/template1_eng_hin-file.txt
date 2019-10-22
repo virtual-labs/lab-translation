@@ -1,0 +1,17 @@
+Welcome to Virtual Labs - A MHRD Govt of india Initiative	आभासी प्रयोगशालाओं (वर्चुअल लैब्स) में आपका स्वागत है- एमएचआरडी भारत सरकार की एक पहल 
+Toggle navigation	टॉगल से संचालित करना टॉगल नेविगेशन(कंप्यूटर पर ढूढ़ना) 
+HOME	होम 
+ALL LABS	सभी प्रयोगशालाएँ (लैब्स) 
+PARTNERS	भागीदार 
+CONTACT	संपर्क करें 
+Disciplines and Domains	विषय और क्षेत्र (डोमेन) 
+Updates	अपडेट्स(अभी_तक के) 
+Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया(प्रयोगशाला एकीकरण सामग्री 1.0.0 जारी की गई) 
+Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 
+A new set of 35 Virtual Labs on Portable Media	पोर्टेबल मीडिया पर 35 आभासी प्रयोगशालाओं (वर्चुअल लैब्स) का एक नया सेट 
+VLEAD Blog	वीलिड ब्लॉग 
+Sakshat Portal	साक्षात पोर्टल 
+Nodal Center	नोडल केंद्र 
+Contact : support@vlabs.ac.in	संपर्क: support@vlabs.ac.in 
+Feedback	प्रतिक्रिया 
+Follow us	हमारा अनुगमन करें

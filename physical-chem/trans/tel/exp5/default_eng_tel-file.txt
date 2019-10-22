@@ -1,0 +1,52 @@
+Physical Chemistry Lab	భౌతిక రసాయన శాస్త్ర ప్రయెాగశాల 
+Simple Pendulum	లఘులోలకం 
+Introduction	పరిచయం 
+In this module, basic concepts of simple oscillator are explained.	ఈ భాగంలో, సామాన్య డోలకం యొక్క ప్రాథమిక అంశాలు వివరించబడ్డాయి. 
+Initially, an example of simple pendulum is taken and the basic terminology i.e., what is initial displacement, initial velocity,natural frequency and time period are explained.	ప్రారంభంలో, లఘులోలకం ఉదాహరణగా తీసుకోబడింది మరియు ప్రాథమిక పరిభాష అనగా, ప్రారంభ స్థానభ్రంశం, ప్రారంభ వేగం, సహజ పౌనఃపున్యం మరియు కాల వ్యవధి(ఆవర్తన కాలం) వివరించబడింది. 
+Each of these terms is illustrated by giving an example, where user can enter his value and observe the behavior of structure for his input.	ప్రతి ఒక్కటి ఒక ఉదాహరణ ద్వారా వివరించబడ్డాయి, ఇక్కడ యూజర్ తన విలువలను(గణాంకాలను) నమోదు చేయవచ్చు మరియు అతని ఇచ్చిన ఇన్పుట్ యెుక్క ప్రవర్తనను గమనించవచ్చు. 
+Simple harmonic oscillator consists of a mass (m) hanging from a string of length (l), fixed at a pivot point P.	లఘులోలకం పొడవైన(l)దారము నుండి వేలాడుతున్న ద్రవ్యరాశి (m) ను కలిగి ఉంటుంది, ఇది పివట్ పాయింట్ P వద్ద స్థిరంగా ఉంటుంది. 
+When the mass is displaced from its mean position by giving some initial displacement (angle), oscillator starts swinging back and fourth with periodic motion.	ద్రవ్యరాశిని కదిలించినప్పుడు నిశ్చల స్థానం నుండి స్థానభ్రంశం చెంది లోలకం వెనుకకు ముందుకు ఆవర్తనాలు చేస్తుంది. 
+Theory	సిద్ధాంతం 
+There are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$	\(ax^2 + bx + c = 0\) కు రెండు పరిష్కారాలు ఉన్నాయి. అవి $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ 
+By applying Newton's second law for rotational systems, the equation of motion for the pendulum may be obtained.	న్యూటన్ గమన నియమాన్ని వర్తింపజేయడం ద్వారా, లోలకం చలన సమీకరణాన్ని పొందవచ్చు. 
+Where, τ = Torque ; I = Moment of Inertia; α = Angular Velocity. m is mass of the oscillator, l is the length of the oscillator and theta is initial displacement.	ఎక్కడ, τ = టార్క్; I = జడత్వం; α = కోణీయ వేగం. m అనేది డోలకం యొక్క ద్రవ్యరాశి, l అనేది డోలకం యొక్క పొడవు మరియు తీటా ప్రారంభ స్థానభ్రంశం. 
+The above equation can be rearranged as If the amplitude of angular displacement is small then we can use the approximation (sinθ ≈ θ).	కోణీయ స్థానభ్రంశం యొక్క కంపన పరిమితి తక్కువగా ఉంటే పై సమీకరణాన్ని మార్చవచ్చు. మనం సుమారుగా (sinθ ≈ θ) గా ఉపయోగించవచ్చు. 
+By considering the above approximation, the equation of motion reduces to : The solution for equation of simple harmonic oscillator is where, θ(t) is the history of oscillation, θ0 is the initial angle, ω=(g/l)1/2 is the natural frequency of the motion.	పై ఉజ్జాయింపును పరిగణనలోకి తీసుకోవడం ద్వారా, చలన సమీకరణంలో మార్పులు వస్తాయి: సరళ హరాత్మక డోలకం(హార్మోనిక్ ఓసిలేటర్) యొక్క సమీకరణ పరిష్కారంలో, θ (t) డోలనం యొక్క చరిత్ర, θ0 ప్రారంభ కోణం, ω=(g/l)1/2 చలనం యొక్క సహజ పౌనఃపున్యం. 
+Objective	లక్ష్యం 
+Objective of simple harmonic oscillator experiment is to understand the concept of time period (natural frequency) in harmonic oscillations .	సరళ హరాత్మక డోలకం ప్రయోగం యొక్క లక్ష్యం హరాత్మక డోలనాల కాల వ్యవధి (సహజ పౌనఃపున్యం) యొక్క భావనను అర్థం చేసుకోవడం. 
+Experiment	ప్రయోగం 
+Manual	సంపుటి(మాన్యువల్) 
+Start the experiment with the default values of length, mass and intial displacement (in angle).	పొడవు, ద్రవ్యరాశి మరియు అంతర్గత స్థానభ్రంశం (కోణంలో) యొక్క డిఫాల్ట్ విలువలతో ప్రయోగాన్ని ప్రారంభించండి. 
+Pause the experiment after few cycles and note the observation.	కొన్ని ఆవర్లనాల(చక్రాల) తర్వాత ప్రయోగాన్ని నిలిపి(పాజ్) వేయండి మరియు పరిశీలనలను గమనించండి. 
+Observation 1:	పరిశీలన 1: 
+Find the time period of the pendulum by noting the time interval of any one complete cycle from the response graph.	వచ్చిన గ్రాఫ్ నుండి ఒక ఆవర్తనం(పూర్తి చక్రం) యొక్క సమయ వ్యవధిని గమనించడం ద్వారా లోలకం యొక్క కాల వ్యవధిని కనుగొనండి. 
+You may note that this time period value is same for any complete cycle.	ఏ ఆవర్తనాన్ని(పూర్తి చక్రాన్ని) తీసుకున్న ఈ కాల వ్యవధి విలువ సమానంగా ఉండడాన్ని మీరు గమనించవచ్చు. 
+Read More	ఇంకా చదవండి 
+Quizzes	క్విజ్స్ 
+Q1.	Q1. 
+Time taken for one complete oscillation is called Time Period of the oscillator.	ఒక పూర్తి డోలనం కోసం తీసుకున్న సమయాన్ని డోలకం యొక్క కాల వ్యవధి(ఆవర్తన కాలం) అంటారు. 
+True	ఒప్పు 
+False	తప్పు 
+Q2.	Q2. 
+Time period of the oscillator is constant for given values of mass, length and initial conditions.	ద్రవ్యరాశి, పొడవు మరియు ప్రారంభ పరిస్థితుల యొక్క విలువలకు డోలకం కాల వ్యవధి(ఆవర్తన కాలం) స్థిరంగా ఉంటుంది. 
+True	ఒప్పు 
+False	తప్పు 
+Q3.	Q3. 
+Value of Time period depends on initial conditions.	కాల వ్యవధి(ఆవర్తన కాలం) ప్రారంభ పరిస్థితులపై ఆధారపడి ఉంటుంది. 
+True	ఒప్పు 
+False	తప్పు 
+Q4.	Q4. 
+Value of time period depends on mass.	కాల వ్యవధి(ఆవర్తన కాలం) ద్రవ్యరాశిపై ఆధారపడి ఉంటుంది. 
+True	ఒప్పు 
+False	తప్పు 
+Q5.	Q5. 
+Value of time period depends on length of the oscillator.	కాల వ్యవధి(ఆవర్తన కాలం) డోలకం పొడవుపై ఆధారపడి ఉంటుంది. 
+True	ఒప్పు 
+False	తప్పు 
+Procedure	విధానము 
+Procedure for the experiment is as follows	ప్రయోగం చేసే విధానం ఈ క్రింది విధంగా ఉంది 
+Further Readings	ఇంకా చదవల్సినవి 
+http://en.wikipedia.org/wiki/Simple_harmonic_motion	http://en.wikipedia.org/wiki/Simple_harmonic_motion 
+http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html	http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html 
+â€œDynamics of structuresâ€ by Anil K chopra.	అనిల్ కె చోప్రా రచించిన "Dynamics of structures". 
+http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html	http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html
