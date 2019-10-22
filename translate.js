@@ -215,7 +215,9 @@ const translate = (efn, tfn, lang) => {
   const nodes = [];
   while(tw.nextNode()) {
     if (!(tw.currentNode.wholeText.trim() === "")) {
-      nodes.push(tw.currentNode);
+      if (!(tw.currentNode.parentElement.type === "text/javascript")){
+	nodes.push(tw.currentNode);
+      }
     }
   }
   nodes.forEach(n => n.textContent = find_trans(n.wholeText, tm, lang));
@@ -272,7 +274,7 @@ const translate_lab = (lab_path, trans_path, exp, lang) => {
 	  fs.writeFileSync(hfp, trns);
 	}
 	catch(e){
-	  console.log(`Naming error: ${html_fn}`, tfp); // fix these manually for now.
+	  //console.log(e);
 	}
       }
     });
