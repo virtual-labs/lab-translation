@@ -12,62 +12,46 @@ lab.  That text file contains an english phrase and its translation in
 the target language separated by a tab charachter on each line.
 
 If your original english lab has the following structure
-
+#+BEGIN_EXAMPLE
 /src
-  |
-  ------/lab
-          |
-	  ------index.html
-	  
-	  ------content.html
-	  
-	  ------something.js
-	  
-	  ------css/
-	         |
-	  	 ------main.css
-	  ------exp1/
-	         |
-		 ------experiment.html
-
-		 ------intro.html
-	  ------exp2/
-	         |
-	         ------exp.html
-
-		 ------quiz.html
+|--lab
+   |--index.html
+   |--content.html
+   |--something.js
+   |--css/
+   |  `--main.css
+   |--exp1/
+   |  `--experiment.html
+   |  `--intro.html
+   |--exp2/
+      `--exp.html
+      `--quiz.html
+#+END_EXAMPLE
 
 Then the dictionary will look like this:
 
+#+BEGIN_EXAMPLE
 /src
-  |
-  ------/lab
-          |
-	  ------index.txt
-	  
-	  ------content.txt	
-	  
-	  ------exp1/
-	         |
-		 ------experiment.txt
-
-		 ------intro.txt
-	  ------exp2/
-	         |
-	         ------exp.txt
-
-		 ------quiz.txt
+|--lab
+   |--index.txt
+   |--content.txt
+   |--exp1/
+   |  `--experiment.txt
+   |  `--intro.txt
+   |--exp2/
+      `--exp.txt
+      `--quiz.txt
+#+END_EXAMPLE
 
 * Setup
 
 Decide where you want to place the translated version.  That location
 should have the following structure.
-
+#+BEGIN_EXAMPLE
 loc/
- |
- ------src/
-        |
-	------lab/
+|--src/
+   |--lab/
+#+END_EXAMPLE
 
 Not make the following changes in the given files.
 
