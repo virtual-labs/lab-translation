@@ -1,6 +1,5 @@
 Graph Plot	ग्राफ का नक्शा(प्लॉट) 
-Mouse hovers at	(0, 0) पर माउस मँडराता है 
-(0, 0 ).	 
+Mouse hovers at पर माउस मँडराता है 
 Proton environment	प्रोटॉन पर्यावरण 
 Q1.How many types of proton environment are present ?	Q1. कितने प्रकार के प्रोटॉन पर्यावरण मौजूद हैं? 
 Ans:	उत्तर: 

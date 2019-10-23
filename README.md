@@ -1,3 +1,0 @@
-# labtrans
-
-Translation of labs

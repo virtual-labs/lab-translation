@@ -1,0 +1,26 @@
+filename,source,error_count
+plot_benzene.html,exp9,2
+plot_ethylacetate.html,exp9,3
+plot_acetaldehyde.html,exp9,2
+plot_benzene.html,exp7,2
+Theory.html,exp7,5
+plot_ethylacetate.html,exp7,2
+Quizzes.html,exp7,4
+plot_acetaldehyde.html,exp7,2
+plot_caffeine.html,exp7,2
+plot_aspirin.html,exp7,2
+Introduction.html,exp7,2
+Theory.html,exp6,7
+Quizzes.html,exp6,7
+plot_caffeine.html,exp6,2
+plot_aspirin.html,exp6,2
+Introduction.html,exp6,2
+plot_benzene.html,exp10,2
+plot_ethylacetate.html,exp10,2
+Quizzes.html,exp10,8
+plot_acetaldehyde.html,exp10,2
+Further Readings.html,exp10,1
+plot_benzene.html,exp5,2
+plot_ethylacetate.html,exp5,2
+plot_acetaldehyde.html,exp5,2
+Further Readings.html,exp5,1

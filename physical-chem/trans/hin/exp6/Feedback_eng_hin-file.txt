@@ -13,7 +13,7 @@ Manual	मैनुअल(गाइड/नियमावली)
 Quizzes	प्रश्नावली (क्विज़) 
 Further Readings	अतिरिक्त जानकारी के लिए 
 Feedback	प्रतिक्रिया (फीडबैक) 
-Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.Feedback	नमक प्लेटों का उपयोग करते हुए इन्फ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी के उपकरण एवं कार्य सिद्धांत। प्रतिक्रिया (फीडबैक) 
+Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates.	नमक प्लेटों का उपयोग करते हुए इन्फ्रा रेड (आईआर) स्पेक्ट्रोस्कोपी के उपकरण एवं कार्य सिद्धांत।
 Updates	अपडेट(अब तक का) 
 Lab Integration Kit 1.0.0 Released	लैब इंटीग्रेशन किट 1.0.0 जारी किया गया 
 Summer Sprint Integration Workshop at IIT Guwahati	आईआईटी गुवाहाटी में ग्रीष्मकालीन स्प्रिंट एकीकरण कार्यशाला 

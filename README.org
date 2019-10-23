@@ -1,10 +1,109 @@
 #+title: Translation
 
+* Requirements
+
+Translating a lab from english to any other language reqires the following:
+1. The original english version.
+2. Translation dictionary/mapping
+
+The translation dictionary is a directory which has the exact same
+structure as the lab.  It contains one text file per html file in the
+lab.  That text file contains an english phrase and its translation in
+the target language separated by a tab charachter on each line.
+
+If your original english lab has the following structure
+
+/src
+  |
+  ------/lab
+          |
+	  ------index.html
+	  
+	  ------content.html
+	  
+	  ------something.js
+	  
+	  ------css/
+	         |
+	  	 ------main.css
+	  ------exp1/
+	         |
+		 ------experiment.html
+
+		 ------intro.html
+	  ------exp2/
+	         |
+	         ------exp.html
+
+		 ------quiz.html
+
+Then the dictionary will look like this:
+
+/src
+  |
+  ------/lab
+          |
+	  ------index.txt
+	  
+	  ------content.txt	
+	  
+	  ------exp1/
+	         |
+		 ------experiment.txt
+
+		 ------intro.txt
+	  ------exp2/
+	         |
+	         ------exp.txt
+
+		 ------quiz.txt
+
 * Setup
 
-=clear_previous_run.sh=
-+ change to lab variable and set it to the
-desired location.
-+ change to ensrc variable
+Decide where you want to place the translated version.  That location
+should have the following structure.
 
-=transConfig.json= : change to =LAB_PATH= value.
+loc/
+ |
+ ------src/
+        |
+	------lab/
+
+Not make the following changes in the given files.
+
+=clear_previous_run.sh=
++ change the lab variable and set it to the
+desired location. (path/to/desired/translation/loc/src/lab)
+
++ change the ensrc variable to where you have the original english version (path/to/englab/src/lab).
+
+=transConfig.json= : change the =LAB_PATH= variable.
+
+* Process
+
+One the setup is complete, do the follwing:
+
+1. If you are using for the first time.  You need the following installations.
+
++ =node v12.12.0=
++ =npm 6.11.3=
+
+After installation, run the command: =npm install=
+
+This will install the required npm packages (=jsdom=).
+
+2. After installation, run the following commands.
+
++ =bash clear_previous_run.sh=
++ =node translate.js <lang>= where lang can be =hin= or =tel=.
++ =finderrors.sh > error.log=
+
+Every subsequent execution requires both scripts to be run.
+
+3. After running the srcipts, open the error.log and fix all the
+   errors.  There are two types of errors.
+
+   a. Can be fixed in the dictionary.  Re-run step2 after fixing the
+   translation text file.  b. Need to fix the html manually.  Do this
+   at the last and do not run the sripts after doing this, your
+   changes will be overwritten.
