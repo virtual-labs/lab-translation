@@ -1,4 +1,0 @@
-Graph Plot	ग्राफ प्लॉट 
-Mouse hovers at (0, 0 ).	माउस (०, ०) पर मंडराता है। 
-Q1.What is the capital of India ?	Q1. भारत की राजधानी क्या है? 
-Ans:	उत्तर:
