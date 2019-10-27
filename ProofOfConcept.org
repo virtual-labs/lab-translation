@@ -1,0 +1,105 @@
+#+title: Lab Translation: Proof of Concept
+
+* Objective
+
+  TODO
+
+* Motivation
+
+  The *Virtual Labs* portal provides remote-access to Labs for
+  engineering students to perform experiments and learn various
+  concepts.  However, currently these labs are available only in English
+  language, whereas a majority of Indian engineering students are more
+  fluent in thier native languages as compared to English.  This makes
+  it more difficult for the students to focus on learning the concepts
+  as they spend more time understanding the language itself.
+  
+  The =Virtual Labs Translation= initiative aims to address this gap and
+  improve the accessibility of Virtual Labs content by translating the
+  labs from English to various Indian languges.  This phase of the
+  translation project includes translation to =Hindi= and =Telugu=
+  languges.
+
+
+* Text Translation
+  
+  Translation of a lab (text content) to any given language involves the following
+  steps:
+  1. Pre-processing: Extraction of text from HTML
+  2. Translation
+  3. Post-processing: Build HTML files with translated text
+     
+** Pre-processing: Extraction of text from HTML
+
+   The lab content is in HTML format.  It contains text, simulation
+   and images.  In this step, we are only concerned with the textual
+   content.  For each HTML document, we extract the text content and
+   place it in a text file with the same name (appended with a suffix)
+   as the html document.
+
+   These text documents are sent to the translation service.  The
+   translation services are provided by =Language Translation Research
+   Center (LTRC)= at IIIT Hyderabad.
+
+** Translation
+
+   The translation process requires the content (to be translated) in
+   a text file.  Each line in the text file is translated separately,
+   and the translated text (in the specified target language), is
+   placed next to the source text in the same line, separated by a
+   =TAB= charachter.
+
+   Translation is two step process:
+   1. Machine Translation
+   2. Human Validation
+      
+*** Machine Translation
+    
+    In this step, a pre-trained =neural machine translation= system is
+    used to translate each line of text in the source language, to a
+    correspoding phrase (with the same/similar meaning) in the target language.
+
+    This process takes a few seconds for each lab, per target
+    language.  Next, the translated documents need to be validated by
+    language experts (humans).
+
+*** Human Validation
+
+    A languge expert reads all the translated documents and fixes any
+    errors and inconsistencies in the translated text.  After this
+    process, the text should be indistinguishable from a something
+    written by a human.
+
+    The text content is now ready to be placed in the HTML documents.
+
+** Post-processing: Build HTML files with translated text
+
+   After the translation process, we receive a translation map
+   document corresponding to each html document.  We use this
+   translation map document to create a new HTML document with the
+   same structure at that of the HTML document in the source language
+   but containing text in the target language.
+   
+   This is an automated process which takes a few seconds for each
+   lab, per target language.  This is followed by a validation step.
+
+   This validation is required to check for any errors that might have
+   occured in the previous step that altered the structure of the html
+   document, or if some text has not been translated.
+
+** 
+
+* Image Transltion
+  
+  The images need to be translated manually using some Photoshop tools.
+
+
+* Simulation Translation
+  
+  Experiment simulations are a combination of HTML and javascript.
+  Most of the text is in HTML, but there are some messages, dynamic
+  HTML, alerts etc, that are encoded in javasctipt sources.  These
+  text strings also need to be translated, which is performed by
+  extracting the strings from the javascript source and replacing them
+  with translated text, using some parsing a parsing tool.
+  
