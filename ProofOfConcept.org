@@ -20,11 +20,12 @@
   translation project includes translation to =Hindi= and =Telugu=
   languges.
 
+  
 
 * Text Translation
   
-  Translation of a lab (text content) to any given language involves the following
-  steps:
+  Translation of a lab (text content) to any given language involves
+  the following steps:
   1. Pre-processing: Extraction of text from HTML
   2. Translation
   3. Post-processing: Build HTML files with translated text
@@ -57,13 +58,14 @@
     
     In this step, a pre-trained =neural machine translation= system is
     used to translate each line of text in the source language, to a
-    correspoding phrase (with the same/similar meaning) in the target language.
+    correspoding phrase (with the same/similar meaning) in the target
+    language.
 
     This process takes a few seconds for each lab, per target
     language.  Next, the translated documents need to be validated by
     language experts (humans).
 
-*** Human Validation
+*** Human Validation (Text)
 
     A languge expert reads all the translated documents and fixes any
     errors and inconsistencies in the translated text.  After this
@@ -74,32 +76,110 @@
 
 ** Post-processing: Build HTML files with translated text
 
-   After the translation process, we receive a translation map
-   document corresponding to each html document.  We use this
-   translation map document to create a new HTML document with the
-   same structure at that of the HTML document in the source language
-   but containing text in the target language.
-   
-   This is an automated process which takes a few seconds for each
-   lab, per target language.  This is followed by a validation step.
+*** Build HTML
+    
+    After the translation process, we receive a translation map
+    document corresponding to each html document.  We use this
+    translation map document to create a new HTML document with the
+    same structure at that of the HTML document in the source language
+    but containing text in the target language.
+    
+    This is an automated process which takes a few seconds for each
+    lab, per target language.  This is followed by a validation step.
 
-   This validation is required to check for any errors that might have
-   occured in the previous step that altered the structure of the html
-   document, or if some text has not been translated.
+*** Human Validation (HTML)
 
-** 
+    This validation is required to check for any errors that might have
+    occured in the previous step that altered the structure of the html
+    document, or if some text has not been translated.
 
 * Image Transltion
-  
+
+  =WORK IN PROGRESS=
+
   The images need to be translated manually using some Photoshop tools.
 
 
 * Simulation Translation
+  
+  =WORK IN PROGRESS=
   
   Experiment simulations are a combination of HTML and javascript.
   Most of the text is in HTML, but there are some messages, dynamic
   HTML, alerts etc, that are encoded in javasctipt sources.  These
   text strings also need to be translated, which is performed by
   extracting the strings from the javascript source and replacing them
-  with translated text, using some parsing a parsing tool.
+  with translated text, using some a parsing tool.
   
+
+* Time Estimates
+
+Time estimates for each of the steps imvolved (per lab per language).
+
+|-------+------------------------------+----------------+------------------|
+| S. No | Process Step                 | Time Taken     | Team Responsible |
+|-------+------------------------------+----------------+------------------|
+|     1 | Extraction of text from HTML | O(seconds)     | VLEAD            |
+|-------+------------------------------+----------------+------------------|
+|     2 | Machine Translation          | O(seconds)     | LTRC             |
+|-------+------------------------------+----------------+------------------|
+|     3 | Human Validation             | 1 week per lab | LTRC             |
+|-------+------------------------------+----------------+------------------|
+|     4 | Building HTML                | O(seconds)     | VLEAD            |
+|-------+------------------------------+----------------+------------------|
+|     5 | Human Validation (HTML)      | 1 week per lab | VLEAD            |
+|-------+------------------------------+----------------+------------------|
+|     5 | Image Transltion             |                | VLEAD            |
+|-------+------------------------------+----------------+------------------|
+|     6 | Simulation Translation       | O(seconds)     | VLEAD            |
+|-------+------------------------------+----------------+------------------|
+
+* Case Study
+
+  Following the above steps, we translated one lab =[NAME-OF-LAB]=
+  from =English= to =Hindi= and =Telugu= as a proof of concept.
+
+  Approximate time taken for each step in the process in listed below:
+
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+| S. No | Experiment Name                 | Manually  | Manually  |        | Simulation Status     | Images Translated |
+|       |                                 | Validated | Validated | Time   |                       |                   |
+|       |                                 | (text)    | (HTML)    |        |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    1. | Nuclear Magnetic Resosnace      |           |           |        |                       |                   |
+|       | Spectrocopy and Evaulation      |           |           | 2 days |                       |                   |
+|       | of Simple 1H NMR Spectra        | Yes       | Yes       |        | JS, translated        | No                |
+|       | of Select Organic Compounds     |           |           |        |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    2. | Instrumentation and Working     |           |           |        |                       |                   |
+|       | Principles of Infra Red (IR)    | Yes       | Yes       | 2 days | Flash, not translated | No                |
+|       | Spectroscopy Using Salt Plates  |           |           |        |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    3. | Instrumentation and Working     |           |           | 2 days |                       |                   |
+|       | Principles of Solutions Infra   | Yes       | Yes       |        | Flash, not translated | No                |
+|       | Red (IR) Spectroscopy           |           |           |        |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    4. | Instrumentation and Working     |           |           | 1 day  |                       |                   |
+|       | Principles of Mass Spectroscopy | No        | Yes       |        | JS, translated        | No                |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    5. | Determination of Molar Mass     |           |           |        |                       |                   |
+|       | of Simple Compounds Using       | No        | Yes       |        | Flash, not translated | No                |
+|       | Mass Spectroscopy               |           |           | 1 day  |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|    6. | Identification of Unknown       |           |           |        |                       |                   |
+|       | Components Using                | No        | Yes       | 1 day  | Flash, not translated | No                |
+|       | Spectroscopic Techniques        |           |           |        |                       |                   |
+|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+
+
+* Caveats
+
+There are some caveats in the translation process, which we are
+currently working to address.
+
+Caveats that affect the translation process:
+
+1. Text in JS is currently not supported, needs to be done manually.
+2. Translation of HTML is not completely accurate.  There are always
+   some errors, which need to either fixed in the translation file, or
+   the resulting HTML file.
