@@ -141,35 +141,21 @@ Time estimates for each of the steps imvolved (per lab per language).
 
   Approximate time taken for each step in the process in listed below:
 
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-| S. No | Experiment Name                 | Manually  | Manually  |        | Simulation Status     | Images Translated |
-|       |                                 | Validated | Validated | Time   |                       |                   |
-|       |                                 | (text)    | (HTML)    |        |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    1. | Nuclear Magnetic Resosnace      |           |           |        |                       |                   |
-|       | Spectrocopy and Evaulation      |           |           | 2 days |                       |                   |
-|       | of Simple 1H NMR Spectra        | Yes       | Yes       |        | JS, translated        | No                |
-|       | of Select Organic Compounds     |           |           |        |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    2. | Instrumentation and Working     |           |           |        |                       |                   |
-|       | Principles of Infra Red (IR)    | Yes       | Yes       | 2 days | Flash, not translated | No                |
-|       | Spectroscopy Using Salt Plates  |           |           |        |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    3. | Instrumentation and Working     |           |           | 2 days |                       |                   |
-|       | Principles of Solutions Infra   | Yes       | Yes       |        | Flash, not translated | No                |
-|       | Red (IR) Spectroscopy           |           |           |        |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    4. | Instrumentation and Working     |           |           | 1 day  |                       |                   |
-|       | Principles of Mass Spectroscopy | No        | Yes       |        | JS, translated        | No                |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    5. | Determination of Molar Mass     |           |           |        |                       |                   |
-|       | of Simple Compounds Using       | No        | Yes       |        | Flash, not translated | No                |
-|       | Mass Spectroscopy               |           |           | 1 day  |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
-|    6. | Identification of Unknown       |           |           |        |                       |                   |
-|       | Components Using                | No        | Yes       | 1 day  | Flash, not translated | No                |
-|       | Spectroscopic Techniques        |           |           |        |                       |                   |
-|-------+---------------------------------+-----------+-----------+--------+-----------------------+-------------------|
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+| S. No | Experiment Name                                                                                            | Manually Validated (text) | Manually Validated (HTML) | Time   | Simulation Status     | Images Translated |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    1. | Nuclear Magnetic Resosnace Spectrocopy and Evaulation of Simple 1H NMR Spectra of Select Organic Compounds | Yes                       | Yes                       | 2 days | JS, translated        | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    2. | Instrumentation and Working Principles of Infra Red (IR) Spectroscopy Using Salt Plates                    | Yes                       | Yes                       | 2 days | Flash, not translated | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    3. | Instrumentation and Working Principles of Solutions Infra Red (IR) Spectroscopy                            | Yes                       | Yes                       | 2 days | Flash, not translated | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    4. | Instrumentation and Working Principles of Mass Spectroscopy                                                | No                        | Yes                       | 1 day  | JS, translated        | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    5. | Determination of Molar Mass of Simple Compounds Using Mass Spectroscopy                                    | No                        | Yes                       | 1 day  | Flash, not translated | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
+|    6. | Identification of Unknown Components Using Spectroscopic Techniques                                        | No                        | Yes                       | 1 day  | Flash, not translated | No                |
+|-------+------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+--------+-----------------------+-------------------|
 
 
 * Caveats
