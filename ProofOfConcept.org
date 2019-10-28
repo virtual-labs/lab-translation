@@ -177,7 +177,7 @@ Time estimates for each of the steps imvolved (per lab per language).
 There are some caveats in the translation process, which we are
 currently working to address.
 
-Caveats that affect the translation process:
+Caveats concerning the translation process:
 
 1. Text in JS is currently not supported, needs to be done manually.
 2. Translation of HTML is not completely accurate.  There are always
