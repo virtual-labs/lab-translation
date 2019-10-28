@@ -1,0 +1,194 @@
+#+title: Translation using google API
+
+* Translate some text
+
+#+BEGIN_SRC js :tangle translate-example.js
+
+async function translate_hello() {
+  // Imports the Google Cloud client library
+  const {Translate} = require('@google-cloud/translate');
+
+  // Instantiates a client
+  const translate = new Translate({projectId: "lab-translation"});
+
+  // The text to translate
+  const text = 'Hello, world!';
+
+  // The target language
+  const target = 'ru';
+
+  // Translates some text into Russian
+  const [translation] = await translate.translate(text, target);
+  console.log(`Text: ${text}`);
+  console.log(`Translation: ${translation}`);
+}
+
+translate_hello();
+
+#+END_SRC
+
+* Lab to translate
+
+github: https://github.com/virtual-labs/molecular-absorption-spectroscopy-responsive-lab.git
+
+The lab that is used for translation in this trial, is
+=molecular-absorption-spectroscopy-responsive-lab=.  This lab is
+selected because it is supposed to have all the experiments in js.
+
+The repository is saved in =ensrc/= directory.
+
+
+* Extract text from HTML file
+
+Calling the API everytime is expesive and time consuming, so extract
+the text content in a text file.  Also have a json file with the same
+content to test which works better.  The text format was being used by
+LTRC, but it is not necessarily the best.
+
+** Extract in json
+
+Extracting the text content to a .txt file.
+
+
+NOTE: while saving, the text is trimmed, i.e. all the whitespaces are
+removed from starting and end of the string.  So, while searching
+also, first trim, then search.
+
+Still not handled subscript and superscript cases.
+
+#+BEGIN_SRC js :tangle extract.js
+
+  fs = require("fs");
+  jsdom = require("jsdom");
+
+
+  const {JSDOM} = jsdom;
+
+  // read the html file in english
+  test_fn = "enlab/molecular-absorption-spectroscopy-responsive-lab/src/lab/Introduction.html"
+  const enhtml = fs.readFileSync(test_fn, encoding="utf-8");
+
+  // this list will store all the text content in the above html
+  // document.
+  const text_content = [];
+
+  const dom = new JSDOM(enhtml);
+
+  const tw = dom.window.document.createTreeWalker(
+    dom.window.document.body, dom.window.NodeFilter.SHOW_TEXT);
+
+
+  // traverse the DOM tree and whenever there is a node that contains
+  // some text content, add it to the text_content list.  
+
+  // NOTE: while saving, the text is trimmed, i.e. all the whitespaces
+  // are removed from starting and end of the string.  So, while
+  // searching also, first trim, then search.
+
+  while(tw.nextNode()) {
+    if (!(tw.currentNode.wholeText.trim() === "")) {
+      if (!(tw.currentNode.parentElement.type === "text/javascript")){
+	text_content.push(tw.currentNode.textContent.trim());
+      }
+    }
+  }
+
+  // write this list to a json file
+  fs.writeFileSync("text_content_trial.json", JSON.stringify(text_content));
+
+#+END_SRC
+
+* Translate
+
+** Translate from json
+
+#+BEGIN_SRC js :tangle translate-json.js
+
+  fs = require("fs");
+  const {Translate} = require('@google-cloud/translate');
+
+  const enjson = fs.readFileSync("text_content_trial.json", encoding="utf-8");
+
+  const content = JSON.parse(enjson);
+
+  // Instantiates a client
+  const translate = new Translate({projectId: "lab-translation"});
+
+  async function translate_text(text) {
+
+    // The target language
+    const target = 'hi';
+
+    // Translates some text into Russian
+    const [translation] = await translate.translate(text, target);
+    
+    return [text, translation];
+
+  }
+
+  async function trbatch(ctnt) {
+    const translation_promises =  ctnt.map((i) => translate_text(i));
+    const translation_results = [];
+    for await (const tr of translation_promises) {
+      translation_results.push(tr);
+    }
+    
+    fs.writeFileSync("hindi_trans_trial.json", JSON.stringify(translation_results));
+  }
+
+  trbatch(content);
+
+#+END_SRC
+
+* Rebuild
+
+Rebuild HTML in the target language.
+
+#+BEGIN_SRC js :tangle rebuildhtml.js
+
+
+  fs = require("fs");
+  jsdom = require("jsdom");
+
+
+  const {JSDOM} = jsdom;
+
+  test_fn = "hilab/molecular-absorption-spectroscopy-responsive-lab/src/lab/Introduction.html"
+  const enhtml = fs.readFileSync(test_fn, encoding="utf-8");
+
+  trans = JSON.parse(fs.readFileSync("hindi_trans_trial.json", encoding="utf-8"));
+
+  
+
+  // this list will store all the text content in the above html
+  // document.
+  const text_content = [];
+
+  const dom = new JSDOM(enhtml);
+
+  const tw = dom.window.document.createTreeWalker(
+    dom.window.document.body, dom.window.NodeFilter.SHOW_TEXT);
+
+
+  // traverse the DOM tree and whenever there is a node that contains
+  // some text content, add it to the text_content list.  
+
+  // NOTE: while saving, the text is trimmed, i.e. all the whitespaces
+  // are removed from starting and end of the string.  So, while
+  // searching also, first trim, then search.
+
+  while(tw.nextNode()) {
+    if (!(tw.currentNode.wholeText.trim() === "")) {
+      if (!(tw.currentNode.parentElement.type === "text/javascript")){
+	//tw.currentNode.textContent = trans[tw.currentNode.textContent.trim()];
+	tc = trans.filter( t => (tw.currentNode.textContent.trim() === t[0]))[0][1];
+	tw.currentNode.textContent = tc;
+      }
+    }
+  }
+
+  // write this list to a json file
+  fs.writeFileSync(test_fn, dom.serialize());
+
+
+#+END_SRC
