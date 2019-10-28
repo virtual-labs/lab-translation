@@ -1,0 +1,23 @@
+{
+  "name": "lab-translation",
+  "version": "1.0.0",
+  "description": "* SETUP",
+  "main": "translate-example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtual-labs/lab-translation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtual-labs/lab-translation/issues"
+  },
+  "homepage": "https://github.com/virtual-labs/lab-translation#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^4.2.1",
+    "jsdom": "^15.2.0"
+  }
+}

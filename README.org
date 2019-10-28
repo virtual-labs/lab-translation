@@ -1,0 +1,17 @@
+#+title: LAB TRANSLATION USING GOOGLE API
+
+* SETUP
+
+First time setup.  If you do not see any package.json, install the
+dependencies manually.  If there is a package.json or
+package-lock.json, just run =npm install=.  Otherwise do the
+following:
+
+** install google-translate module from npm
+   
+   =npm install --save @google-cloud/translate=
+
+** install jsom for traversal
+
+   =npm install jsdom=
+
