@@ -2,7 +2,10 @@
 
 * Objective
 
-  TODO
+  It was agreed that the existing content may be made available in
+  multilingual options or statespecific languages. IIIT Hyderabad has
+  kindly agreed to recast one lab as a pilot in two language viz Hindi
+  and Telegu in addition to English as default language.
 
 * Motivation
 
@@ -33,10 +36,10 @@
 ** Pre-processing: Extraction of text from HTML
 
    The lab content is in HTML format.  It contains text, simulation
-   and images.  In this step, we are only concerned with the textual
-   content.  For each HTML document, we extract the text content and
-   place it in a text file with the same name (appended with a suffix)
-   as the html document.
+   and images.  This step deals only with the textual content.  For
+   each HTML document, we extract the text content and place it in a
+   text file with the same name (appended with a suffix) as the html
+   document.
 
    These text documents are sent to the translation service.  The
    translation services are provided by =Language Translation Research
@@ -78,14 +81,14 @@
 
 *** Build HTML
     
-    After the translation process, we receive a translation map
-    document corresponding to each html document.  We use this
-    translation map document to create a new HTML document with the
-    same structure at that of the HTML document in the source language
-    but containing text in the target language.
+    After the translation process, a translation map document
+    corresponding to each html document is received from the
+    translation service (LTRC).  Using these translation maps, each
+    HTML document is translated to the target language.
     
     This is an automated process which takes a few seconds for each
-    lab, per target language.  This is followed by a validation step.
+    experiment, per target language.  This is followed by a validation
+    step.
 
 *** Human Validation (HTML)
 
@@ -136,8 +139,9 @@ Time estimates for each of the steps imvolved (per lab per language).
 
 * Case Study
 
-  Following the above steps, we translated one lab =[NAME-OF-LAB]=
-  from =English= to =Hindi= and =Telugu= as a proof of concept.
+  Following the above steps, translation of one lab =[NAME-OF-LAB]=
+  from =English= to =Hindi= and =Telugu= was performed as a proof of
+  concept.
 
   Approximate time taken for each step in the process in listed below:
 
