@@ -54,24 +54,37 @@ NOTE: while saving, the text is trimmed, i.e. all the whitespaces are
 removed from starting and end of the string.  So, while searching
 also, first trim, then search.
 
+
 Still not handled subscript and superscript cases.
+
+
+All translation maps (jsons) are stored with the same filename as the
+html file in the same location.  This is likely to change later, but
+for now to get things working and simplify the process, all json files
+will stay adjacent to the html files.
+
+
+There is no need to add these (json) files to git.
+
 
 #+BEGIN_SRC js :tangle extract.js
 
-  fs = require("fs");
-  jsdom = require("jsdom");
-
+  const fs = require("fs");
+  const jsdom = require("jsdom");
+  const path = require("path");
 
   const {JSDOM} = jsdom;
 
   // read the html file in english
-  test_fn = "enlab/molecular-absorption-spectroscopy-responsive-lab/src/lab/Introduction.html"
-  const enhtml = fs.readFileSync(test_fn, encoding="utf-8");
+  const html_file_path = process.argv[2];
+  const html_file_name = path.parse(html_file_path).name;
+  const html_loc = path.dirname(html_file_path);
+  const json_fn = path.join(html_loc, `${html_file_name}.json`);
+  const enhtml = fs.readFileSync(html_file_path, encoding="utf-8");
 
   // this list will store all the text content in the above html
   // document.
   const text_content = [];
-
   const dom = new JSDOM(enhtml);
 
   const tw = dom.window.document.createTreeWalker(
@@ -94,7 +107,7 @@ Still not handled subscript and superscript cases.
   }
 
   // write this list to a json file
-  fs.writeFileSync("text_content_trial.json", JSON.stringify(text_content));
+  fs.writeFileSync(json_fn, JSON.stringify(text_content));
 
 #+END_SRC
 
@@ -102,38 +115,39 @@ Still not handled subscript and superscript cases.
 
 ** Translate from json
 
+This scripts needs an environment variable to be set first.
+
+=export GOOGLE_APPLICATION_CREDENTIALS="Lab Translation-88029d170826.json"=
+
+
 #+BEGIN_SRC js :tangle translate-json.js
 
   fs = require("fs");
   const {Translate} = require('@google-cloud/translate');
 
-  const enjson = fs.readFileSync("text_content_trial.json", encoding="utf-8");
-
-  const content = JSON.parse(enjson);
-
   // Instantiates a client
   const translate = new Translate({projectId: "lab-translation"});
 
-  async function translate_text(text) {
+  const translation_map_fn = process.argv[2];
+  const enjson = fs.readFileSync(translation_map_fn, encoding="utf-8");
+  const content = JSON.parse(enjson);
 
+  
+  async function translate_text(text) {
     // The target language
     const target = 'hi';
-
-    // Translates some text into Russian
     const [translation] = await translate.translate(text, target);
-    
     return [text, translation];
-
   }
 
   async function trbatch(ctnt) {
     const translation_promises =  ctnt.map((i) => translate_text(i));
-    const translation_results = [];
+    const translation_results = {};
     for await (const tr of translation_promises) {
-      translation_results.push(tr);
+      translation_results[tr[0]] = tr[1];
     }
     
-    fs.writeFileSync("hindi_trans_trial.json", JSON.stringify(translation_results));
+    fs.writeFileSync(translation_map_fn, JSON.stringify(translation_results));
   }
 
   trbatch(content);
@@ -146,49 +160,35 @@ Rebuild HTML in the target language.
 
 #+BEGIN_SRC js :tangle rebuildhtml.js
 
-
-  fs = require("fs");
-  jsdom = require("jsdom");
-
+  const fs = require("fs");
+  const jsdom = require("jsdom");
+  const path = require("path");
 
   const {JSDOM} = jsdom;
 
-  test_fn = "hilab/molecular-absorption-spectroscopy-responsive-lab/src/lab/Introduction.html"
-  const enhtml = fs.readFileSync(test_fn, encoding="utf-8");
+  const html_file_path = process.argv[2];
+  const html_file_name = path.parse(html_file_path).name;
+  const html_loc = path.dirname(html_file_path);
+  const json_fn = path.join(html_loc, `${html_file_name}.json`);
+  const enhtml = fs.readFileSync(html_file_path, encoding="utf-8");
 
-  trans = JSON.parse(fs.readFileSync("hindi_trans_trial.json", encoding="utf-8"));
-
-  
-
-  // this list will store all the text content in the above html
-  // document.
-  const text_content = [];
+  trans = JSON.parse(fs.readFileSync(json_fn, encoding="utf-8"));
 
   const dom = new JSDOM(enhtml);
 
   const tw = dom.window.document.createTreeWalker(
     dom.window.document.body, dom.window.NodeFilter.SHOW_TEXT);
 
-
-  // traverse the DOM tree and whenever there is a node that contains
-  // some text content, add it to the text_content list.  
-
-  // NOTE: while saving, the text is trimmed, i.e. all the whitespaces
-  // are removed from starting and end of the string.  So, while
-  // searching also, first trim, then search.
-
   while(tw.nextNode()) {
     if (!(tw.currentNode.wholeText.trim() === "")) {
       if (!(tw.currentNode.parentElement.type === "text/javascript")){
-	//tw.currentNode.textContent = trans[tw.currentNode.textContent.trim()];
-	tc = trans.filter( t => (tw.currentNode.textContent.trim() === t[0]))[0][1];
+	tc = trans[tw.currentNode.textContent.trim()];
 	tw.currentNode.textContent = tc;
       }
     }
   }
 
   // write this list to a json file
-  fs.writeFileSync(test_fn, dom.serialize());
-
+  fs.writeFileSync(html_file_path, dom.serialize());
 
 #+END_SRC
