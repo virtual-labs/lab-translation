@@ -15,29 +15,4 @@ following:
 
    =npm install jsdom=
 
-** TODO
-
-Character count for each experiment.
-=translate and compare one experiment (physical chemistry exp 8, 9 or 10)=
-compare exp8 google and ltrc
-=send the translated lab (molecular spectroscopy) for images tranlation=
-=translate telugu=
-
-translate javascript
-
-
-Hindi versions:
-LTRC: file:///home/ojas/iiith/vlabs/translate-exp/repos/physical-chemistry-iiith-hindi/src/lab/exp8/Introduction.html
-Google: file:///home/ojas/iiith/vlabs/lab-translation/physical-chemistry-iiith-js-hi/src/lab/exp8/Introduction.html
-
-
-<2019-11-01 Fri>
-
-tool for validation - workbench
-translation changes meaning - human validation is required
-bottleneck : terminology confusions between languages
-one to two days per experiment
-ebhashasetu - rashid
-
-translation api access is possible
 
