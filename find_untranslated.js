@@ -5,8 +5,8 @@ const jsdom = require("jsdom");
 const {Translate} = require('@google-cloud/translate');
 
 //const lab_root = 'mashi/molecular-absorption-spectroscopy-responsive-lab/src/lab';
-//const lab_root = 'maste/molecular-absorption-spectroscopy-responsive-lab/src/lab';
-const lab_root = 'physical-chemistry-iiith-js-hi/src/lab/exp8/';
+const lab_root = 'maste/molecular-absorption-spectroscopy-responsive-lab/src/lab';
+//const lab_root = 'physical-chemistry-iiith-js-hi/src/lab/exp8/';
 
 const opt = process.argv[2];
 
@@ -18,7 +18,7 @@ switch (opt) {
     break;
   case 'translate':    
     let jpat = path.join(lab_root, '**/*.json');
-    translate(jpat, false, 'hi');
+    translate(jpat, false, 'te');
     break;
   case 'rebuild':
     rebuild(hpat);

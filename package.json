@@ -18,6 +18,8 @@
   "homepage": "https://github.com/virtual-labs/lab-translation#readme",
   "dependencies": {
     "@google-cloud/translate": "^4.2.1",
-    "jsdom": "^15.2.0"
+    "glob": "^7.1.5",
+    "jsdom": "^15.2.0",
+    "xgettext": "0.0.0"
   }
 }
