@@ -1,0 +1,155 @@
+#+title: Lab Translation: Proof of Concept
+
+* Objective
+
+  It was agreed that the existing content may be made available in
+  multilingual options or state-specific languages. IIIT Hyderabad has
+  kindly agreed to recast one lab as a pilot in two language viz Hindi
+  and Telugu in addition to English as default language.
+
+
+* Motivation
+
+  The *Virtual Labs* portal provides remote-access to Labs for
+  engineering students to perform experiments and learn various
+  concepts.  However, currently these labs are available only in English
+  language, whereas a majority of Indian engineering students are more
+  fluent in their native languages as compared to English.  This makes
+  it more difficult for the students to focus on learning the concepts
+  as they spend more time understanding the language itself.
+  
+  The =Virtual Labs Translation= initiative aims to address this gap and
+  improve the accessibility of Virtual Labs content by translating the
+  labs from English to various Indian languages.  This phase of the
+  translation project includes translation to =Hindi= and =Telugu=
+  languages.
+
+  
+
+* Text Translation
+  
+  Translation of a lab (text content) to any given language involves
+  the following steps:
+  1. Pre-processing: Extraction of text from HTML
+  2. Translation
+  3. Post-processing: Build HTML files with translated text
+     
+** Pre-processing: Extraction of text from HTML
+
+   The lab content is in HTML format.  It contains text, simulation
+   and images.  This step deals only with the textual content.
+
+   The text content is extracted from each HTML document, and placed
+   in a corresponding =json= file.  This json file is used in the text
+   translation step to get the English text to be translated for each
+   HTML document.
+
+   *Effort*: Negligible.  Performed by a script.
+
+** Translation
+
+   The text translation is performed using [[https://cloud.google.com/translate/][Google Cloud Translate]] API.  
+
+   Translation is a two step process:
+   1. Machine Translation
+   2. Human Validation
+      
+*** Machine Translation
+    
+    English language text is sent to the translation API, which
+    returns the text translated in the target language.  This process
+    takes a few seconds for each experiment, per target language.
+    Next, the translated documents need to be validated by language
+    experts (humans).
+
+    *Effort*: Negligible.  Performed by a script.
+
+*** Human Validation (Text)
+
+    A language expert reads all the translated documents and fixes any
+    errors and inconsistencies in the translated text.
+
+    The text content is now ready to be placed in the HTML documents.
+
+    *Effort*: 1 person-day /experiment /language
+
+** Post-processing: Build HTML files with translated text
+
+*** Build HTML
+    
+    The text content in HTML documents is replaced with corresponding
+    text in the target language using the json file that contains
+    mapping from English text to translated text.
+
+    *Effort*: Negligible.  Performed by a script.
+
+    This is followed by a validation step.
+
+*** Human Validation (HTML)
+
+    The HTML documents now contain text a new language.  Even though
+    the text has been validated in a previous step, another validation
+    is required at this stage to assess the overall quality of the
+    translated web-page.
+
+    *Effort*: 0.5 person-days /experiment /language
+
+* Image Translation
+
+
+  Translating images implies rebuilding each image by replacing all
+  the text content in the image with the same text translated in the
+  target language.  Here we assume that the images are in =bitmap file
+  formats= and the source files (in =vector format= or =container
+  format= are not available).
+
+** Automated Translation 
+
+   Images are translated using [[https://www.imagetranslate.com/][ImageTranslate]] - a tool that performs
+   text extraction, translation and rebuilding itself and gives a
+   translated image in the target language.
+   
+   Limited human intervention is involved in validation and editing of
+   the results.
+   
+   *Effort*: 0.5 person-days /experiment /language
+
+* Text-in-code translation
+  
+  Every lab consists of some dynamic content that is managed by
+  JavaScript.  This is mostly true for the experiment simulations and
+  may include other sections such as quizzes.
+
+  The text content in JavaScript files can be translated in two ways:
+  1. Manually searching through the code and extracting all the text
+     strings.
+  2. Automated extraction.  This is only possible if certain =i18n=
+     conventions are followed during the development process.
+
+  *Effort*:
+  - 1st Method: 0.5 person-day /experiment /language
+  - 2nd method: Negligible     
+
+* Effort Estimation
+
+Time estimates for each of the steps involved (per lab per language).
+
+|-------+------------------------------+----------------------------------------------+------------------|
+| S. No | Process Step                 | Time Taken (person-days/experiment/language) | Team Responsible |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     1 | Extraction of text from HTML |                                   Negligible | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     2 | Machine Translation          |                                   Negligible | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     3 | Human Validation             |                                            1 | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     4 | Building HTML                |                                   Negligible | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     5 | Human Validation (HTML)      |                                          0.5 | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     6 | Image Translation            |                                          0.5 | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+|     7 | Text-in-code Translation     |                                          0.5 | VLEAD            |
+|-------+------------------------------+----------------------------------------------+------------------|
+
+*Total Effort Estimate*: 2.5 person-days /experiment /language
