@@ -1,0 +1,121 @@
+#+title: The HTML Translation Pipeline
+#+author: VLEAD
+
+* Introduction
+
+* The Pipeline
+
+** Extract
+
+The main =extract= function takes a unix style [[http://man7.org/linux/man-pages/man7/glob.7.html][glob pattern]].  This
+glob pattern is parsed using the [[https://www.npmjs.com/package/glob][glob]] package on npm.
+
+The file list from the glob pattern is used to extract the text
+content to be translated.  The actual extraction is performed the
+=extract_json= function, which takes a file-path and extracts the text
+to a json file.
+
+#+name: extract
+#+BEGIN_SRC js 
+  function extract(pat) {
+    // pat is a unix style glob pattern that is used to match files that
+    // are to selected.
+    glob(pat, function(err, files) {
+      console.log("extracting:");
+      console.log(files);
+      files.forEach(fn => extract_json(fn));
+    });
+  }
+#+END_SRC
+
+*** Extract json
+
+The =extract_json= function takes an html file path and extracts the
+text content from that file.
+
+*Structure of the extracted content*: 
+
+=text_content -> [phrase, phrase ... ]=
+=phrase -> string=
+
+where each =phrase= maps to a unique text node in the source HTML DOM.
+
+This extracted content is stored in a json file with the same basename
+and location as that of the source HTML file.
+
+For example:
+
+If there is an html file with following path:
+
+=some/random/file/basename.html= 
+
+The =extract_json= function will produce the following file:
+
+=some/random/file/basename.json= 
+
+This file is used by the translation function as the source of text to
+be translated.
+
+#+name: extract-json
+#+BEGIN_SRC js
+
+function extract_json(html_file_path) {
+
+  const {JSDOM} = jsdom;
+  
+  // read the html file in english
+  const html_file_name = path.parse(html_file_path).name;
+  const html_loc = path.dirname(html_file_path);
+  const json_fn = path.join(html_loc, `${html_file_name}.json`);
+  const enhtml = fs.readFileSync(html_file_path, encoding="utf-8");
+  
+  // this list will store all the text content in the above html
+  // document.
+  const text_content = [];
+  const dom = new JSDOM(enhtml);
+  
+  const tw = dom.window.document.createTreeWalker(
+    dom.window.document.body, dom.window.NodeFilter.SHOW_TEXT);
+  
+
+  // traverse the DOM tree and whenever there is a node that contains
+  // some text content, add it to the text_content list.  
+  
+  // NOTE: while saving, the text is trimmed, i.e. all the whitespaces
+  // are removed from starting and end of the string.  So, while
+  // searching also, first trim, then search.
+  
+  while(tw.nextNode()) {
+    if (!(tw.currentNode.wholeText.trim() === "")) {
+      if (!(tw.currentNode.parentElement.type === "text/javascript")){
+	text_content.push(tw.currentNode.textContent.trim());
+      }
+    }
+  }
+  
+  // write this list to a json file
+  fs.writeFileSync(json_fn, JSON.stringify(text_content));
+}
+#+END_SRC
+
+** Tralslate
+
+#+BEGIN_SRC 
+
+#+END_SRC
+
+** Rebuild
+
+* Tangle
+
+#+BEGIN_SRC js :eval no :noweb yes :tangle htmlTranslationPipeline.js
+const glob = require('glob');
+const path = require('path');
+const fs = require('fs');
+const jsdom = require("jsdom");
+
+<<extract>>
+<<extract-json>>
+<<translate>>
+<<rebuild>>
+#+END_SRC

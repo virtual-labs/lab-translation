@@ -1,0 +1,179 @@
+#+title: Internationalization and Localization
+
+* Introduction
+
+** Localization
+
+Localization refers to the adaptation of a product, application or
+document content to meet the language, cultural and other requirements
+of a specific target market.
+
+Localization is sometimes written as =l10n=, where 10 is the number of
+letters between l and n.
+
+Localization involves the following major aspects:
+1. Translation of visible text
+2. Translation of text in images
+3. Recreating videos
+4. Translating dynamically generated content
+5. Handling numeric, date time formats and many more considerations.
+
+To simplify the process of localization the product should be designed
+in a way that facilitates localization.
+
+** Internationalization
+
+Internationalization is the design and development of a product,
+application or document content that enables easy localization for
+target audiences that vary in culture, region, or language.
+
+Internationalization is often written i18n, where 18 is the number of
+letters between i and n in the English word.
+
+** Significance of Internationalization
+
+Retrofitting a linguistically- and culturally-centered deliverable for
+a global market is obviously much more difficult and time-consuming
+than designing a deliverable with the intent of presenting it
+globally.
+
+* Localization effort involved in virtual labs translation
+
+The virtual labs translation project involves translating experiments
+developed in English language to other Indian languages.  A typical
+virtual lab experiment has the following assets:
+
+1. Textual descriptions of the experiment
+2. Images
+3. Videos
+4. Simulation
+
+** Textual Descriptions
+
+Textual content visible to the user, comes from two sources.  First is
+HTML documents. HTML documents are used to display content on the web
+and most of the text that the user sees on any experiment page is
+embedded in the HTML itself.
+
+Secondly, some text is also embedded in JavaScript code which is used
+to drive the User Interface and provide certain features such as
+quizzes and simulations.  Simulations are mostly dynamic, and majority
+of the visible text is embedded in the JavaScript code (given that the
+simulation is in JavaScript.  Flash based simulations are completely
+different and are not discussed here.)
+
+Here we discuss the effort involved in translating static content
+embedded in HTML documents.
+
+The process of translating content in HTML format, involves extracting
+all the text from the HTML documents, translating the text and
+replacing the original text with that in new language.
+
+This process is automated and takes a few seconds per document, but
+after this, a human validate needs to read and validate the content.
+
+** Images
+
+All images contain some textual content.  This content also needs to be
+translated to the target language.  This process also involves a human
+translator recreating all the images in the target language.
+
+
+** Videos
+
+Localizing a video requires either creating a completely new recording
+with translated material, or just translating the transcript and
+providing the transcript in the target language.
+
+In case of virtual labs, the second option is not much useful, because
+the video contains some instructor taking through the content.  If the
+content is in English, then just translating the transcript has no
+utility.
+
+
+** Simulations
+
+Simulations that are developed as web applications using JavaScript
+and HTML technologies, contain text in both JavaScript and HTML
+sources.  Translating the HTML content is discussed in a previous
+section.  Here we discuss localization of JavaScript source.
+
+Extracting translatable text from JavaScript sources is not as trivial
+as extracting text from HTML.  HTML has a Document Object Model tree,
+and JavaScript provides APIs to traverse the tree and identify all
+visible text nodes, which allows extraction and translation of text,
+without any special effort to facilitate the process while
+development.  The same is not true for JavaScript sources.
+
+JavaScript is a programming language, with and expanding set of native
+APIs for working with web content, not to mention the rapidly
+expanding world of third party libraries and frameworks.  This makes
+it impossible to develop any tool that enables extracting all the
+visible text content from a JavaScript source file.
+
+Localization of a simulation, hence involves a web developer rewriting
+the JavaScript sources files in the target language.
+
+* Internationalization effort involved in virtual labs translation
+
+** HTML
+
+While it is possible to extract and translate text from most HTML
+documents without any special support during development, the process
+is error prone and requires human intervention.  To completely
+standardize the process, the HTML documents need to be developed with
+provisions that allow automated localization.
+
+One of the ways this can be achieved is by having the text content in
+separate files instead of embedding it in HTML documents.  This
+eliminates the need to extract text from HTML documents.
+
+More details will be discussed later.
+
+** JavaScript
+
+There is a standard way of developing software that facilitates
+localization.  The =GNU gettext= is a set of tools and frameworks
+developed under the =GNU Translation Project=.  These tools include:
+
+- A set of conventions about how programs should be written to support
+  message catalogs.
+- A directory and file naming organization for the message catalogs
+  themselves.
+- A run-time library supporting the retrieval of translated messages.
+- A few stand-alone programs to massage in various ways the sets of
+  translatable strings, or already translated strings.
+- A library supporting the parsing and creation of files containing
+  translated messages.
+- A special mode for Emacs1 which helps preparing these sets and
+  bringing them up to date.
+
+GNU gettext is designed to minimize the impact of internationalization
+on program sources, keeping this impact as small and hardly noticeable
+as possible.
+
+The =gettext= tools have been developed for JavaScript as well.  To
+take advantage of these tools, developers need to integrate some
+practices while developing the applications.
+
+For example, to allow gettext utilities to extract text from
+JavaScript source code, all the text strings need to use the following
+convention (or something similar depending on the library being used).
+
+*** Normal JavaScript
+
+#+BEGIN_SRC js
+
+  const some_message = "This is a message that the user will see at some point in the program.";
+  console.log(some_message);
+
+#+END_SRC
+
+*** Javascript that supports gettext
+
+#+BEGIN_SRC js
+
+  const some_message = _("This is a message that the user will see at some point in the program.");
+  console.log(some_message);
+
+#+END_SRC
