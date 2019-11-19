@@ -144,29 +144,31 @@
 |-------+---------------------------------+-------------------------------------------------------------------------------+------------------|
 
 
-* Model Summaries
+** Model Summaries
 
-| S. No | Model            | Description                      | Machine     | Human      | Image       | Simulation  | Cost    |
-|       |                  |                                  | Translation | Validation | Translation | Translation |         |
-|-------+------------------+----------------------------------+-------------+------------+-------------+-------------+---------|
-|     1 | Outsourced       | Validation of translated text    | YES         | YES        | YES         | YES         | 22,000  |
-|       | Human Validation | is performed by some external    |             |            |             |             |         |
-|       |                  | entity contracted by VLEAD.      |             |            |             |             |         |
-|-------+------------------+----------------------------------+-------------+------------+-------------+-------------+---------|
-|     2 | In-house         | Validation of translated text    | YES         | YES        | YES         | YES         | 7,000   |
-|       | Human Validation | is performed by language experts |             |            |             |             |         |
-|       |                  | hired by VLEAD.                  |             |            |             |             |         |
-|-------+------------------+----------------------------------+-------------+------------+-------------+-------------+---------|
-|     3 | Without          | Machine translated text is       |             |            |             |             |         |
-|       | Human Validation | accepted as publishable content  | YES         | NO         | YES         | YES         | 6,000   |
+| S. No | Model                       | Description                      | Machine     | Human      | Image       | Simulation  | Cost   |
+|       |                             |                                  | Translation | Validation | Translation | Translation |        |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
+|     1 | [[Model 1: Outsourced Human Validation][Outsourced Human Validation]] | Validation of translated text    | YES         | YES        | YES         | YES         | 22,000 |
+|       |                             | is performed by some external    |             |            |             |             |        |
+|       |                             | entity contracted by VLEAD.      |             |            |             |             |        |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
+|     2 | [[Model 2: In-house Human Validation][In-house human validation]]   | Validation of translated text    | YES         | YES        | YES         | YES         | 7,000  |
+|       |                             | is performed by language experts |             |            |             |             |        |
+|       |                             | hired by VLEAD.                  |             |            |             |             |        |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
+|     3 | [[Model 3 : Without Human Validation][Without Human Validation]]    | Machine translated text is       |             |            |             |             |        |
+|       |                             | accepted as publishable content  | YES         | NO         | YES         | YES         | 6,000  |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
+|     4 | [[Model 4: Google Translate Plugin][Google Translate Plugin]]     | Use a translation plugin         | NA          | NA         | NA          | NA          | 0      |
 
  
-* Models
+** Models
 
 
-** Model 1: Outsourced Human Validation
+*** Model 1: Outsourced Human Validation
 
-*** Effort
+**** Effort
 
 |-------+------------------------------+----------------------------------------------+---------------------------|
 | S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                  |
@@ -187,7 +189,7 @@
 |-------+------------------------------+----------------------------------------------+---------------------------|
 |       | *Total*                      |                                              |                           |
 
-*** External Costs
+**** External Costs
 
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 | S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
@@ -203,7 +205,7 @@
 |       | *Total*             |                | *20,000*                            |                                        |
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 
-*** Internal Costs - Human Resources
+**** Internal Costs - Human Resources
 
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
 | S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                        |
@@ -218,7 +220,7 @@
 |       | *Total*                                       |                         | *2,000*                             |                                     |
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
 
-*** Total Cost : Per experiment per language
+**** Total Cost : Per experiment per language
 
 | S. No | Type of Cost | Price (INR) |
 |-------+--------------+-------------|
@@ -230,9 +232,9 @@
 |-------+--------------+-------------|
 
 
-** Model 2: In-house Human Validation
+*** Model 2: In-house Human Validation
 
-*** Effort
+**** Effort
 
 |-------+------------------------------+----------------------------------------------+---------------------------|
 | S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                  |
@@ -254,7 +256,7 @@
 |       | *Total*                      | 4 + 1 (buffer) = 5                           |                           |
 
 
-*** External Costs
+**** External Costs
 
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 | S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
@@ -268,7 +270,7 @@
 |       | *Total*             |                | *4,000*                             |                                        |
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 
-*** Internal Costs - Human Resources
+**** Internal Costs - Human Resources
 
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
 | S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                         |
@@ -286,7 +288,7 @@
 |       | *Total*                                       |                         | *3,000*                             |                                      |
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
 
-*** Total Cost : Per experiment per language
+**** Total Cost : Per experiment per language
 
 | S. No | Type of Cost | Price (INR) |
 |-------+--------------+-------------|
@@ -298,9 +300,9 @@
 |-------+--------------+-------------|
 
 
-** Model 3 : Without Human Validation
+*** Model 3 : Without Human Validation
 
-*** Effort
+**** Effort
 
 |-------+------------------------------+----------------------------------------------+-------------------------|
 | S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                |
@@ -320,7 +322,7 @@
 |       | *Total*                      | 2 + 1 (buffer) = 3                           |                         |
 
 
-*** External Costs
+**** External Costs
 
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 | S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
@@ -334,7 +336,7 @@
 |       | *Total*             |                | *4,000*                             |                                        |
 |-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 
-*** Internal Costs - Human Resources
+**** Internal Costs - Human Resources
 
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
 | S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                         |
@@ -349,7 +351,7 @@
 |       | *Total*                                       |                         | *2,000*                             |                                      |
 |-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
 
-*** Total Cost : Per experiment per language
+**** Total Cost : Per experiment per language
 
 | S. No | Type of Cost | Price (INR) |
 |-------+--------------+-------------|
@@ -361,18 +363,18 @@
 |-------+--------------+-------------|
 
 
-** Model 4: Google Translate Plugin
+*** Model 4: Google Translate Plugin
 
 This option requires the users (students) to install a google
 translation plugin in their browsers.  This plugin enables automated
 transalation of text content on the web page.
 
-*** Scope of translation using the plugin
+**** Scope of translation using the plugin
 
 This plugin supports transation of text content in the HTML document.
 Text content in images is translated.
 
-*** How to use the plugin
+**** How to use the plugin
 
 The Google translate plugin is available for all the major web
 browerser.  [[Plugin Details][Here]] is a list of all the browsers that support this
@@ -387,14 +389,14 @@ bandwidth.
 This process has to be repeated everytime the user visits a new html
 document.
 
-*** Advantage
+**** Advantage
 
 - Prevents time and effort spent in translating the content.
 - Real time translation
 - Optional : The user can decide which part of the page she needs
   translated.
 
-*** Drawbacks
+**** Drawbacks
 
 - Users need to be aware of this facility
 - Users have to do more work
@@ -404,7 +406,7 @@ document.
   translated automatically.  So, experiment simulations may not work
   properly.
 
-*** Plugin Details
+**** Plugin Details
 
 | Browser           | Plugin           |
 |-------------------+------------------|
