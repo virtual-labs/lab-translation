@@ -146,21 +146,22 @@
 
 ** Model Summaries
 
-| S. No | Model                       | Description                      | Machine     | Human      | Image       | Simulation  | Cost   |
-|       |                             |                                  | Translation | Validation | Translation | Translation |        |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
-|     1 | [[Model 1: Outsourced Human Validation][Outsourced Human Validation]] | Validation of translated text    | YES         | YES        | YES         | YES         | 22,000 |
-|       |                             | is performed by some external    |             |            |             |             |        |
-|       |                             | entity contracted by VLEAD.      |             |            |             |             |        |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
-|     2 | [[Model 2: In-house Human Validation][In-house human validation]]   | Validation of translated text    | YES         | YES        | YES         | YES         | 7,000  |
-|       |                             | is performed by language experts |             |            |             |             |        |
-|       |                             | hired by VLEAD.                  |             |            |             |             |        |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
-|     3 | [[Model 3 : Without Human Validation][Without Human Validation]]    | Machine translated text is       |             |            |             |             |        |
-|       |                             | accepted as publishable content  | YES         | NO         | YES         | YES         | 6,000  |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------|
-|     4 | [[Model 4: Google Translate Plugin][Google Translate Plugin]]     | Use a translation plugin         | NA          | NA         | NA          | NA          | 0      |
+| S. No | Model                       | Description                      | Machine     | Human      | Image       | Simulation  | Cost   |                              Effort |
+|       |                             |                                  | Translation | Validation | Translation | Translation |        | (person-days /experiment /language) |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
+|     1 | [[Model 1: Outsourced Human Validation][Outsourced Human Validation]] | Validation of translated text    | YES         | YES        | YES         | YES         | 22,000 |                                     |
+|       |                             | is performed by some external    |             |            |             |             |        |                                     |
+|       |                             | entity contracted by VLEAD.      |             |            |             |             |        |                                     |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
+|     2 | [[Model 2: In-house Human Validation][In-house human validation]]   | Validation of translated text    | YES         | YES        | YES         | YES         | 7,000  |                                     |
+|       |                             | is performed by language experts |             |            |             |             |        |                                   5 |
+|       |                             | hired by VLEAD.                  |             |            |             |             |        |                                     |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
+|     3 | [[Model 3 : Without Human Validation][Without Human Validation]]    | Machine translated text is       |             |            |             |             |        |                                     |
+|       |                             | accepted as publishable content  | YES         | NO         | YES         | YES         | 6,000  |                                   3 |
+|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
+|     4 | [[Model 4: Google Translate Plugin][Google Translate Plugin]]     | Use a translation plugin         | NA          | NA         | NA          | NA          | 0      |                                   0 |
+
 
  
 ** Models
