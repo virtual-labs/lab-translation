@@ -24,9 +24,21 @@
   translation project includes translation to =Hindi= and =Telugu=
   languages.
 
-  
 
-* Text Translation
+* Experiment Translation
+
+An experiment consists of three types of content: html, images and
+javascript code.  Entities of each type contain some text which need
+to translated separately.
+
+So, experiment translation involves the following three steps:
+
+1. Text Translation
+2. Image Translation
+3. Text-in-code Translation
+
+
+** Text Translation
   
   Translation of a lab (text content) to any given language involves
   the following steps:
@@ -34,23 +46,21 @@
   2. Translation
   3. Post-processing: Build HTML files with translated text
      
-** Pre-processing: Extraction of text from HTML
+*** Pre-processing: Extraction of text from HTML
 
    The lab content is in HTML format.  It contains text, simulation
    and images.  This step deals only with the textual content.
 
    The text content is extracted from each HTML document, and placed
-   in a corresponding =json= file.  This json file is used in the text
+   in a corresponding =txt= file.  This =txt= file is used in the text
    translation step to get the English text to be translated for each
    HTML document.
 
    *Effort*: Negligible.  Performed by a script.
 
-** Translation
+*** Translation
 
-   The text translation is performed using [[https://cloud.google.com/translate/][Google Cloud Translate]] API.  
-
-   Translation is a two step process:
+   Text Translation is a two step process:
    1. Machine Translation
    2. Human Validation
       
@@ -71,21 +81,21 @@
 
     The text content is now ready to be placed in the HTML documents.
 
-    *Effort*: 1 person-day /experiment /language
+    *Effort*: 2 person-day /experiment /language
 
-** Post-processing: Build HTML files with translated text
+*** Post-processing: Build HTML files with translated text
 
-*** Build HTML
+**** Build HTML
     
     The text content in HTML documents is replaced with corresponding
-    text in the target language using the json file that contains
+    text in the target language using the =txt= file that contains
     mapping from English text to translated text.
 
     *Effort*: Negligible.  Performed by a script.
 
     This is followed by a validation step.
 
-*** Human Validation (HTML)
+**** Human Validation (HTML)
 
     The HTML documents now contain text a new language.  Even though
     the text has been validated in a previous step, another validation
@@ -94,16 +104,24 @@
 
     *Effort*: 0.5 person-days /experiment /language
 
-* Image Translation
 
+** Image Translation
 
-  Translating images implies rebuilding each image by replacing all
-  the text content in the image with the same text translated in the
-  target language.  Here we assume that the images are in =bitmap file
-  formats= and the source files (in =vector format= or =container
-  format= are not available).
+   Translating images implies rebuilding each image by replacing all
+   the text content in the image with the same text translated in the
+   target language.  Here we assume that the images are in =bitmap file
+   formats= and the source files (in =vector format= or =container
+   format= are not available).
 
-** Automated Translation 
+*** Manual Translation
+    
+    The translation is performed by a language expert using Adobe
+    Photoshop for extracting and replacing text in the image and
+    google translate for the text translation.
+    
+    *Effort* : 2 person-days /experiment /language
+    
+*** Automated Translation 
 
    Images are translated using [[https://www.imagetranslate.com/][ImageTranslate]] - a tool that performs
    text extraction, translation and rebuilding itself and gives a
@@ -114,7 +132,8 @@
    
    *Effort*: 0.5 person-days /experiment /language
 
-* Text-in-code translation
+      
+** Text-in-code translation
   
   Every lab consists of some dynamic content that is managed by
   JavaScript.  This is mostly true for the experiment simulations and
@@ -129,228 +148,265 @@
   *Effort*:
   - 1st Method: 0.5 person-day /experiment /language
   - 2nd method: Negligible     
+    
 
-
-* Effort and Cost Estimate per experiment per language
+* Effort and Cost Estimate
 
 ** Assumptions
 
-| S. No | Item                            | Description                                                                   | Value considered |
-|-------+---------------------------------+-------------------------------------------------------------------------------+------------------|
-|     1 | Number of words per experiment  | Using automated tools, the number of words per experiment were found to range | 6,000            |
-|       |                                 | anywhere between 6,000 and 8,000.                                             |                  |
-|-------+---------------------------------+-------------------------------------------------------------------------------+------------------|
-|     2 | Number of images per experiment | The number of images per experiment were found to range                       | 20               |
-|-------+---------------------------------+-------------------------------------------------------------------------------+------------------|
+| S. No | Item                            | Description              | Value considered |
+|-------+---------------------------------+--------------------------+------------------|
+|     1 | Number of words per experiment  | Using automated tools,   | 6,500            |
+|       |                                 | the number of words per  |                  |
+|       |                                 | experiment were found to |                  |
+|       |                                 | range anywhere between   |                  |
+|       |                                 | 5,000 and 7,000.         |                  |
+|-------+---------------------------------+--------------------------+------------------|
+|     2 | Number of images per experiment | The number of images     | 20               |
+|       |                                 | per experiment were      |                  |
+|       |                                 | found to range between   |                  |
+|       |                                 | 10 to 30                 |                  |
+|-------+---------------------------------+--------------------------+------------------|
 
 
 ** Model Summaries
 
-| S. No | Model                       | Description                      | Machine     | Human      | Image       | Simulation  | Cost   |                              Effort |
-|       |                             |                                  | Translation | Validation | Translation | Translation |        | (person-days /experiment /language) |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
-|     1 | [[Model 1: Outsourced Human Validation][Outsourced Human Validation]] | Validation of translated text    | YES         | YES        | YES         | YES         | 22,000 |                                     |
-|       |                             | is performed by some external    |             |            |             |             |        |                                     |
-|       |                             | entity contracted by VLEAD.      |             |            |             |             |        |                                     |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
-|     2 | [[Model 2: In-house Human Validation][In-house human validation]]   | Validation of translated text    | YES         | YES        | YES         | YES         | 7,000  |                                     |
-|       |                             | is performed by language experts |             |            |             |             |        |                                   5 |
-|       |                             | hired by VLEAD.                  |             |            |             |             |        |                                     |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
-|     3 | [[Model 3 : Without Human Validation][Without Human Validation]]    | Machine translated text is       |             |            |             |             |        |                                     |
-|       |                             | accepted as publishable content  | YES         | NO         | YES         | YES         | 6,000  |                                   3 |
-|-------+-----------------------------+----------------------------------+-------------+------------+-------------+-------------+--------+-------------------------------------|
-|     4 | [[Model 4: Google Translate Plugin][Google Translate Plugin]]     | Use a translation plugin         | NA          | NA         | NA          | NA          | 0      |                                   0 |
+Abbreviations:
+
+| Abbreviation | Full form              |
+|--------------+------------------------|
+| MT           | Machine Transation     |
+| HV           | Human Validation       |
+| IT           | Image Translation      |
+| ST           | Simulation Translation |
+
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
 
 
+| S. No | Model                    | Description         | MT | HV | IT | ST | Cost   | Effort |
+|-------+--------------------------+---------------------+----+----+----+----+--------+--------|
+|     1 | [[Model 1: With Human Validation][With Human Validation]]    | Validation of       | Y  | Y  | Y  | Y  | 15,000 |        |
+|       |                          | translated text     |    |    |    |    |        |      5 |
+|       |                          | is performed by     |    |    |    |    |        |        |
+|       |                          | IIITH               |    |    |    |    |        |        |
+|-------+--------------------------+---------------------+----+----+----+----+--------+--------|
+|     2 | [[Model 2 : Without Human Validation][Without Human Validation]] | Machine translated  |    |    |    |    |        |        |
+|       |                          | text is accepted as | Y  | N  | Y  | Y  | 6,000  |      3 |
+|       |                          | publishable content |    |    |    |    |        |        |
+|-------+--------------------------+---------------------+----+----+----+----+--------+--------|
+|     3 | [[Model 3: Google Translate Plugin][Google Translate Plugin]]  | Use a translation   | Y  | N  | N  | N  | 0      |      0 |
+|       |                          | plugin              |    |    |    |    |        |        |
+
+pros and cons table
  
+compilers
+automata
+ml and ai / datascience
+POPL
+
+
+
+
 ** Models
 
-
-*** Model 1: Outsourced Human Validation
+*** Model 1: With Human Validation
 
 **** Effort
 
-|-------+------------------------------+----------------------------------------------+---------------------------|
-| S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                  |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     1 | Extraction of text from HTML | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     2 | Machine Translation          | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     3 | Human Validation             |                                              | Language Expert @ Ebhasha |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     4 | Building HTML                | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     5 | Human Validation (HTML)      | 0.5                                          | Web Developer @ Ebhasha   |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     6 | Image Translation            | 1                                            | Language Expert @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     7 | Text-in-code Translation     | 0.5                                          | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|       | *Total*                      |                                              |                           |
+Units:
 
-**** External Costs
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
 
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-| S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     1 | Machine Translation | Ebhasha        | 800                                 | 8000 words @ INR 0.1 per word          |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     2 | Human Validation    | Ebhasha        | 16,000                              | 8000 words @ INR 2 per word            |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     3 | Image Translation   | ImageTranslate | 700                                 | 20 Images @ 0.5 USD per image * INR 70 |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     4 | Contingency         |                | 2,500                               | @ 15%                                  |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|       | *Total*             |                | *20,000*                            |                                        |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
 
-**** Internal Costs - Human Resources
+|-------+------------------------------+------------|
+| S. No | Process Step                 | Time Taken |
+|-------+------------------------------+------------|
+|     1 | Extraction of text from HTML | Negligible |
+|-------+------------------------------+------------|
+|     2 | Machine Translation          | Negligible |
+|-------+------------------------------+------------|
+|     3 | Human Validation             |          2 |
+|-------+------------------------------+------------|
+|     4 | Building HTML                | Negligible |
+|-------+------------------------------+------------|
+|     5 | Human Validation (HTML)      |        0.5 |
+|-------+------------------------------+------------|
+|     6 | Image Translation            |          1 |
+|-------+------------------------------+------------|
+|     7 | Text-in-code Translation     |        0.5 |
+|-------+------------------------------+------------|
+|     8 | Buffer                       |          1 |
+|-------+------------------------------+------------|
+|       | *Total*                      |        *5* |
+|-------+------------------------------+------------|
 
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
-| S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                        |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
-|     1 | Extraction of text from HTML                  | Web Developer @ VLEAD   |                                     |                                     |
-|       | Building HTML post translation and validation |                         | 1,500                               | 1 person-day considered at a salary |
-|       | Text-in-code Translation                      |                         |                                     | of 30,000 / month                   |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
-|     2 | Image Translation                             | Language Expert @ VLEAD | 500                                 | 1 person-day considered at a salary |
-|       |                                               |                         |                                     | of 15,000 / month                   |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
-|       | *Total*                                       |                         | *2,000*                             |                                     |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+-------------------------------------|
+**** Technology Costs
+
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
+
+
+|-------+-------------------+----------------+----------+--------------------|
+| S. No | Process           | Assignee       | Cost     | Rate Details       |
+|-------+-------------------+----------------+----------+--------------------|
+|     1 | Text Translation  | IIITH          | 10,000   | 6500 words         |
+|       | and Validation    |                |          | @ INR 1.5 per word |
+|-------+-------------------+----------------+----------+--------------------|
+|     2 | Image Translation | ImageTranslate | 700      | 20 Images          |
+|       |                   |                |          | @ 0.5 USD per      |
+|       |                   |                |          | image * INR 70     |
+|-------+-------------------+----------------+----------+--------------------|
+|     3 | Contingency       |                | 2,300    | @ 20%              |
+|-------+-------------------+----------------+----------+--------------------|
+|       | *Total*           |                | *13,000* |                    |
+|-------+-------------------+----------------+----------+--------------------|
+
+**** Human Resource Costs
+
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
+
+|-------+--------------------------+-------------------------+---------+-----------------|
+| S. No | Process                  | Assignee                | Cost    | Rate Details    |
+|-------+--------------------------+-------------------------+---------+-----------------|
+|     1 | Integration              | Web Developer @ IIITH   | 1,500   | 1 person-day    |
+|       | Text-in-code Translation |                         |         | considered at a |
+|       |                          |                         |         | salary of       |
+|       |                          |                         |         | 30,000 / month  |
+|-------+--------------------------+-------------------------+---------+-----------------|
+|     2 | Image Translation        | Language Expert @ VLEAD | 500     | 1 person-day    |
+|       |                          |                         |         | considered at a |
+|       |                          |                         |         | salary of       |
+|       |                          |                         |         | 15,000 / month  |
+|-------+--------------------------+-------------------------+---------+-----------------|
+|       | *Total*                  |                         | *2,000* |                 |
+|-------+--------------------------+-------------------------+---------+-----------------|
 
 **** Total Cost : Per experiment per language
 
-| S. No | Type of Cost | Price (INR) |
-|-------+--------------+-------------|
-|     1 | External     | 20,000      |
-|-------+--------------+-------------|
-|     2 | Internal     | 2,000       |
-|-------+--------------+-------------|
-|       | *Total*      | *22,000*    |
-|-------+--------------+-------------|
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
 
 
-*** Model 2: In-house Human Validation
-
-**** Effort
-
-|-------+------------------------------+----------------------------------------------+---------------------------|
-| S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                  |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     1 | Extraction of text from HTML | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     2 | Machine Translation          | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     3 | Human Validation             | 2                                            | Language Expert @ Ebhasha |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     4 | Building HTML                | Negligible                                   | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     5 | Human Validation (HTML)      | 0.5                                          | Web Developer @ Ebhasha   |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     6 | Image Translation            | 1                                            | Language Expert @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|     7 | Text-in-code Translation     | 0.5                                          | Web Developer @ VLEAD     |
-|-------+------------------------------+----------------------------------------------+---------------------------|
-|       | *Total*                      | 4 + 1 (buffer) = 5                           |                           |
+| S. No | Type of Cost | Cost     |
+|-------+--------------+----------|
+|     1 | External     | 13,000   |
+|-------+--------------+----------|
+|     2 | Internal     | 2,000    |
+|-------+--------------+----------|
+|       | *Total*      | *15,000* |
+|-------+--------------+----------|
 
 
-**** External Costs
-
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-| S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     1 | Machine Translation | Ebhasha        | 800                                 | 8000 words @ INR 0.1 per word          |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     2 | Image Translation   | ImageTranslate | 700                                 | 20 Images @ 0.5 USD per image * INR 70 |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     3 | Contingency         |                | 2,500                               | @ 15%                                  |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|       | *Total*             |                | *4,000*                             |                                        |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-
-**** Internal Costs - Human Resources
-
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-| S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                         |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|     1 | Extraction of text from HTML                  | Web Developer @ VLEAD   |                                     |                                      |
-|       | Building HTML post translation and validation |                         | 1,500                               | 1 person-day considered at a salary  |
-|       | Text-in-code Translation                      |                         |                                     | of 30,000 / month                    |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|     2 | Text Validation                               | Language Expert @ VLEAD | 1,000                               | 2 person-days considered at a salary |
-|       |                                               |                         |                                     | of 15,000 / month                    |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|     3 | Image Translation                             | Language Expert @ VLEAD | 500                                 | 1 person-day considered at a salary  |
-|       |                                               |                         |                                     | of 15,000 / month                    |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|       | *Total*                                       |                         | *3,000*                             |                                      |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-
-**** Total Cost : Per experiment per language
-
-| S. No | Type of Cost | Price (INR) |
-|-------+--------------+-------------|
-|     1 | External     | 4,000       |
-|-------+--------------+-------------|
-|     2 | Internal     | 3,000       |
-|-------+--------------+-------------|
-|       | *Total*      | *7,000*     |
-|-------+--------------+-------------|
-
-
-*** Model 3 : Without Human Validation
+*** Model 2 : Without Human Validation
 
 **** Effort
 
-|-------+------------------------------+----------------------------------------------+-------------------------|
-| S. No | Process Step                 | Time Taken (person-days/experiment/language) | Assignee                |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     1 | Extraction of text from HTML | Negligible                                   | Web Developer @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     2 | Machine Translation          | Negligible                                   | Web Developer @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     4 | Building HTML                | Negligible                                   | Web Developer @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     5 | Human Validation (HTML)      | 0.5                                          | Web Developer @ Ebhasha |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     6 | Image Translation            | 1                                            | Language Expert @ VLEAD |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|     7 | Text-in-code Translation     | 0.5                                          | Web Developer @ VLEAD   |
-|-------+------------------------------+----------------------------------------------+-------------------------|
-|       | *Total*                      | 2 + 1 (buffer) = 3                           |                         |
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
 
 
-**** External Costs
+|-------+------------------------------+------------|
+| S. No | Process Step                 | Time Taken |
+|-------+------------------------------+------------|
+|     1 | Extraction of text from HTML | Negligible |
+|-------+------------------------------+------------|
+|     2 | Machine Translation          | Negligible |
+|-------+------------------------------+------------|
+|     3 | Building HTML                | Negligible |
+|-------+------------------------------+------------|
+|     4 | Human Validation (HTML)      |        0.5 |
+|-------+------------------------------+------------|
+|     5 | Image Translation            |          1 |
+|-------+------------------------------+------------|
+|     6 | Text-in-code Translation     |        0.5 |
+|-------+------------------------------+------------|
+|     7 | Buffer                       |          1 |
+|-------+------------------------------+------------|
+|       | *Total*                      |          3 |
+|-------+------------------------------+------------|
 
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-| S. No | Process             | Assignee       | Cost (/experiment /language) in INR | Rate Details                           |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     1 | Machine Translation | Ebhasha        | 800                                 | 8000 words @ INR 0.1 per word          |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     2 | Image Translation   | ImageTranslate | 700                                 | 20 Images @ 0.5 USD per image * INR 70 |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|     3 | Contingency         |                | 2,500                               | @ 15%                                  |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
-|       | *Total*             |                | *4,000*                             |                                        |
-|-------+---------------------+----------------+-------------------------------------+----------------------------------------|
+**** Technology Costs
 
-**** Internal Costs - Human Resources
+Units:
 
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-| S. No | Process                                       | Assignee                | Cost (/experiment /language) in INR | Rate Details                         |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|     1 | Extraction of text from HTML                  | Web Developer @ VLEAD   |                                     |                                      |
-|       | Building HTML post translation and validation |                         | 1,500                               | 1 person-day considered at a salary  |
-|       | Text-in-code Translation                      |                         |                                     | of 30,000 / month                    |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|     2 | Image Translation                             | Language Expert @ VLEAD | 500                                 | 1 person-day considered at a salary  |
-|       |                                               |                         |                                     | of 15,000 / month                    |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
-|       | *Total*                                       |                         | *2,000*                             |                                      |
-|-------+-----------------------------------------------+-------------------------+-------------------------------------+--------------------------------------|
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
+
+|-------+---------------------+----------------+---------+---------------------|
+| S. No | Process             | Assignee       | Cost    | Rate Details        |
+|-------+---------------------+----------------+---------+---------------------|
+|     1 | Machine Translation | Ebhasha        | 800     | 8000 words          |
+|       |                     |                |         | @ INR 0.1 per word  |
+|-------+---------------------+----------------+---------+---------------------|
+|     2 | Image Translation   | ImageTranslate | 700     | 20 Images           |
+|       |                     |                |         | @ 0.5 USD per image |
+|       |                     |                |         | * INR 70            |
+|-------+---------------------+----------------+---------+---------------------|
+|     3 | Contingency         |                | 2,500   | @ 15%               |
+|-------+---------------------+----------------+---------+---------------------|
+|       | *Total*             |                | *4,000* |                     |
+|-------+---------------------+----------------+---------+---------------------|
+
+**** Human Resources Costs
+
+Units:
+
+| Entity | Unit                              |
+|--------+-----------------------------------|
+| cost   | INR /experiment /language         |
+|--------+-----------------------------------|
+| effort | person-days /experiment /language |
+
+|-------+-------------------------+-------------------------+---------+-----------------|
+| S. No | Process                 | Assignee                | Cost    | Rate Details    |
+|-------+-------------------------+-------------------------+---------+-----------------|
+|     1 | Extraction of text      | Web Developer @ IIITH   |         |                 |
+|       | from HTML Building HTML |                         | 1,500   | 1 person-day    |
+|       | post translation and    |                         |         | considered at   |
+|       | validation Text-in-code |                         |         | a salary of     |
+|       | Translation             |                         |         | 30,000 / month  |
+|-------+-------------------------+-------------------------+---------+-----------------|
+|     2 | Image Translation       | Language Expert @ IIITH | 500     | 1 person-day    |
+|       |                         |                         |         | considered at a |
+|       |                         |                         |         | salary of       |
+|       |                         |                         |         | 15,000 / month  |
+|-------+-------------------------+-------------------------+---------+-----------------|
+|       | *Total*                 |                         | *2,000* |                 |
+|-------+-------------------------+-------------------------+---------+-----------------|
 
 **** Total Cost : Per experiment per language
 
@@ -364,7 +420,7 @@
 |-------+--------------+-------------|
 
 
-*** Model 4: Google Translate Plugin
+*** Model 3: Google Translate Plugin
 
 This option requires the users (students) to install a google
 translation plugin in their browsers.  This plugin enables automated
@@ -416,3 +472,6 @@ document.
 | Opera             | [[https://addons.opera.com/en/extensions/details/google-translate/][Google Translate]] |
 | Safari            | [[http://sidetree.com/translateme.html][Translateme]]      |
 |                   |                  |
+
+
+
