@@ -9,7 +9,7 @@
   "author": "VLEAD",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^15.2.0"
+    "jsdom": "^16.5.0"
   },
   "repository": {
     "type": "git",
